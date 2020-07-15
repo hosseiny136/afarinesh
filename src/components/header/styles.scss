@@ -1,0 +1,75 @@
+@import '../../scss/variables';
+.logo{
+  max-width: 263px;
+  img{
+    width: 100%;
+    height: auto;
+  }
+}
+.date{
+  margin-right: auto;
+  color:$gray;
+}
+.topMenu{
+  li {
+    position: relative;
+    margin-right: 5px;
+    padding-right: 2px;
+    a{
+      font-family:Nassim;
+      font-size:12px;
+      color:#000 !important;
+      }
+  }
+
+}
+.mainMenu{
+  li {
+    position: relative;
+    a{
+      font-size:12px;
+      color:#000 !important;
+      padding:3px;
+      }
+    &.active{
+      border-bottom:1px solid #000;
+    }
+    &:after{
+      content: "/";
+      position: absolute;
+      left: 0;
+      top: 3px;
+    }
+    &:last-child:after{
+      display:none;
+    }
+  }
+}
+.search-form{
+  margin-right: auto;
+  height: 29px;
+  border: 1px solid #eaeaeb;
+  background-color:$light-gray;
+  border-radius: 25px;
+  position: relative;
+  max-width: 240px;
+  width:100%;
+  top:50px;
+  input{
+    border:0;
+    background-color:$light-gray;
+    color:$gray;
+    width:80%;
+    height: 20px;
+    margin-right: 5px;
+  }
+  button{
+    background: url('../../assets/img/search.png') transparent no-repeat;
+    border:0;
+    position: absolute;
+    left: 7px;
+    width: 30px;
+    height: 30px;
+  }
+}
+

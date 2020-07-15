@@ -1,0 +1,82 @@
+@font-face {
+  font-family: Nassim;
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/nassim/nassim-bold.ttf") format("truetype"); }
+
+@font-face {
+  font-family: FontAwesome;
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/fontAwesome/fontawesome-webfont.ttf") format("truetype"); }
+
+body {
+  direction: rtl;
+  font-family: 'Nassim', Tahoma, serif;
+  text-align: right; }
+
+.red-color {
+  color: #d71a21; }
+
+.title-color {
+  color: #1b1464; }
+
+.text-title_16 {
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 1.94; }
+
+.text-title_15 {
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 24px; }
+
+.text-p_13 {
+  font-size: 13px;
+  font-weight: 300;
+  line-height: 18px; }
+
+.text-p_12 {
+  font-size: 12px;
+  font-weight: 300;
+  line-height: 16px; }
+
+.flex {
+  display: flex; }
+
+.fWrapper {
+  flex-wrap: wrap; }
+
+.rCol {
+  flex-direction: column; }
+
+.square::before {
+  content: "";
+  width: 8px;
+  height: 8px;
+  background-color: #e7e7e9;
+  position: absolute;
+  right: 0;
+  transform: rotate(45deg);
+  top: 10px; }
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.vCenter {
+  display: flex;
+  justify-content: center; }
+
+.hCenter {
+  display: flex;
+  align-items: center; }
+
+.bgcolor {
+  background-color: #dcdddf; }
+
+li {
+  list-style: none; }
+
+/*# sourceMappingURL=maps/kit.css.map */

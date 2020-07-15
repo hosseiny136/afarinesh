@@ -1,0 +1,16 @@
+{
+  "name": "mr-galp",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:MostafaRastegar/mr-galp.git",
+  "author": "mostafa rastegar <m.rastegar991@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "gulp": "3.9.1",
+    "gulp-concat": "^2.6.1",
+    "gulp-connect": "^5.7.0",
+    "gulp-pug": "^4.0.1",
+    "gulp-sass": "^4.1.0",
+    "gulp-sourcemaps": "^2.6.5"
+  }
+}

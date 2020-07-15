@@ -1,0 +1,1 @@
+{"version":3,"sources":["app.js"],"names":["name","a","b","console","add"],"mappings":"aAAA,IAAIA,KAAO,UAAPA,IAAAA,SAAOC,EAAAC,GAAX,OAAAD,EAAAC,GAEAC,QAAIC,IAAMA,IAAA,EAAA","file":"../app.js","sourcesContent":["let name = \"mostafa\";\r\n\r\nlet add = (a,b) => {return a+b};\r\n\r\nconsole.log(add(3,3))\r\n"]}
