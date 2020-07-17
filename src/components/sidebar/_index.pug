@@ -28,7 +28,7 @@ include ../mixins/_index.pug
 			li.square ورد سامانه اس400 روسیه به ترکیه متوقف 
 			li.square قانونگذاران آمریکایی خواستار تغییر تاکتیک ترامپ
 
-	+mainCardTemplate("دیدنی ها")
+	+mainCardTemplate("دیدنی ها","aslider")
 		.carousel.slide(data-ride='carousel')
 				.carousel-inner
 					.carousel-item.active
@@ -50,7 +50,25 @@ include ../mixins/_index.pug
 					li(data-target='', data-slide-to='3')
 					li(data-target='', data-slide-to='4')
 					li(data-target='', data-slide-to='5')
-
-	.firstPageNews
-		.title.bgtitlecolor
-			h4.square صفحه اول روزنامه ها
+	+mainCardTemplate("صفحه اول روزنامه","firstpagenews")
+			.carousel.slide(data-ride='carousel')
+				.carousel-inner
+					.carousel-item.active
+						img(src='../assets/img/varzeshi-news.jpg', alt='img1')
+					.carousel-item
+						img(src='../assets/img/varzeshi-news.jpg', alt='img1')
+					.carousel-item
+						img(src='../assets/img/varzeshi-news.jpg', alt='img1')
+					.carousel-item
+						img(src='../assets/img/varzeshi-news.jpg', alt='img1')
+					.carousel-item
+						img(src='../assets/img/varzeshi-news.jpg', alt='img1')
+					.carousel-item
+						img(src='../assets/img/varzeshi-news.jpg', alt='img1')
+				ul.carousel-indicators
+					li.active(data-target='', data-slide-to='0')
+					li(data-target='', data-slide-to='1')
+					li(data-target='', data-slide-to='2')
+					li(data-target='', data-slide-to='3')
+					li(data-target='', data-slide-to='4')
+					li(data-target='', data-slide-to='5')
