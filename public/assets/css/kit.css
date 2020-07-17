@@ -52,13 +52,9 @@ body {
 
 .square::before {
   content: "";
-  width: 8px;
-  height: 8px;
   background-color: #e7e7e9;
   position: absolute;
-  right: 0;
-  transform: rotate(45deg);
-  top: 10px; }
+  transform: rotate(45deg); }
 
 .center {
   display: flex;
@@ -76,7 +72,18 @@ body {
 .bgcolor {
   background-color: #dcdddf; }
 
+.bgtitlecolor {
+  background-color: #e7e7e9; }
+
 li {
   list-style: none; }
+
+.borderAll {
+  border: 1px solid #585657; }
+  .borderAll.around5 {
+    border-radius: 5px; }
+
+.Mtop10 {
+  margin-top: 10px; }
 
 /*# sourceMappingURL=maps/kit.css.map */

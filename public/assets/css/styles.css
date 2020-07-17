@@ -1,4 +1,4 @@
-{"version":3,"file":"../../footer/styles.css","sources":["footer/styles.scss","../scss/_variables.scss"],"sourcesContent":["@import '../../scss/variables';\r\n.mainFooter{\r\n  ul{\r\n    padding-right: 0px !important;\r\n  }\r\n  h3{\r\n    \r\n  &:before{\r\n    content: \"\";\r\n    width: 5px;\r\n    height: 12px;\r\n    background-color: #d71a21;\r\n    position: absolute;\r\n    top: 10px;\r\n    right: 5px;\r\n  }\r\n}\r\n  .archive-news{\r\n    li{\r\n      flex: 0 0 25%;\r\n      margin-bottom:3px;\r\n      padding-right: 3px;\r\n    }\r\n    a{\r\n      border-radius: 6px;\r\n      height: 89px;\r\n      background: #ff7560 no-repeat top center;\r\n      color: white;\r\n      display: block;\r\n\r\n    }\r\n  }\r\n \r\n}\r\n","$red:#d71a21;\r\n$light-gray:#e7e7e9;\r\n$blue:#1b1464;\r\n$gray:#949599;\r\n$border-color:#747273;\r\n$blue1:#e8edff;\r\n$dark-gray:#dcdddf;\r\n$light-red:#ff7560;\r\n"],"names":[],"mappings":"AACA,AACE,WADS,CACT,EAAE,CAAA;EACA,aAAa,EAAE,cAAc,GAC9B;;AAHH,AAME,WANS,CAIT,EAAE,AAED,OAAO,CAAA;EACN,OAAO,EAAE,EAAE;EACX,KAAK,EAAE,GAAG;EACV,MAAM,EAAE,IAAI;EACZ,gBAAgB,EAAE,OAAO;EACzB,QAAQ,EAAE,QAAQ;EAClB,GAAG,EAAE,IAAI;EACT,KAAK,EAAE,GAAG,GACX;;AAdH,AAiBI,WAjBO,CAgBT,aAAa,CACX,EAAE,CAAA;EACA,IAAI,EAAE,OAAO;EACb,aAAa,EAAC,GAAG;EACjB,aAAa,EAAE,GAAG,GACnB;;AArBL,AAsBI,WAtBO,CAgBT,aAAa,CAMX,CAAC,CAAA;EACC,aAAa,EAAE,GAAG;EAClB,MAAM,EAAE,IAAI;EACZ,UAAU,EAAE,4BAA4B;EACxC,KAAK,EAAE,KAAK;EACZ,OAAO,EAAE,KAAK,GAEf"}
+{"version":3,"file":"../../footer/styles.css","sources":["footer/styles.scss","../scss/_variables.scss"],"sourcesContent":["@import '../../scss/variables';\r\n.mainFooter{\r\n  ul{\r\n    padding-right: 0px !important;\r\n  }\r\n  h3{\r\n    \r\n  &:before{\r\n    content: \"\";\r\n    width: 5px;\r\n    height: 12px;\r\n    background-color: #d71a21;\r\n    position: absolute;\r\n    top: 10px;\r\n    right: 5px;\r\n  }\r\n}\r\n  .archive-news{\r\n    li{\r\n      flex: 0 0 25%;\r\n      margin-bottom:3px;\r\n      padding-right: 3px;\r\n    }\r\n    a{\r\n      border-radius: 6px;\r\n      height: 89px;\r\n      background: #ff7560 no-repeat top center;\r\n      color: white;\r\n      display: block;\r\n    }\r\n  }\r\n \r\n}\r\n","$red:#d71a21;\r\n$light-gray:#e7e7e9;\r\n$blue:#1b1464;\r\n$gray:#949599;\r\n$border-color:#585657;\r\n$dark-gray:#dcdddf;\r\n$light-red:#ff7560;\r\n$gray-slide:#929292;\r\n$gray_active:#a2a3a7;\r\n"],"names":[],"mappings":"AACA,AACE,WADS,CACT,EAAE,CAAA;EACA,aAAa,EAAE,cAAc,GAC9B;;AAHH,AAME,WANS,CAIT,EAAE,AAED,OAAO,CAAA;EACN,OAAO,EAAE,EAAE;EACX,KAAK,EAAE,GAAG;EACV,MAAM,EAAE,IAAI;EACZ,gBAAgB,EAAE,OAAO;EACzB,QAAQ,EAAE,QAAQ;EAClB,GAAG,EAAE,IAAI;EACT,KAAK,EAAE,GAAG,GACX;;AAdH,AAiBI,WAjBO,CAgBT,aAAa,CACX,EAAE,CAAA;EACA,IAAI,EAAE,OAAO;EACb,aAAa,EAAC,GAAG;EACjB,aAAa,EAAE,GAAG,GACnB;;AArBL,AAsBI,WAtBO,CAgBT,aAAa,CAMX,CAAC,CAAA;EACC,aAAa,EAAE,GAAG;EAClB,MAAM,EAAE,IAAI;EACZ,UAAU,EAAE,4BAA4B;EACxC,KAAK,EAAE,KAAK;EACZ,OAAO,EAAE,KAAK,GACf"}
 .mainFooter ul {
   padding-right: 0px !important; }
 
@@ -25,7 +25,7 @@
 
 /*# sourceMappingURL=../maps/footer/styles.css.map */
 
-{"version":3,"file":"../../header/styles.css","sources":["header/styles.scss","../scss/_variables.scss"],"sourcesContent":["@import '../../scss/variables';\r\n.logo{\r\n  max-width: 263px;\r\n  img{\r\n    width: 100%;\r\n    height: auto;\r\n  }\r\n}\r\n.date{\r\n  margin-right: auto;\r\n  color:$gray;\r\n}\r\n.topMenu{\r\n  li {\r\n    position: relative;\r\n    margin-right: 5px;\r\n    padding-right: 2px;\r\n    a{\r\n      font-family:Nassim;\r\n      font-size:12px;\r\n      color:#000 !important;\r\n      }\r\n  }\r\n\r\n}\r\n.mainMenu{\r\n  li {\r\n    position: relative;\r\n    a{\r\n      font-size:12px;\r\n      color:#000 !important;\r\n      padding:3px;\r\n      }\r\n    &.active{\r\n      border-bottom:1px solid #000;\r\n    }\r\n    &:after{\r\n      content: \"/\";\r\n      position: absolute;\r\n      left: 0;\r\n      top: 3px;\r\n    }\r\n    &:last-child:after{\r\n      display:none;\r\n    }\r\n  }\r\n}\r\n.search-form{\r\n  margin-right: auto;\r\n  height: 29px;\r\n  border: 1px solid #eaeaeb;\r\n  background-color:$light-gray;\r\n  border-radius: 25px;\r\n  position: relative;\r\n  max-width: 240px;\r\n  width:100%;\r\n  top:50px;\r\n  input{\r\n    border:0;\r\n    background-color:$light-gray;\r\n    color:$gray;\r\n    width:80%;\r\n    height: 20px;\r\n    margin-right: 5px;\r\n  }\r\n  button{\r\n    background: url('../../assets/img/search.png') transparent no-repeat;\r\n    border:0;\r\n    position: absolute;\r\n    left: 7px;\r\n    width: 30px;\r\n    height: 30px;\r\n  }\r\n}\r\n\r\n","$red:#d71a21;\r\n$light-gray:#e7e7e9;\r\n$blue:#1b1464;\r\n$gray:#949599;\r\n$border-color:#747273;\r\n$blue1:#e8edff;\r\n$dark-gray:#dcdddf;\r\n$light-red:#ff7560;\r\n"],"names":[],"mappings":"AACA,AAAA,KAAK,CAAA;EACH,SAAS,EAAE,KAAK,GAKjB;EAND,AAEE,KAFG,CAEH,GAAG,CAAA;IACD,KAAK,EAAE,IAAI;IACX,MAAM,EAAE,IAAI,GACb;;AAEH,AAAA,KAAK,CAAA;EACH,YAAY,EAAE,IAAI;EAClB,KAAK,ECPD,OAAO,GDQZ;;AACD,AACE,QADM,CACN,EAAE,CAAC;EACD,QAAQ,EAAE,QAAQ;EAClB,YAAY,EAAE,GAAG;EACjB,aAAa,EAAE,GAAG,GAMnB;EAVH,AAKI,QALI,CACN,EAAE,CAIA,CAAC,CAAA;IACC,WAAW,EAAC,MAAM;IAClB,SAAS,EAAC,IAAI;IACd,KAAK,EAAC,eAAe,GACpB;;AAIP,AACE,SADO,CACP,EAAE,CAAC;EACD,QAAQ,EAAE,QAAQ,GAkBnB;EApBH,AAGI,SAHK,CACP,EAAE,CAEA,CAAC,CAAA;IACC,SAAS,EAAC,IAAI;IACd,KAAK,EAAC,eAAe;IACrB,OAAO,EAAC,GAAG,GACV;EAPP,AAQI,SARK,CACP,EAAE,AAOC,OAAO,CAAA;IACN,aAAa,EAAC,cAAc,GAC7B;EAVL,AAWI,SAXK,CACP,EAAE,AAUC,MAAM,CAAA;IACL,OAAO,EAAE,GAAG;IACZ,QAAQ,EAAE,QAAQ;IAClB,IAAI,EAAE,CAAC;IACP,GAAG,EAAE,GAAG,GACT;EAhBL,AAiBI,SAjBK,CACP,EAAE,AAgBC,WAAW,AAAA,MAAM,CAAA;IAChB,OAAO,EAAC,IAAI,GACb;;AAGL,AAAA,YAAY,CAAA;EACV,YAAY,EAAE,IAAI;EAClB,MAAM,EAAE,IAAI;EACZ,MAAM,EAAE,iBAAiB;EACzB,gBAAgB,EClDN,OAAO;EDmDjB,aAAa,EAAE,IAAI;EACnB,QAAQ,EAAE,QAAQ;EAClB,SAAS,EAAE,KAAK;EAChB,KAAK,EAAC,IAAI;EACV,GAAG,EAAC,IAAI,GAiBT;EA1BD,AAUE,YAVU,CAUV,KAAK,CAAA;IACH,MAAM,EAAC,CAAC;IACR,gBAAgB,EC1DR,OAAO;ID2Df,KAAK,ECzDH,OAAO;ID0DT,KAAK,EAAC,GAAG;IACT,MAAM,EAAE,IAAI;IACZ,YAAY,EAAE,GAAG,GAClB;EAjBH,AAkBE,YAlBU,CAkBV,MAAM,CAAA;IACJ,UAAU,EAAE,kCAAkC,CAAC,WAAW,CAAC,SAAS;IACpE,MAAM,EAAC,CAAC;IACR,QAAQ,EAAE,QAAQ;IAClB,IAAI,EAAE,GAAG;IACT,KAAK,EAAE,IAAI;IACX,MAAM,EAAE,IAAI,GACb"}
+{"version":3,"file":"../../header/styles.css","sources":["header/styles.scss","../scss/_variables.scss"],"sourcesContent":["@import '../../scss/variables';\r\n.logo{\r\n  max-width: 263px;\r\n  img{\r\n    width: 100%;\r\n    height: auto;\r\n  }\r\n}\r\n.date{\r\n  margin-right: auto;\r\n  color:$gray;\r\n}\r\n.topMenu{\r\n  li {\r\n    position: relative;\r\n    margin-right: 5px;\r\n    padding-right: 2px;\r\n    a{\r\n      font-family:Nassim;\r\n      font-size:12px;\r\n      color:#000 !important;\r\n      }\r\n    &:before{\r\n      width: 7px;\r\n      height: 7px;\r\n      right: 0;\r\n      top: 12px;\r\n    }\r\n  }\r\n\r\n}\r\n.mainMenu{\r\n  li {\r\n    position: relative;\r\n    a{\r\n      font-size:12px;\r\n      color:#000 !important;\r\n      padding:3px;\r\n      }\r\n    &.active{\r\n      border-bottom:1px solid #000;\r\n    }\r\n    &:after{\r\n      content: \"/\";\r\n      position: absolute;\r\n      left: 0;\r\n      top: 3px;\r\n    }\r\n    &:last-child:after{\r\n      display:none;\r\n    }\r\n  }\r\n}\r\n.search-form{\r\n  margin-right: auto;\r\n  height: 29px;\r\n  border: 1px solid #eaeaeb;\r\n  background-color:$light-gray;\r\n  border-radius: 25px;\r\n  position: relative;\r\n  max-width: 240px;\r\n  width:100%;\r\n  top:50px;\r\n  input{\r\n    border:0;\r\n    background-color:$light-gray;\r\n    color:$gray;\r\n    width:80%;\r\n    height: 20px;\r\n    margin-right: 5px;\r\n  }\r\n  button{\r\n    background: url('../../assets/img/search.png') transparent no-repeat;\r\n    border:0;\r\n    position: absolute;\r\n    left: 7px;\r\n    width: 30px;\r\n    height: 30px;\r\n  }\r\n}\r\n\r\n","$red:#d71a21;\r\n$light-gray:#e7e7e9;\r\n$blue:#1b1464;\r\n$gray:#949599;\r\n$border-color:#585657;\r\n$dark-gray:#dcdddf;\r\n$light-red:#ff7560;\r\n$gray-slide:#929292;\r\n$gray_active:#a2a3a7;\r\n"],"names":[],"mappings":"AACA,AAAA,KAAK,CAAA;EACH,SAAS,EAAE,KAAK,GAKjB;EAND,AAEE,KAFG,CAEH,GAAG,CAAA;IACD,KAAK,EAAE,IAAI;IACX,MAAM,EAAE,IAAI,GACb;;AAEH,AAAA,KAAK,CAAA;EACH,YAAY,EAAE,IAAI;EAClB,KAAK,ECPD,OAAO,GDQZ;;AACD,AACE,QADM,CACN,EAAE,CAAC;EACD,QAAQ,EAAE,QAAQ;EAClB,YAAY,EAAE,GAAG;EACjB,aAAa,EAAE,GAAG,GAYnB;EAhBH,AAKI,QALI,CACN,EAAE,CAIA,CAAC,CAAA;IACC,WAAW,EAAC,MAAM;IAClB,SAAS,EAAC,IAAI;IACd,KAAK,EAAC,eAAe,GACpB;EATP,AAUI,QAVI,CACN,EAAE,AASC,OAAO,CAAA;IACN,KAAK,EAAE,GAAG;IACV,MAAM,EAAE,GAAG;IACX,KAAK,EAAE,CAAC;IACR,GAAG,EAAE,IAAI,GACV;;AAIL,AACE,SADO,CACP,EAAE,CAAC;EACD,QAAQ,EAAE,QAAQ,GAkBnB;EApBH,AAGI,SAHK,CACP,EAAE,CAEA,CAAC,CAAA;IACC,SAAS,EAAC,IAAI;IACd,KAAK,EAAC,eAAe;IACrB,OAAO,EAAC,GAAG,GACV;EAPP,AAQI,SARK,CACP,EAAE,AAOC,OAAO,CAAA;IACN,aAAa,EAAC,cAAc,GAC7B;EAVL,AAWI,SAXK,CACP,EAAE,AAUC,MAAM,CAAA;IACL,OAAO,EAAE,GAAG;IACZ,QAAQ,EAAE,QAAQ;IAClB,IAAI,EAAE,CAAC;IACP,GAAG,EAAE,GAAG,GACT;EAhBL,AAiBI,SAjBK,CACP,EAAE,AAgBC,WAAW,AAAA,MAAM,CAAA;IAChB,OAAO,EAAC,IAAI,GACb;;AAGL,AAAA,YAAY,CAAA;EACV,YAAY,EAAE,IAAI;EAClB,MAAM,EAAE,IAAI;EACZ,MAAM,EAAE,iBAAiB;EACzB,gBAAgB,ECxDN,OAAO;EDyDjB,aAAa,EAAE,IAAI;EACnB,QAAQ,EAAE,QAAQ;EAClB,SAAS,EAAE,KAAK;EAChB,KAAK,EAAC,IAAI;EACV,GAAG,EAAC,IAAI,GAiBT;EA1BD,AAUE,YAVU,CAUV,KAAK,CAAA;IACH,MAAM,EAAC,CAAC;IACR,gBAAgB,EChER,OAAO;IDiEf,KAAK,EC/DH,OAAO;IDgET,KAAK,EAAC,GAAG;IACT,MAAM,EAAE,IAAI;IACZ,YAAY,EAAE,GAAG,GAClB;EAjBH,AAkBE,YAlBU,CAkBV,MAAM,CAAA;IACJ,UAAU,EAAE,kCAAkC,CAAC,WAAW,CAAC,SAAS;IACpE,MAAM,EAAC,CAAC;IACR,QAAQ,EAAE,QAAQ;IAClB,IAAI,EAAE,GAAG;IACT,KAAK,EAAE,IAAI;IACX,MAAM,EAAE,IAAI,GACb"}
 .logo {
   max-width: 263px; }
   .logo img {
@@ -44,6 +44,11 @@
     font-family: Nassim;
     font-size: 12px;
     color: #000 !important; }
+  .topMenu li:before {
+    width: 7px;
+    height: 7px;
+    right: 0;
+    top: 12px; }
 
 .mainMenu li {
   position: relative; }
@@ -88,8 +93,42 @@
 
 /*# sourceMappingURL=../maps/header/styles.css.map */
 
-{"version":3,"file":"../../sidebar/styles.css","sources":["sidebar/styles.scss"],"sourcesContent":[".leftSidebar{\r\n  div{\r\n    border:1px solid #000;\r\n  }\r\n}\r\n"],"names":[],"mappings":"AAAA,AACE,YADU,CACV,GAAG,CAAA;EACD,MAAM,EAAC,cAAc,GACtB"}
-.leftSidebar div {
-  border: 1px solid #000; }
+{"version":3,"file":"../../sidebar/styles.css","sources":["sidebar/styles.scss","../scss/_variables.scss"],"sourcesContent":["@import '../../scss/variables';\r\n.leftSidebar{\r\n  .note-news{\r\n    li{\r\n      position: relative;\r\n      font-size:13px;\r\n      &:before{\r\n        width: 10px;\r\n        height: 10px;\r\n        right:-12px;\r\n        top:6px;\r\n      }\r\n    }\r\n    \r\n  }\r\n  .title{\r\n    padding-right:18px;\r\n    h4{\r\n      position: relative;\r\n      color:$red;\r\n      &:before{\r\n        width: 11px;\r\n        height: 11px;\r\n        background-color:$red;\r\n        bottom:7px;\r\n        right:-14px;\r\n      }\r\n    }\r\n  }\r\n  .carousel-item{\r\n    img{\r\n      width:auto;\r\n      max-height: 466px;\r\n    }\r\n  }\r\n  .carousel-indicators {\r\n    position:relative;\r\n    top:5px;\r\n    li{\r\n      border-radius: 50%;\r\n      width:22px;\r\n      height:22px;\r\n      border:1px solid $gray-slide !important;\r\n      background-color: white;\r\n    &.active\r\n      {\r\n        background-color: $gray_active;\r\n      }\r\n    }\r\n  }\r\n}","$red:#d71a21;\r\n$light-gray:#e7e7e9;\r\n$blue:#1b1464;\r\n$gray:#949599;\r\n$border-color:#585657;\r\n$dark-gray:#dcdddf;\r\n$light-red:#ff7560;\r\n$gray-slide:#929292;\r\n$gray_active:#a2a3a7;\r\n"],"names":[],"mappings":"AACA,AAEI,YAFQ,CACV,UAAU,CACR,EAAE,CAAA;EACA,QAAQ,EAAE,QAAQ;EAClB,SAAS,EAAC,IAAI,GAOf;EAXL,AAKM,YALM,CACV,UAAU,CACR,EAAE,AAGC,OAAO,CAAA;IACN,KAAK,EAAE,IAAI;IACX,MAAM,EAAE,IAAI;IACZ,KAAK,EAAC,KAAK;IACX,GAAG,EAAC,GAAG,GACR;;AAVP,AAcE,YAdU,CAcV,MAAM,CAAA;EACJ,aAAa,EAAC,IAAI,GAYnB;EA3BH,AAgBI,YAhBQ,CAcV,MAAM,CAEJ,EAAE,CAAA;IACA,QAAQ,EAAE,QAAQ;IAClB,KAAK,ECnBN,OAAO,GD2BP;IA1BL,AAmBM,YAnBM,CAcV,MAAM,CAEJ,EAAE,AAGC,OAAO,CAAA;MACN,KAAK,EAAE,IAAI;MACX,MAAM,EAAE,IAAI;MACZ,gBAAgB,ECvBnB,OAAO;MDwBJ,MAAM,EAAC,GAAG;MACV,KAAK,EAAC,KAAK,GACZ;;AAzBP,AA6BI,YA7BQ,CA4BV,cAAc,CACZ,GAAG,CAAA;EACD,KAAK,EAAC,IAAI;EACV,UAAU,EAAE,KAAK,GAClB;;AAhCL,AAkCE,YAlCU,CAkCV,oBAAoB,CAAC;EACnB,QAAQ,EAAC,QAAQ;EACjB,GAAG,EAAC,GAAG,GAYR;EAhDH,AAqCI,YArCQ,CAkCV,oBAAoB,CAGlB,EAAE,CAAA;IACA,aAAa,EAAE,GAAG;IAClB,KAAK,EAAC,IAAI;IACV,MAAM,EAAC,IAAI;IACX,MAAM,EAAC,GAAG,CAAC,KAAK,CCnCV,OAAO,CDmCgB,UAAU;IACvC,gBAAgB,EAAE,KAAK,GAKxB;IA/CL,AA2CI,YA3CQ,CAkCV,oBAAoB,CAGlB,EAAE,AAMD,OAAO,CACN;MACE,gBAAgB,ECtCX,OAAO,GDuCb"}
+.leftSidebar .note-news li {
+  position: relative;
+  font-size: 13px; }
+  .leftSidebar .note-news li:before {
+    width: 10px;
+    height: 10px;
+    right: -12px;
+    top: 6px; }
+
+.leftSidebar .title {
+  padding-right: 18px; }
+  .leftSidebar .title h4 {
+    position: relative;
+    color: #d71a21; }
+    .leftSidebar .title h4:before {
+      width: 11px;
+      height: 11px;
+      background-color: #d71a21;
+      bottom: 7px;
+      right: -14px; }
+
+.leftSidebar .carousel-item img {
+  width: auto;
+  max-height: 466px; }
+
+.leftSidebar .carousel-indicators {
+  position: relative;
+  top: 5px; }
+  .leftSidebar .carousel-indicators li {
+    border-radius: 50%;
+    width: 22px;
+    height: 22px;
+    border: 1px solid #929292 !important;
+    background-color: white; }
+    .leftSidebar .carousel-indicators li.active {
+      background-color: #a2a3a7; }
 
 /*# sourceMappingURL=../maps/sidebar/styles.css.map */

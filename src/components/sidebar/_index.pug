@@ -1,15 +1,56 @@
+include ../mixins/_index.pug
 .leftSidebar
 	.pdfSlider
-		h3 روزنامه آفرینش
-	.noteNews
-		h3 اخبار ویژه و یادداشت ها
+		.title.bgtitlecolor
+			h4.square روزنامه آفرینش
+		.pdfSlider_inner
+
+	+mainCardTemplate("اخبار ویژه و یادداشت ها","note-news")
 		ul
-			li salam
-	.newNews
-		h3 تازه ترین اخبار
+			li.square قانونگذاران آمریکایی خواستار تغییر تاکتیک ترامپ
+			li.square تلاش ناتو برای رهگیری جنگنده های روسیه
+			li.sqaure آمریکا مدعی شده: ونزوئلا هزینه کمک های فنی ایران
+			li.square ورد سامانه اس400 روسیه به ترکیه متوقف
+
+	+mainCardTemplate("تازه ترین اخبار","note-news")
 		ul
-			li sALAM
-	.attractions
-		h3 دیدنی ها
+			li.square قانونگذاران آمریکایی خواستار تغییر تاکتیک ترامپ
+			li.square تلاش ناتو برای رهگیری جنگنده های روسیه
+			li.sqaure آمریکا مدعی شده: ونزوئلا هزینه کمک های فنی ایران
+			li.square ورد سامانه اس400 روسیه به ترکیه متوقف
+			li.square قانونگذاران آمریکایی خواستار تغییر تاکتیک ترامپ
+			li.square تلاش ناتو برای رهگیری جنگنده های روسیه
+			li.sqaure آمریکا مدعی شده: ونزوئلا هزینه کمک های فنی ایران
+			li.square ورد سامانه اس400 روسیه به ترکیه متوقف
+			li.square قانونگذاران آمریکایی خواستار تغییر تاکتیک ترامپ
+			li.square تلاش ناتو برای رهگیری جنگنده های روسیه
+			li.sqaure آمریکا مدعی شده: ونزوئلا هزینه کمک های فنی ایران
+			li.square ورد سامانه اس400 روسیه به ترکیه متوقف 
+			li.square قانونگذاران آمریکایی خواستار تغییر تاکتیک ترامپ
+
+	+mainCardTemplate("دیدنی ها")
+		.carousel.slide(data-ride='carousel')
+				.carousel-inner
+					.carousel-item.active
+						img(src='../assets/img/didani.jpg', alt='img1')
+					.carousel-item
+						img(src='../assets/img/didani.jpg', alt='img1')
+					.carousel-item
+						img(src='../assets/img/didani.jpg', alt='img1')
+					.carousel-item
+						img(src='../assets/img/didani.jpg', alt='img1')
+					.carousel-item
+						img(src='../assets/img/didani.jpg', alt='img1')
+					.carousel-item
+						img(src='../assets/img/didani.jpg', alt='img1')
+				ul.carousel-indicators
+					li.active(data-target='', data-slide-to='0')
+					li(data-target='', data-slide-to='1')
+					li(data-target='', data-slide-to='2')
+					li(data-target='', data-slide-to='3')
+					li(data-target='', data-slide-to='4')
+					li(data-target='', data-slide-to='5')
+
 	.firstPageNews
-		h3 صفحه اول روزنامه ها
+		.title.bgtitlecolor
+			h4.square صفحه اول روزنامه ها

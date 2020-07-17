@@ -1,5 +1,51 @@
+@import '../../scss/variables';
 .leftSidebar{
-  div{
-    border:1px solid #000;
+  .note-news{
+    li{
+      position: relative;
+      font-size:13px;
+      &:before{
+        width: 10px;
+        height: 10px;
+        right:-12px;
+        top:6px;
+      }
+    }
+    
+  }
+  .title{
+    padding-right:18px;
+    h4{
+      position: relative;
+      color:$red;
+      &:before{
+        width: 11px;
+        height: 11px;
+        background-color:$red;
+        bottom:7px;
+        right:-14px;
+      }
+    }
+  }
+  .carousel-item{
+    img{
+      width:auto;
+      max-height: 466px;
+    }
+  }
+  .carousel-indicators {
+    position:relative;
+    top:5px;
+    li{
+      border-radius: 50%;
+      width:22px;
+      height:22px;
+      border:1px solid $gray-slide !important;
+      background-color: white;
+    &.active
+      {
+        background-color: $gray_active;
+      }
+    }
   }
 }

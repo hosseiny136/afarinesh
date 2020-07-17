@@ -57,13 +57,9 @@ body{
 }
 .square::before{
   content: "";
-  width: 8px;
-  height: 8px;
   background-color:$light-gray;
   position: absolute;
-  right: 0;
   transform: rotate(45deg);
-  top: 10px;
 }
 .center {
   display: flex;
@@ -81,8 +77,20 @@ body{
 .bgcolor{
   background-color: $dark-gray;
 }
+.bgtitlecolor{
+  background-color: $light-gray;
+}
 li{
   list-style: none;
+}
+.borderAll{
+  border:1px solid $border-color;
+  &.around5{
+    border-radius:5px;
+  }
+}
+.Mtop10{
+  margin-top:10px
 }
 
 
