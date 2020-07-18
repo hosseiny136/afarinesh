@@ -31,6 +31,18 @@ body {
   font-weight: 500;
   line-height: 24px; }
 
+.text-title_19 {
+  font-size: 19px;
+  font-weight: 300;
+  line-height: 24px;
+  text-align: center; }
+
+.text-title_21 {
+  font-size: 21px;
+  font-weight: 300;
+  line-height: 24px;
+  text-align: center; }
+
 .text-p_13 {
   font-size: 13px;
   font-weight: 300;
@@ -40,6 +52,9 @@ body {
   font-size: 12px;
   font-weight: 300;
   line-height: 16px; }
+
+.title-color {
+  color: #d71a21; }
 
 .flex {
   display: flex; }
@@ -75,15 +90,31 @@ body {
 .bgtitlecolor {
   background-color: #e7e7e9; }
 
+.bgredcolor {
+  background-color: #d71a21; }
+
 li {
   list-style: none; }
 
 .borderAll {
-  border: 1px solid #585657; }
+  border: 1px solid #C0C0C0; }
   .borderAll.around5 {
     border-radius: 5px; }
 
+.borderTp {
+  border-top: 1px solid #C0C0C0; }
+
 .Mtop10 {
   margin-top: 10px; }
+
+.padd5 {
+  padding: 5px; }
+
+.text-trunc {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: inline-block;
+  max-width: 100%; }
 
 /*# sourceMappingURL=maps/kit.css.map */

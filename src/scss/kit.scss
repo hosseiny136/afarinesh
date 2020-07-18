@@ -33,6 +33,18 @@ body{
     font-weight: 500;
     line-height: 24px;
   }
+  &_19 {
+    font-size: 19px;
+    font-weight: 300;
+    line-height: 24px;
+    text-align: center;
+  }
+  &_21 {
+    font-size: 21px;
+    font-weight: 300;
+    line-height: 24px;
+    text-align: center;
+  }
 }
 .text-p {
   &_13 {
@@ -45,6 +57,11 @@ body{
     font-weight: 300;
     line-height: 16px;
   }
+
+ 
+}
+.title-color{
+  color:$red;
 }
 .flex {
   display: flex;
@@ -80,6 +97,9 @@ body{
 .bgtitlecolor{
   background-color: $light-gray;
 }
+.bgredcolor{
+  background-color: $red;
+}
 li{
   list-style: none;
 }
@@ -89,9 +109,23 @@ li{
     border-radius:5px;
   }
 }
+.borderTp{
+  border-top:1px solid $border-color;
+}
 .Mtop10{
   margin-top:10px
 }
+.padd5{
+  padding:5px;
+}
+.text-trunc{
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: inline-block;
+  max-width: 100%;
+}
+
 
 
 

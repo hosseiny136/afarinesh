@@ -1,33 +1,79 @@
 include ../mixins/_index.pug
 .leftSidebar
-	.pdfSlider
-		.title.bgtitlecolor
-			h4.square روزنامه آفرینش
-		.pdfSlider_inner
+	+mainCardTemplate("روزنامه آفرینش","pdfSlider")
+		.carousel.slide(data-ride='carousel')
+			.carousel-inner
+				.carousel-item.active
+					img(src='../assets/img/pdfimg.jpg', alt='img1')
+				.carousel-item
+					img(src='../assets/img/pdfimg.jpg', alt='img1')
+				.carousel-item
+					img(src='../assets/img/pdfimg.jpg', alt='img1')
+				.carousel-item
+					img(src='../assets/img/pdfimg.jpg', alt='img1')
+				.carousel-item
+					img(src='../assets/img/pdfimg.jpg', alt='img1')
+				.carousel-item
+					img(src='../assets/img/pdfimg.jpg', alt='img1')
+				.carousel-item
+					img(src='../assets/img/pdfimg.jpg', alt='img1')
+				.carousel-item
+					img(src='../assets/img/pdfimg.jpg', alt='img1')
+			ul.carousel-indicators
+				li(data-target='', data-slide-to='0')
+					img(href="../assets/img/pdfbul.jpg")
+				li(data-target='', data-slide-to='1') 1
+				li(data-target='', data-slide-to='2') 2
+				li(data-target='', data-slide-to='3') 3
+				li(data-target='', data-slide-to='4') 4
+				li(data-target='', data-slide-to='5') 5
+				li(data-target='', data-slide-to='6') 6
+				li(data-target='', data-slide-to='7') 7
+				li(data-target='', data-slide-to='8') 8
+
 
 	+mainCardTemplate("اخبار ویژه و یادداشت ها","note-news")
 		ul
-			li.square قانونگذاران آمریکایی خواستار تغییر تاکتیک ترامپ
-			li.square تلاش ناتو برای رهگیری جنگنده های روسیه
-			li.sqaure آمریکا مدعی شده: ونزوئلا هزینه کمک های فنی ایران
-			li.square ورد سامانه اس400 روسیه به ترکیه متوقف
-
+			li.square
+				a(href="#") قانونگذاران آمریکایی خواستار تغییر تاکتیک ترامپ
+			li.square 
+				a(href="#")
+					|	تلاش ناتو برای رهگیری جنگنده های روسیه
+			li.sqaure 
+				a(href="#")
+					|	آمریکا مدعی شده: ونزوئلا هزینه کمک های فنی ایران
+			li.square 
+				a(href="#")
+					|	ورد سامانه اس400 روسیه به ترکیه متوقف
 	+mainCardTemplate("تازه ترین اخبار","note-news")
 		ul
-			li.square قانونگذاران آمریکایی خواستار تغییر تاکتیک ترامپ
-			li.square تلاش ناتو برای رهگیری جنگنده های روسیه
-			li.sqaure آمریکا مدعی شده: ونزوئلا هزینه کمک های فنی ایران
-			li.square ورد سامانه اس400 روسیه به ترکیه متوقف
-			li.square قانونگذاران آمریکایی خواستار تغییر تاکتیک ترامپ
-			li.square تلاش ناتو برای رهگیری جنگنده های روسیه
-			li.sqaure آمریکا مدعی شده: ونزوئلا هزینه کمک های فنی ایران
-			li.square ورد سامانه اس400 روسیه به ترکیه متوقف
-			li.square قانونگذاران آمریکایی خواستار تغییر تاکتیک ترامپ
-			li.square تلاش ناتو برای رهگیری جنگنده های روسیه
-			li.sqaure آمریکا مدعی شده: ونزوئلا هزینه کمک های فنی ایران
-			li.square ورد سامانه اس400 روسیه به ترکیه متوقف 
-			li.square قانونگذاران آمریکایی خواستار تغییر تاکتیک ترامپ
-
+			li.square
+				a(href="#")
+					| قانونگذاران آمریکایی خواستار تغییر تاکتیک ترامپ
+			li.square 
+				a(href="#")
+					|	تلاش ناتو برای رهگیری جنگنده های روسیه
+			li.sqaure 
+				a(href="#")
+					|	آمریکا مدعی شده: ونزوئلا هزینه کمک های فنی ایران
+			li.square 
+				a(href="#")
+					|	ورد سامانه اس400 روسیه به ترکیه متوقف
+			li.square
+				a(href="#")
+					| قانونگذاران آمریکایی خواستار تغییر تاکتیک ترامپ
+			li.square 
+				a(href="#")
+					|	تلاش ناتو برای رهگیری جنگنده های روسیه
+			li.sqaure 
+				a(href="#")
+					|	آمریکا مدعی شده: ونزوئلا هزینه کمک های فنی ایران
+			li.square 
+				a(href="#")
+					|	ورد سامانه اس400 روسیه به ترکیه متوقف
+			li.square
+				a(href="#")
+					| قانونگذاران آمریکایی خواستار تغییر تاکتیک ترامپ
 	+mainCardTemplate("دیدنی ها","aslider")
 		.carousel.slide(data-ride='carousel')
 				.carousel-inner
@@ -50,7 +96,7 @@ include ../mixins/_index.pug
 					li(data-target='', data-slide-to='3')
 					li(data-target='', data-slide-to='4')
 					li(data-target='', data-slide-to='5')
-	+mainCardTemplate("صفحه اول روزنامه","firstpagenews")
+	+mainCardTemplate("صفحه اول روزنامه","aslider")
 			.carousel.slide(data-ride='carousel')
 				.carousel-inner
 					.carousel-item.active

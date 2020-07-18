@@ -1,6 +1,11 @@
 @import '../../scss/variables';
 .leftSidebar{
   .note-news{
+    ul{
+      padding-right: 14px;
+      padding-left: 10px;
+  
+    }
     li{
       position: relative;
       font-size:13px;
@@ -17,36 +22,45 @@
     padding-right:18px;
     h4{
       position: relative;
-      color:$red;
       &:before{
         width: 11px;
         height: 11px;
         background-color:$red;
         bottom:7px;
-        right:-14px;
+        padding-right:14px;
       }
     }
   }
   .carousel-item{
+   
     img{
-      width:auto;
-      max-height: 466px;
-      padding:5px;
+      width:100%;
     }
   }
-  .carousel-indicators {
-    position:relative;
-    top:5px;
-    li{
-      border-radius: 50%;
-      width:22px;
-      height:22px;
-      border:1px solid $gray-slide !important;
-      background-color: white;
-    &.active
-      {
-        background-color: $gray_active;
+  .aslider{
+    .carousel-indicators {
+      position:relative;
+      top:5px;
+      li{
+        border-radius: 50%;
+        width:18px;
+        height:18px;
+        border:1px solid $gray-slide !important;
+        background-color: white;
+      &.active
+        {
+          background-color: $gray_active;
+        }
       }
     }
   }
+  .pdfSlider{
+    .carousel-indicators {
+      position:relative;
+      li{
+        text-indent:0
+      }
+    }
+  }
+
 }
