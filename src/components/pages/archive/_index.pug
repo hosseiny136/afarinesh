@@ -1,0 +1,21 @@
+include ../../mixins/_index.pug
++formTemplate("آرشیو سایت آفرینش","archive")
+  form(method='POST',action='/archive')
+    .form-group.row
+      .col.col-4
+        span.frm_label از تاريخ:
+        input.text(type='text', name='', value='1384/01/01')
+      .col.col-4
+        span.frm_label تا تاريخ:
+        input.text(type='text', name='', value='1399/04/15')
+      .col.col-4
+        input(type='submit', value='جستجو')
+      
++formTemplate("آرشیو روزنامه آفرینش","archive")
+  form(method='POST',action='/archive')   
+    .form-group.row
+      .col.col-6    
+        span.frm_label تاريخ:
+        input.text(type='text', name='', value='1384/01/01')
+      .col.col-6
+        input(type='submit', value='جستجو') 

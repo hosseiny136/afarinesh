@@ -6,7 +6,7 @@ include ../../mixins/_index.pug
   .news-inner.flex.rCol
     .title
       h2.text-title_21  صندلی فروشی; سهمیه پنهان دانشگاه ها برای نوکیسگان 
-    .description.text-p_13
+    .description.text-p_12
       p اصلا چه کسی به شما گفته است که برای ورود به دانشگاه و درس خواندن –یا نخواندن- در رشته پزشکی- یا هر رشته ای
         | که دوست دارید- باید خودتان را یک سال به صورت شبانه روزی عذاب بدهید و درس بخوانید؟ ماجرای ثابت شده ای هست که
         | می گوید داوطلب عزیز صندلی شما، در دانشگاه منتظر شماست، پس چرا این همه نگرانی و استرس؟ لطفا چک بدهید و بروید
@@ -17,12 +17,35 @@ include ../../mixins/_index.pug
 .bottomnews.borderAll.around5.padd5
   .row
     each val in [1, 2, 3, 4, 5]
-      .col.col-6
+      .col.col-6.paddlr15.Mtop10
         include ../includes/card
-    each val in [1, 2, 3, 4, 5] 
-      .col.col-6
+      .col.col-6.paddrl15.Mtop10
         include ../includes/card
 +mainCardTemplate("اخبار پربازدید","mostview-news")
   .newsgrid-container
     each i in [1,2,3,4,5,6,7,8,9]
       .newsgrid-item.square انتقاد سناتور آمریکایی از راهکار پمپئو برای تمدید تحریم تسلیحاتی ایران
++mainCardTemplate("آخرین خبرها","lastnews")
+  .row
+    each val in [1, 2, 3, 4, 5]
+      .col.col-6.paddlr15.Mtop10
+        include ../includes/card
+      .col.col-6.paddrl15.Mtop10
+        include ../includes/card
++mainCardTemplate("ویدئوها","videonews")
+  .videonews.flex.padd5
+    .item1
+      video(poster='../assets/img/video3.jpg')
+        source(src='../assets/video/movie.mp4', type='video/mp4')
+        source(src='#', type='video/ogg')
+      span ویدئو ترامپ
+    .item2
+      video(poster='../assets/img/video2.jpg')
+        source(src='../assets/video/movie.mp4', type='video/mp4')
+        source(src='#', type='video/ogg')
+      span ویدئو سیل
+    .item3
+      video(poster='../assets/img/video1.jpg')
+        source(src='../assets/video/movie.mp4', type='video/mp4')
+        source(src='#', type='video/ogg')
+      span ویدئو سلامت

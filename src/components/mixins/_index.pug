@@ -4,3 +4,9 @@ mixin mainCardTemplate(title,className)
 			h4.square= title
 		.borderAll.around5.padd5
 			block
+mixin formTemplate(title,className)
+	div(class="formtheme Mtop10 " + className)
+		.formtitle
+			span= title
+		.formbody
+			block

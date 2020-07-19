@@ -3,7 +3,6 @@
    margin-top: 5px;
     margin-bottom: 5px;
     border-radius: 10px;
-    
 }
 .mostview-news{
     .newsgrid-container {
@@ -23,4 +22,43 @@
           }
 
       }
+}
+.title{
+  .text-title_19{
+    margin-bottom: 0px;
+  }
+}
+.card-news{
+  .description{
+      height:95px;
+      overflow: hidden;
+      text-align:right;
+      padding-left:5px;
+      padding-right:5px;
+     
+  }
+}
+.topnews{
+  .description{
+      height:132px;
+      overflow: hidden;
+      text-align:right;
+      padding-left:5px;
+      padding-right:5px;
+      p{
+        margin-bottom:5px;
+      }
+  }
+}
+
+.videonews {
+  video{
+    width:33%;
+    height:auto;
+    margin-right: 85px;
+  }
+  span{
+    display:block;
+    text-align: center;
+  }
 }

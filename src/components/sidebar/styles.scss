@@ -4,39 +4,25 @@
     ul{
       padding-right: 14px;
       padding-left: 10px;
-  
     }
     li{
       position: relative;
-      font-size:13px;
+      font-size:12px;
+      padding-right:7px;
       &:before{
         width: 10px;
         height: 10px;
-        right:-12px;
-        top:6px;
-      }
-    }
-    
-  }
-  .title{
-    padding-right:18px;
-    h4{
-      position: relative;
-      &:before{
-        width: 11px;
-        height: 11px;
-        background-color:$red;
-        bottom:7px;
-        padding-right:14px;
+        top:4px;
+        right:-8px;
       }
     }
   }
   .carousel-item{
-   
     img{
       width:100%;
     }
   }
+
   .aslider{
     .carousel-indicators {
       position:relative;

@@ -93,30 +93,20 @@
 
 /*# sourceMappingURL=../maps/header/styles.css.map */
 
-{"version":3,"file":"../../sidebar/styles.css","sources":["sidebar/styles.scss","../scss/_variables.scss"],"sourcesContent":["@import '../../scss/variables';\r\n.leftSidebar{\r\n  .note-news{\r\n    ul{\r\n      padding-right: 14px;\r\n      padding-left: 10px;\r\n  \r\n    }\r\n    li{\r\n      position: relative;\r\n      font-size:13px;\r\n      &:before{\r\n        width: 10px;\r\n        height: 10px;\r\n        right:-12px;\r\n        top:6px;\r\n      }\r\n    }\r\n    \r\n  }\r\n  .title{\r\n    padding-right:18px;\r\n    h4{\r\n      position: relative;\r\n      &:before{\r\n        width: 11px;\r\n        height: 11px;\r\n        background-color:$red;\r\n        bottom:7px;\r\n        padding-right:14px;\r\n      }\r\n    }\r\n  }\r\n  .carousel-item{\r\n   \r\n    img{\r\n      width:100%;\r\n    }\r\n  }\r\n  .aslider{\r\n    .carousel-indicators {\r\n      position:relative;\r\n      top:5px;\r\n      li{\r\n        border-radius: 50%;\r\n        width:18px;\r\n        height:18px;\r\n        border:1px solid $gray-slide !important;\r\n        background-color: white;\r\n      &.active\r\n        {\r\n          background-color: $gray_active;\r\n        }\r\n      }\r\n    }\r\n  }\r\n  .pdfSlider{\r\n    .carousel-indicators {\r\n      position:relative;\r\n      li{\r\n        text-indent:0\r\n      }\r\n    }\r\n  }\r\n\r\n}","$red:#d71a21;\r\n$light-gray:#e7e7e9;\r\n$blue:#1b1464;\r\n$gray:#949599;\r\n$border-color:#C0C0C0;\r\n$dark-gray:#dcdddf;\r\n$light-red:#ff7560;\r\n$gray-slide:#929292;\r\n$gray_active:#a2a3a7;\r\n"],"names":[],"mappings":"AACA,AAEI,YAFQ,CACV,UAAU,CACR,EAAE,CAAA;EACA,aAAa,EAAE,IAAI;EACnB,YAAY,EAAE,IAAI,GAEnB;;AANL,AAOI,YAPQ,CACV,UAAU,CAMR,EAAE,CAAA;EACA,QAAQ,EAAE,QAAQ;EAClB,SAAS,EAAC,IAAI,GAOf;EAhBL,AAUM,YAVM,CACV,UAAU,CAMR,EAAE,AAGC,OAAO,CAAA;IACN,KAAK,EAAE,IAAI;IACX,MAAM,EAAE,IAAI;IACZ,KAAK,EAAC,KAAK;IACX,GAAG,EAAC,GAAG,GACR;;AAfP,AAmBE,YAnBU,CAmBV,MAAM,CAAA;EACJ,aAAa,EAAC,IAAI,GAWnB;EA/BH,AAqBI,YArBQ,CAmBV,MAAM,CAEJ,EAAE,CAAA;IACA,QAAQ,EAAE,QAAQ,GAQnB;IA9BL,AAuBM,YAvBM,CAmBV,MAAM,CAEJ,EAAE,AAEC,OAAO,CAAA;MACN,KAAK,EAAE,IAAI;MACX,MAAM,EAAE,IAAI;MACZ,gBAAgB,EC3BnB,OAAO;MD4BJ,MAAM,EAAC,GAAG;MACV,aAAa,EAAC,IAAI,GACnB;;AA7BP,AAkCI,YAlCQ,CAgCV,cAAc,CAEZ,GAAG,CAAA;EACD,KAAK,EAAC,IAAI,GACX;;AApCL,AAuCI,YAvCQ,CAsCV,QAAQ,CACN,oBAAoB,CAAC;EACnB,QAAQ,EAAC,QAAQ;EACjB,GAAG,EAAC,GAAG,GAYR;EArDL,AA0CM,YA1CM,CAsCV,QAAQ,CACN,oBAAoB,CAGlB,EAAE,CAAA;IACA,aAAa,EAAE,GAAG;IAClB,KAAK,EAAC,IAAI;IACV,MAAM,EAAC,IAAI;IACX,MAAM,EAAC,GAAG,CAAC,KAAK,CCxCZ,OAAO,CDwCkB,UAAU;IACvC,gBAAgB,EAAE,KAAK,GAKxB;IApDP,AAgDM,YAhDM,CAsCV,QAAQ,CACN,oBAAoB,CAGlB,EAAE,AAMD,OAAO,CACN;MACE,gBAAgB,EC3Cb,OAAO,GD4CX;;AAnDT,AAwDI,YAxDQ,CAuDV,UAAU,CACR,oBAAoB,CAAC;EACnB,QAAQ,EAAC,QAAQ,GAIlB;EA7DL,AA0DM,YA1DM,CAuDV,UAAU,CACR,oBAAoB,CAElB,EAAE,CAAA;IACA,WAAW,EAAC,CACd,GAAC"}
+{"version":3,"file":"../../sidebar/styles.css","sources":["sidebar/styles.scss","../scss/_variables.scss"],"sourcesContent":["@import '../../scss/variables';\r\n.leftSidebar{\r\n  .note-news{\r\n    ul{\r\n      padding-right: 14px;\r\n      padding-left: 10px;\r\n    }\r\n    li{\r\n      position: relative;\r\n      font-size:12px;\r\n      padding-right:7px;\r\n      &:before{\r\n        width: 10px;\r\n        height: 10px;\r\n        top:4px;\r\n        right:-8px;\r\n      }\r\n    }\r\n  }\r\n  .carousel-item{\r\n    img{\r\n      width:100%;\r\n    }\r\n  }\r\n\r\n  .aslider{\r\n    .carousel-indicators {\r\n      position:relative;\r\n      top:5px;\r\n      li{\r\n        border-radius: 50%;\r\n        width:18px;\r\n        height:18px;\r\n        border:1px solid $gray-slide !important;\r\n        background-color: white;\r\n      &.active\r\n        {\r\n          background-color: $gray_active;\r\n        }\r\n      }\r\n    }\r\n  }\r\n  .pdfSlider{\r\n    .carousel-indicators {\r\n      position:relative;\r\n      li{\r\n        text-indent:0\r\n      }\r\n    }\r\n  }\r\n\r\n}","$red:#d71a21;\r\n$light-gray:#e7e7e9;\r\n$blue:#1b1464;\r\n$gray:#949599;\r\n$border-color:#C0C0C0;\r\n$dark-gray:#dcdddf;\r\n$light-red:#ff7560;\r\n$gray-slide:#929292;\r\n$gray_active:#a2a3a7;\r\n"],"names":[],"mappings":"AACA,AAEI,YAFQ,CACV,UAAU,CACR,EAAE,CAAA;EACA,aAAa,EAAE,IAAI;EACnB,YAAY,EAAE,IAAI,GACnB;;AALL,AAMI,YANQ,CACV,UAAU,CAKR,EAAE,CAAA;EACA,QAAQ,EAAE,QAAQ;EAClB,SAAS,EAAC,IAAI;EACd,aAAa,EAAC,GAAG,GAOlB;EAhBL,AAUM,YAVM,CACV,UAAU,CAKR,EAAE,AAIC,OAAO,CAAA;IACN,KAAK,EAAE,IAAI;IACX,MAAM,EAAE,IAAI;IACZ,GAAG,EAAC,GAAG;IACP,KAAK,EAAC,IAAI,GACX;;AAfP,AAmBI,YAnBQ,CAkBV,cAAc,CACZ,GAAG,CAAA;EACD,KAAK,EAAC,IAAI,GACX;;AArBL,AAyBI,YAzBQ,CAwBV,QAAQ,CACN,oBAAoB,CAAC;EACnB,QAAQ,EAAC,QAAQ;EACjB,GAAG,EAAC,GAAG,GAYR;EAvCL,AA4BM,YA5BM,CAwBV,QAAQ,CACN,oBAAoB,CAGlB,EAAE,CAAA;IACA,aAAa,EAAE,GAAG;IAClB,KAAK,EAAC,IAAI;IACV,MAAM,EAAC,IAAI;IACX,MAAM,EAAC,GAAG,CAAC,KAAK,CC1BZ,OAAO,CD0BkB,UAAU;IACvC,gBAAgB,EAAE,KAAK,GAKxB;IAtCP,AAkCM,YAlCM,CAwBV,QAAQ,CACN,oBAAoB,CAGlB,EAAE,AAMD,OAAO,CACN;MACE,gBAAgB,EC7Bb,OAAO,GD8BX;;AArCT,AA0CI,YA1CQ,CAyCV,UAAU,CACR,oBAAoB,CAAC;EACnB,QAAQ,EAAC,QAAQ,GAIlB;EA/CL,AA4CM,YA5CM,CAyCV,UAAU,CACR,oBAAoB,CAElB,EAAE,CAAA;IACA,WAAW,EAAC,CACd,GAAC"}
 .leftSidebar .note-news ul {
   padding-right: 14px;
   padding-left: 10px; }
 
 .leftSidebar .note-news li {
   position: relative;
-  font-size: 13px; }
+  font-size: 12px;
+  padding-right: 7px; }
   .leftSidebar .note-news li:before {
     width: 10px;
     height: 10px;
-    right: -12px;
-    top: 6px; }
-
-.leftSidebar .title {
-  padding-right: 18px; }
-  .leftSidebar .title h4 {
-    position: relative; }
-    .leftSidebar .title h4:before {
-      width: 11px;
-      height: 11px;
-      background-color: #d71a21;
-      bottom: 7px;
-      padding-right: 14px; }
+    top: 4px;
+    right: -8px; }
 
 .leftSidebar .carousel-item img {
   width: 100%; }
@@ -140,7 +130,18 @@
 
 /*# sourceMappingURL=../maps/sidebar/styles.css.map */
 
-{"version":3,"file":"../../../pages/home/styles.css","sources":["pages/home/styles.scss"],"sourcesContent":[".hotnews{\r\n   color:white;\r\n   margin-top: 5px;\r\n    margin-bottom: 5px;\r\n    border-radius: 10px;\r\n    \r\n}\r\n.mostview-news{\r\n    .newsgrid-container {\r\n        display: grid;\r\n        grid-template-columns: auto auto auto;\r\n        padding: 10px;\r\n      }\r\n      .newsgrid-item {\r\n        border: 1px solid gray;\r\n        padding: 20px;\r\n        text-align: center;\r\n        position: relative;\r\n        &:before{\r\n            width: 10px;\r\n            height: 10px;\r\n            right:5px;\r\n          }\r\n\r\n      }\r\n}"],"names":[],"mappings":"AAAA,AAAA,QAAQ,CAAA;EACL,KAAK,EAAC,KAAK;EACX,UAAU,EAAE,GAAG;EACd,aAAa,EAAE,GAAG;EAClB,aAAa,EAAE,IAAI,GAEtB;;AACD,AACI,cADU,CACV,mBAAmB,CAAC;EAChB,OAAO,EAAE,IAAI;EACb,qBAAqB,EAAE,cAAc;EACrC,OAAO,EAAE,IAAI,GACd;;AALP,AAMM,cANQ,CAMR,cAAc,CAAC;EACb,MAAM,EAAE,cAAc;EACtB,OAAO,EAAE,IAAI;EACb,UAAU,EAAE,MAAM;EAClB,QAAQ,EAAE,QAAQ,GAOnB;EAjBP,AAWQ,cAXM,CAMR,cAAc,AAKX,OAAO,CAAA;IACJ,KAAK,EAAE,IAAI;IACX,MAAM,EAAE,IAAI;IACZ,KAAK,EAAC,GAAG,GACV"}
+{"version":3,"file":"../../../pages/archive/styles.css","sources":["pages/archive/styles.scss"],"sourcesContent":[".archive{\r\n  .formbody{\r\n      background-color: #ececec;\r\n      padding:50px;\r\n    }\r\n \r\n}\r\n"],"names":[],"mappings":"AAAA,AACE,QADM,CACN,SAAS,CAAA;EACL,gBAAgB,EAAE,OAAO;EACzB,OAAO,EAAC,IAAI,GACb"}
+.archive .formbody {
+  background-color: #ececec;
+  padding: 50px; }
+
+/*# sourceMappingURL=../../maps/pages/archive/styles.css.map */
+
+{"version":3,"names":[],"mappings":"","sources":["pages/contactus/styles.scss"],"sourcesContent":[""],"file":"../../../pages/contactus/styles.css"}
+
+/*# sourceMappingURL=../../maps/pages/contactus/styles.css.map */
+
+{"version":3,"file":"../../../pages/home/styles.css","sources":["pages/home/styles.scss"],"sourcesContent":[".hotnews{\r\n   color:white;\r\n   margin-top: 5px;\r\n    margin-bottom: 5px;\r\n    border-radius: 10px;\r\n}\r\n.mostview-news{\r\n    .newsgrid-container {\r\n        display: grid;\r\n        grid-template-columns: auto auto auto;\r\n        padding: 10px;\r\n      }\r\n      .newsgrid-item {\r\n        border: 1px solid gray;\r\n        padding: 20px;\r\n        text-align: center;\r\n        position: relative;\r\n        &:before{\r\n            width: 10px;\r\n            height: 10px;\r\n            right:5px;\r\n          }\r\n\r\n      }\r\n}\r\n.title{\r\n  .text-title_19{\r\n    margin-bottom: 0px;\r\n  }\r\n}\r\n.card-news{\r\n  .description{\r\n      height:95px;\r\n      overflow: hidden;\r\n      text-align:right;\r\n      padding-left:5px;\r\n      padding-right:5px;\r\n     \r\n  }\r\n}\r\n.topnews{\r\n  .description{\r\n      height:132px;\r\n      overflow: hidden;\r\n      text-align:right;\r\n      padding-left:5px;\r\n      padding-right:5px;\r\n      p{\r\n        margin-bottom:5px;\r\n      }\r\n  }\r\n}\r\n\r\n.videonews {\r\n  video{\r\n    width:33%;\r\n    height:auto;\r\n    margin-right: 85px;\r\n  }\r\n  span{\r\n    display:block;\r\n    text-align: center;\r\n  }\r\n}\r\n"],"names":[],"mappings":"AAAA,AAAA,QAAQ,CAAA;EACL,KAAK,EAAC,KAAK;EACX,UAAU,EAAE,GAAG;EACd,aAAa,EAAE,GAAG;EAClB,aAAa,EAAE,IAAI,GACtB;;AACD,AACI,cADU,CACV,mBAAmB,CAAC;EAChB,OAAO,EAAE,IAAI;EACb,qBAAqB,EAAE,cAAc;EACrC,OAAO,EAAE,IAAI,GACd;;AALP,AAMM,cANQ,CAMR,cAAc,CAAC;EACb,MAAM,EAAE,cAAc;EACtB,OAAO,EAAE,IAAI;EACb,UAAU,EAAE,MAAM;EAClB,QAAQ,EAAE,QAAQ,GAOnB;EAjBP,AAWQ,cAXM,CAMR,cAAc,AAKX,OAAO,CAAA;IACJ,KAAK,EAAE,IAAI;IACX,MAAM,EAAE,IAAI;IACZ,KAAK,EAAC,GAAG,GACV;;AAIX,AACE,MADI,CACJ,cAAc,CAAA;EACZ,aAAa,EAAE,GAAG,GACnB;;AAEH,AACE,UADQ,CACR,YAAY,CAAA;EACR,MAAM,EAAC,IAAI;EACX,QAAQ,EAAE,MAAM;EAChB,UAAU,EAAC,KAAK;EAChB,YAAY,EAAC,GAAG;EAChB,aAAa,EAAC,GAAG,GAEpB;;AAEH,AACE,QADM,CACN,YAAY,CAAA;EACR,MAAM,EAAC,KAAK;EACZ,QAAQ,EAAE,MAAM;EAChB,UAAU,EAAC,KAAK;EAChB,YAAY,EAAC,GAAG;EAChB,aAAa,EAAC,GAAG,GAIpB;EAVH,AAOM,QAPE,CACN,YAAY,CAMR,CAAC,CAAA;IACC,aAAa,EAAC,GAAG,GAClB;;AAIP,AACE,UADQ,CACR,KAAK,CAAA;EACH,KAAK,EAAC,GAAG;EACT,MAAM,EAAC,IAAI;EACX,YAAY,EAAE,IAAI,GACnB;;AALH,AAME,UANQ,CAMR,IAAI,CAAA;EACF,OAAO,EAAC,KAAK;EACb,UAAU,EAAE,MAAM,GACnB"}
 .hotnews {
   color: white;
   margin-top: 5px;
@@ -161,5 +162,33 @@
     width: 10px;
     height: 10px;
     right: 5px; }
+
+.title .text-title_19 {
+  margin-bottom: 0px; }
+
+.card-news .description {
+  height: 95px;
+  overflow: hidden;
+  text-align: right;
+  padding-left: 5px;
+  padding-right: 5px; }
+
+.topnews .description {
+  height: 132px;
+  overflow: hidden;
+  text-align: right;
+  padding-left: 5px;
+  padding-right: 5px; }
+  .topnews .description p {
+    margin-bottom: 5px; }
+
+.videonews video {
+  width: 33%;
+  height: auto;
+  margin-right: 85px; }
+
+.videonews span {
+  display: block;
+  text-align: center; }
 
 /*# sourceMappingURL=../../maps/pages/home/styles.css.map */
