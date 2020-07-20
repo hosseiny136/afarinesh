@@ -137,6 +137,63 @@
 
 /*# sourceMappingURL=../../maps/pages/archive/styles.css.map */
 
+{"version":3,"file":"../../../pages/article/styles.css","sources":["pages/article/styles.scss","../scss/_variables.scss"],"sourcesContent":["@import '../../../scss/variables';\r\n.theme2{\r\n  background-color: #f8f8f8;\r\n  border: 0 solid #e0e0e0;\r\n  border-width: 1px;\r\n  margin-right: 50px;\r\n  margin-top: 10px;\r\n  padding: 5px;\r\n    \r\n}\r\n.article-body{\r\n  .subtitle{\r\n    font-size: 12px;\r\n    text-align: justify;\r\n    border-left-width: 0px;\r\n    border-right-width: 0px;\r\n    border-top-width: 1px;\r\n    border-bottom-width: 1px;\r\n    padding: 8pt;\r\n    margin-right: 5px;\r\n  }\r\n  img{\r\n    text-align:center;\r\n    width:100%;\r\n    height:auto;\r\n  }\r\n}\r\n.suggestion-news{\r\n  span{\r\n    display:block;\r\n  }\r\n  .item{\r\n    color:white;\r\n    border:1px solid black;\r\n    height:213px;\r\n    margin-left:20px;\r\n    margin-right: 39px;\r\n    margin-top: 10px;\r\n    margin-bottom: 10px;\r\n  }\r\n  .titleitem{\r\n    margin: 63px;\r\n  }\r\n  .siasi{\r\n    background: url('../../assets/img/siasi.jpg') no-repeat ;\r\n  }\r\n  .ejtemaee{\r\n    background: url('../../assets/img/ejtemaee.jpg') no-repeat;\r\n  }\r\n  .dateitem{\r\n    color:white;\r\n    text-align:left;\r\n  }\r\n  .lable{\r\n    background-color:$red;\r\n    position: absolute;\r\n    color:white;\r\n    left: 0;\r\n  }\r\n}","$red:#d71a21;\r\n$light-gray:#e7e7e9;\r\n$blue:#1b1464;\r\n$gray:#949599;\r\n$border-color:#C0C0C0;\r\n$dark-gray:#dcdddf;\r\n$light-red:#ff7560;\r\n$gray-slide:#929292;\r\n$gray_active:#a2a3a7;\r\n"],"names":[],"mappings":"AACA,AAAA,OAAO,CAAA;EACL,gBAAgB,EAAE,OAAO;EACzB,MAAM,EAAE,eAAe;EACvB,YAAY,EAAE,GAAG;EACjB,YAAY,EAAE,IAAI;EAClB,UAAU,EAAE,IAAI;EAChB,OAAO,EAAE,GAAG,GAEb;;AACD,AACE,aADW,CACX,SAAS,CAAA;EACP,SAAS,EAAE,IAAI;EACf,UAAU,EAAE,OAAO;EACnB,iBAAiB,EAAE,GAAG;EACtB,kBAAkB,EAAE,GAAG;EACvB,gBAAgB,EAAE,GAAG;EACrB,mBAAmB,EAAE,GAAG;EACxB,OAAO,EAAE,GAAG;EACZ,YAAY,EAAE,GAAG,GAClB;;AAVH,AAWE,aAXW,CAWX,GAAG,CAAA;EACD,UAAU,EAAC,MAAM;EACjB,KAAK,EAAC,IAAI;EACV,MAAM,EAAC,IAAI,GACZ;;AAEH,AACE,gBADc,CACd,IAAI,CAAA;EACF,OAAO,EAAC,KAAK,GACd;;AAHH,AAIE,gBAJc,CAId,KAAK,CAAA;EACH,KAAK,EAAC,KAAK;EACX,MAAM,EAAC,eAAe;EACtB,MAAM,EAAC,KAAK;EACZ,WAAW,EAAC,IAAI;EAChB,YAAY,EAAE,IAAI;EAClB,UAAU,EAAE,IAAI;EAChB,aAAa,EAAE,IAAI,GACpB;;AAZH,AAaE,gBAbc,CAad,UAAU,CAAA;EACR,MAAM,EAAE,IAAI,GACb;;AAfH,AAgBE,gBAhBc,CAgBd,MAAM,CAAA;EACJ,UAAU,EAAE,iCAAiC,CAAC,SAAS,GACxD;;AAlBH,AAmBE,gBAnBc,CAmBd,SAAS,CAAA;EACP,UAAU,EAAE,oCAAoC,CAAC,SAAS,GAC3D;;AArBH,AAsBE,gBAtBc,CAsBd,SAAS,CAAA;EACP,KAAK,EAAC,KAAK;EACX,UAAU,EAAC,IAAI,GAChB;;AAzBH,AA0BE,gBA1Bc,CA0Bd,MAAM,CAAA;EACJ,gBAAgB,ECtDf,OAAO;EDuDR,QAAQ,EAAE,QAAQ;EAClB,KAAK,EAAC,KAAK;EACX,IAAI,EAAE,CAAC,GACR"}
+.theme2 {
+  background-color: #f8f8f8;
+  border: 0 solid #e0e0e0;
+  border-width: 1px;
+  margin-right: 50px;
+  margin-top: 10px;
+  padding: 5px; }
+
+.article-body .subtitle {
+  font-size: 12px;
+  text-align: justify;
+  border-left-width: 0px;
+  border-right-width: 0px;
+  border-top-width: 1px;
+  border-bottom-width: 1px;
+  padding: 8pt;
+  margin-right: 5px; }
+
+.article-body img {
+  text-align: center;
+  width: 100%;
+  height: auto; }
+
+.suggestion-news span {
+  display: block; }
+
+.suggestion-news .item {
+  color: white;
+  border: 1px solid black;
+  height: 213px;
+  margin-left: 20px;
+  margin-right: 39px;
+  margin-top: 10px;
+  margin-bottom: 10px; }
+
+.suggestion-news .titleitem {
+  margin: 63px; }
+
+.suggestion-news .siasi {
+  background: url("../../assets/img/siasi.jpg") no-repeat; }
+
+.suggestion-news .ejtemaee {
+  background: url("../../assets/img/ejtemaee.jpg") no-repeat; }
+
+.suggestion-news .dateitem {
+  color: white;
+  text-align: left; }
+
+.suggestion-news .lable {
+  background-color: #d71a21;
+  position: absolute;
+  color: white;
+  left: 0; }
+
+/*# sourceMappingURL=../../maps/pages/article/styles.css.map */
+
 {"version":3,"names":[],"mappings":"","sources":["pages/contactus/styles.scss"],"sourcesContent":[""],"file":"../../../pages/contactus/styles.css"}
 
 /*# sourceMappingURL=../../maps/pages/contactus/styles.css.map */

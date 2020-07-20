@@ -11,6 +11,12 @@
   font-weight: normal;
   src: url('../fonts/fontAwesome/fontawesome-webfont.ttf') format('truetype');
 }
+@font-face {
+  font-family:shabnam;
+  font-style: normal;
+  font-weight: normal;
+  src: url('../fonts/Shabnam-FD.woff');
+}
 body{
   direction:rtl;
   font-family:'Nassim', Tahoma, serif;
@@ -19,7 +25,7 @@ body{
 .red-color{
   color:$red;
 }
-.title-color{
+.text-color{
   color:$blue;
 }
 .text-title {
@@ -46,8 +52,19 @@ body{
     line-height: 24px;
     text-align: center;
   }
+  &_24 {
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 24px;
+    text-align: right;
+  }
 }
 .text-p {
+  &_11 {
+    font-size: 11px;
+    font-weight:normal;
+
+  }
   &_13 {
     font-size: 13px;
     font-weight: 300;
@@ -61,9 +78,13 @@ body{
 
  
 }
+.Mrauto{
+  margin-right: auto;
+}
 .title-color{
   color:$red;
 }
+
 .flex {
   display: flex;
 }
@@ -124,6 +145,9 @@ li{
 }
 .padd5{
   padding:5px;
+}
+.padd10{
+  padding:10px;
 }
 .paddlr15{
   padding-left:0px;

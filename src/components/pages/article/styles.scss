@@ -1,0 +1,60 @@
+@import '../../../scss/variables';
+.theme2{
+  background-color: #f8f8f8;
+  border: 0 solid #e0e0e0;
+  border-width: 1px;
+  margin-right: 50px;
+  margin-top: 10px;
+  padding: 5px;
+    
+}
+.article-body{
+  .subtitle{
+    font-size: 12px;
+    text-align: justify;
+    border-left-width: 0px;
+    border-right-width: 0px;
+    border-top-width: 1px;
+    border-bottom-width: 1px;
+    padding: 8pt;
+    margin-right: 5px;
+  }
+  img{
+    text-align:center;
+    width:100%;
+    height:auto;
+  }
+}
+.suggestion-news{
+  span{
+    display:block;
+  }
+  .item{
+    color:white;
+    border:1px solid black;
+    height:213px;
+    margin-left:20px;
+    margin-right: 39px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  .titleitem{
+    margin: 63px;
+  }
+  .siasi{
+    background: url('../../assets/img/siasi.jpg') no-repeat ;
+  }
+  .ejtemaee{
+    background: url('../../assets/img/ejtemaee.jpg') no-repeat;
+  }
+  .dateitem{
+    color:white;
+    text-align:left;
+  }
+  .lable{
+    background-color:$red;
+    position: absolute;
+    color:white;
+    left: 0;
+  }
+}

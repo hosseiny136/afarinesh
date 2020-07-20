@@ -4,7 +4,17 @@ include ../../mixins/_index.pug
     .form-group.row
       .col.col-4
         span.frm_label از تاريخ:
-        input.text(type='text', name='', value='1384/01/01')
+        input#date_input_10(type='text')
+        img#date_btn_10(src='../assets/img/cal.png', style='vertical-align: top;')
+        //- script(type='text/javascript').
+        //-   Calendar.setup({
+        //-   inputField  : "date_input_10",   // id of the input field
+        //-   button      : "date_btn_10",   // trigger for the calendar (button ID)
+        //-   ifFormat    : "%Y/%m/%d",       // format of the input field
+        //-   dateType	: 'jalali',
+        //-   showOthers	: true,
+        //-   weekNumbers : true
+        //-   });
       .col.col-4
         span.frm_label تا تاريخ:
         input.text(type='text', name='', value='1399/04/15')
