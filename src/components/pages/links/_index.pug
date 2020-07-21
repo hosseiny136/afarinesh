@@ -1,0 +1,50 @@
+.container
+  .row
+    .col.col-9
+      .title-link رسانه های آنلاین
+      .flex
+        each i in [1,2,3,4,5]
+          .item.width20
+            -var info1=["عصرايران","عصرايران2","عصرایران/عربی","سواد زندگی","عصرخبر","فردانیوز","پارسیا","اعتدال","موبنا","تابنا","تیتر شهر","جیب نیوز","انتخاب","آخرین","آفتاب","جهان","الف","تیک","بلدیه","فرارو","روز نو","بانکی","پرشیا دایجست","زیست نیوز","خرداد نیوز"]
+            each n in info1
+              .linkItem
+                a.link(href='#', target='_blank', rel='nofollow')= n
+    .col.col-3 
+      .title-link مطبوعات
+      .flex
+        .item.width50
+          #press.carousel.slide(data-interval='false', data-wrap='false')
+            .carousel-inner
+              .carousel-item.active
+                  -var info1=["عصرايران","عصرايران2","عصرایران/عربی","سواد زندگی","عصرخبر","فردانیوز","پارسیا","اعتدال","موبنا","تابنا","تیتر شهر","جیب نیوز","انتخاب","آخرین","آفتاب","جهان","الف","تیک","بلدیه","فرارو","روز نو","بانکی","پرشیا دایجست","زیست نیوز","خرداد نیوز"]
+                    each n in info1
+                      .linkItem
+                        a.link(href='#', target='_blank', rel='nofollow')= n  
+              .carousel-item
+                  -var info1=["عصرايران","عصرايران2","عصرایران/عربی","سواد زندگی","عصرخبر","فردانیوز","پارسیا","اعتدال","موبنا","تابنا","تیتر شهر","جیب نیوز","انتخاب","آخرین","آفتاب","جهان","الف","تیک","بلدیه","فرارو","روز نو","بانکی","پرشیا دایجست","زیست نیوز","خرداد نیوز"]
+                    each n in info1
+                      .linkItem
+                        a.link(href='#', target='_blank', rel='nofollow')= n
+          .link_next_prev.flex
+            a.left.carousel-control.link_prev(href='#press', data-slide='prev')
+              span(aria-hidden="true").carousel-control-prev-icon 
+            a.right.carousel-control.link_next(href='#press', data-slide='next')
+              span(aria-hidden="true").carousel-control-next-icon
+        .item.width50
+          -var info1=["عصرايران","عصرايران2","عصرایران/عربی","سواد زندگی","عصرخبر","فردانیوز","پارسیا","اعتدال","موبنا","تابنا","تیتر شهر","جیب نیوز","انتخاب","آخرین","آفتاب","جهان","الف","تیک","بلدیه","فرارو","روز نو","بانکی","پرشیا دایجست","زیست نیوز","خرداد نیوز"]
+          each n in info1
+            .linkItem
+              a.link(href='#', target='_blank', rel='nofollow')= n
+//- script
+//-   function checkitem()  
+//-   {
+//-   var $this = $('#myCarousel');
+//-   if ($('.carousel-inner .item:first').hasClass('active')) {
+//-   $this.children('.left.carousel-control').hide();
+//-   } else if ($('.carousel-inner .item:last').hasClass('active')) {
+//-   $this.children('.right.carousel-control').hide();
+//-   } else {
+//-   $this.children('.carousel-control').show();
+//-   }
+//-   }    
+//-   $('#myCarousel').on('slid', '', checkitem);

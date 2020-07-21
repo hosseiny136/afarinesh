@@ -76,6 +76,12 @@ body {
 .title-color {
   color: #d71a21; }
 
+.width50 {
+  width: 50%; }
+
+.width20 {
+  width: 20%; }
+
 .flex {
   display: flex; }
 

@@ -1,0 +1,15 @@
+include ../../mixins/_index.pug
+.topcatnews.flex.borderAll.around5.padd5
+  .catnews-inner.flex.rCol
+    .cattitle
+      span بررسی آثار ایوان کلیما-۹
+      h2.text-title_21 قصه سفرهای خطرناک ایوان کلیما در قرن دیوانه/زندگی با ترس و امید
+    .catdescription.text-p_12
+      p کتاب «سفرهای خطرناک من» شامل داستان‌های کوتاهی از دوران کودکی ایوان کلیما از اسارت در بند نازی‌ها و سپس کمونیست‌ها است و شرح مطالبش را می‌توان در کتاب «قرن دیوانه من» این نویسنده پیدا کرد. کتاب «سفرهای خطرناک من» شامل داستان هایی از دوران کودکی ایوان کلیما از اسارت در بند نازی ها و سپس کمونیست ها است و شرح مطالبش را میتوان در کتاب «قرن دیوانه من» این نویسنده پیدا کرد.
+  .imgcatnews
+    img(src="../assets/img/catimg.jpg")
++mainCardTemplate("اخبار فرهنگ و هنر","art-news")
+  .row
+    each val in [1, 2, 3,4]
+      .col.col-12.padd5.Mtop10
+        include ../includes/catcard
