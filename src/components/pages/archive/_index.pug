@@ -24,8 +24,9 @@ include ../../mixins/_index.pug
 +formTemplate("آرشیو روزنامه آفرینش","archive")
   form(method='POST',action='/archive')   
     .form-group.row
-      .col.col-6    
+      .col.col-4    
         span.frm_label تاريخ:
         input.text(type='text', name='', value='1384/01/01')
-      .col.col-6
+      .col.col-4 
+      .col.col-4
         input(type='submit', value='جستجو') 

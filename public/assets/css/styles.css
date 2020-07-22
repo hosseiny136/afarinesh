@@ -162,7 +162,7 @@
 
 /*# sourceMappingURL=../maps/sidebar/styles.css.map */
 
-{"version":3,"file":"../../../pages/archive/styles.css","sources":["pages/archive/styles.scss"],"sourcesContent":[".archive{\r\n  .formbody{\r\n      background-color: #ececec;\r\n      padding:50px;\r\n    }\r\n \r\n}\r\n"],"names":[],"mappings":"AAAA,AACE,QADM,CACN,SAAS,CAAA;EACL,gBAAgB,EAAE,OAAO;EACzB,OAAO,EAAC,IAAI,GACb"}
+{"version":3,"file":"../../../pages/archive/styles.css","sources":["pages/archive/styles.scss"],"sourcesContent":[".archive{\r\n\r\n  .formbody{\r\n      background-color: #ececec;\r\n      padding:50px;\r\n    }\r\n \r\n}\r\n"],"names":[],"mappings":"AAAA,AAEE,QAFM,CAEN,SAAS,CAAA;EACL,gBAAgB,EAAE,OAAO;EACzB,OAAO,EAAC,IAAI,GACb"}
 .archive .formbody {
   background-color: #ececec;
   padding: 50px; }
@@ -241,7 +241,29 @@
 
 /*# sourceMappingURL=../../maps/pages/category/styles.css.map */
 
-{"version":3,"names":[],"mappings":"","sources":["pages/contactus/styles.scss"],"sourcesContent":[""],"file":"../../../pages/contactus/styles.css"}
+{"version":3,"file":"../../../pages/contactus/styles.css","sources":["pages/contactus/styles.scss"],"sourcesContent":[".btn-default{\r\n    color: #333333;\r\n    background-color: #ffffff;\r\n    border-color: #cccccc;\r\n    margin-right: 27%;\r\n}\r\n.form-group{margin-bottom: 3px;}\r\n.form-image{\r\n  background-color: #FFFFFF;\r\n  border: 1px solid #CCCCCC;\r\n  border-radius: 4px;\r\n  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset;\r\n  color: #555555;\r\n  display: block;\r\n  font-size: 14px;\r\n  height: 24px;\r\n  line-height: 1.42857;\r\n  transition: border-color 0.15s ease-in-out 0s, box-shadow 0.15s ease-in-out 0s;\r\n  margin-bottom: 5px;\r\n  width: 56%;\r\n}"],"names":[],"mappings":"AAAA,AAAA,YAAY,CAAA;EACR,KAAK,EAAE,OAAO;EACd,gBAAgB,EAAE,OAAO;EACzB,YAAY,EAAE,OAAO;EACrB,YAAY,EAAE,GAAG,GACpB;;AACD,AAAA,WAAW,CAAA;EAAC,aAAa,EAAE,GAAG,GAAG;;AACjC,AAAA,WAAW,CAAA;EACT,gBAAgB,EAAE,OAAO;EACzB,MAAM,EAAE,iBAAiB;EACzB,aAAa,EAAE,GAAG;EAClB,UAAU,EAAE,CAAC,CAAC,GAAG,CAAC,GAAG,CAAC,oBAAoB,CAAC,KAAK;EAChD,KAAK,EAAE,OAAO;EACd,OAAO,EAAE,KAAK;EACd,SAAS,EAAE,IAAI;EACf,MAAM,EAAE,IAAI;EACZ,WAAW,EAAE,OAAO;EACpB,UAAU,EAAE,kEAAkE;EAC9E,aAAa,EAAE,GAAG;EAClB,KAAK,EAAE,GAAG,GACX"}
+.btn-default {
+  color: #333333;
+  background-color: #ffffff;
+  border-color: #cccccc;
+  margin-right: 27%; }
+
+.form-group {
+  margin-bottom: 3px; }
+
+.form-image {
+  background-color: #FFFFFF;
+  border: 1px solid #CCCCCC;
+  border-radius: 4px;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset;
+  color: #555555;
+  display: block;
+  font-size: 14px;
+  height: 24px;
+  line-height: 1.42857;
+  transition: border-color 0.15s ease-in-out 0s, box-shadow 0.15s ease-in-out 0s;
+  margin-bottom: 5px;
+  width: 56%; }
 
 /*# sourceMappingURL=../../maps/pages/contactus/styles.css.map */
 

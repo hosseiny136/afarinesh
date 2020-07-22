@@ -1,37 +1,38 @@
 include ../../mixins/_index.pug
 +formTemplate("اطلاعات تماس","")
-  .contact-info
+  .contact-info.padd10
     .email
-      span :ایمیل
-      span info@afarinesh-daily.com
+      span ایمیل 
+      span.text-color info@afarinesh-daily.com
     .tel
-      span :تلفن
-      span 02188890492-02188890492
+      span تلفن 
+      span.text-color 02188890492-02188890492
     .address
-      span :آدرس
-      span تهران-خیابان کریم خان- خیابان ویلا- کوچه افشین-شماره 27
+      span آدرس 
+      span.text-color تهران-خیابان کریم خان- خیابان ویلا- کوچه افشین-شماره 27
 +formTemplate("ارسال پیام","")
-  .contact-form
+  .contact-form.padd20
     form(method='POST',action='/contact-us')
       .form-group.row
-        label.col-sm-2.col-form-label(for='') نام
-        input.col-sm-8.form-control(type='text', placeholder='')
+        label.col-sm-3.col-xs-12.col-form-label(for='') نام :
+        input.col-sm-8.col-xs-12.form-control(type='text', placeholder='')
       .form-group.row
-        label.col-sm-2.col-form-label(for='') ایمیل
-        input.col-sm-8.form-control(type='email', placeholder='')
+        label.col-sm-3.col-xs-12.col-form-label(for='') *ایمیل :
+        input.col-sm-8.col-xs-12.form-control(type='email', placeholder='')
       .form-group.row
-        label.col-sm-2.col-form-label(for='') گیرنده
-        select.col-sm-8.form-control
+        label.col-sm-3.col-xs-12.col-form-label(for='') *گیرنده :
+        select.col-sm-8.col-xs-12.form-control
           option روابط عمومی
           option تبلیغات
       .form-group.row
-        label.col-sm-2.col-form-label(for='') پیغام
-        textarea.col-sm-8.form-control(rows='3')
+        label.col-sm-3.col-xs-12.col-form-label(for='') *پیغام :
+        textarea.col-sm-8.col-xs-12.form-control(rows='3')
       .form-group.row
         .col-sm-3.col-ms-4.col-xs-12.control-label
-          span.frm_label  کد امنیتی:
+          span.frm_label *کد امنیتی:
         .col-sm-3.col-ms-4.col-xs-6.control-label-input
-          img.secimage(src='../assets/img/captcha.png')
+          .form-image
+            img(src='../assets/img/captcha.png')
         .col-sm-2.col-ms-4.col-xs-6.control-label-input
           input.form-control(type='text', name='sec_code', dir='ltr', size='6')
-      button.btn.btn-primary(type='submit') ارسال
+      button.btn.btn-default.text-p_12(type='submit') ارسال
