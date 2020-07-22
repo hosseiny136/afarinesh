@@ -1,8 +1,12 @@
-{"version":3,"file":"../../footer/styles.css","sources":["footer/styles.scss","../scss/_variables.scss"],"sourcesContent":["@import '../../scss/variables';\r\n.mainFooter{\r\n  \r\n  ul{\r\n    padding-right: 0px !important;\r\n  }\r\n  h3{\r\n    \r\n  &:before{\r\n    content: \"\";\r\n    width: 5px;\r\n    height: 12px;\r\n    background-color: #d71a21;\r\n    position: absolute;\r\n    top: 10px;\r\n    right: 5px;\r\n  }\r\n}\r\n  .archive-news{\r\n    li{\r\n      flex: 0 0 25%;\r\n      margin-bottom:3px;\r\n      padding-right: 3px;\r\n    }\r\n    a{\r\n      border-radius: 6px;\r\n      height: 89px;\r\n      background: #ff7560 no-repeat top center;\r\n      color: white;\r\n      display: block;\r\n    }\r\n  }\r\n \r\n}\r\n","$red:#d71a21;\r\n$light-gray:#e7e7e9;\r\n$blue:#1b1464;\r\n$gray:#949599;\r\n$border-color:#C0C0C0;\r\n$dark-gray:#dcdddf;\r\n$light-red:#ff7560;\r\n$gray-slide:#929292;\r\n$gray_active:#a2a3a7;\r\n"],"names":[],"mappings":"AACA,AAEE,WAFS,CAET,EAAE,CAAA;EACA,aAAa,EAAE,cAAc,GAC9B;;AAJH,AAOE,WAPS,CAKT,EAAE,AAED,OAAO,CAAA;EACN,OAAO,EAAE,EAAE;EACX,KAAK,EAAE,GAAG;EACV,MAAM,EAAE,IAAI;EACZ,gBAAgB,EAAE,OAAO;EACzB,QAAQ,EAAE,QAAQ;EAClB,GAAG,EAAE,IAAI;EACT,KAAK,EAAE,GAAG,GACX;;AAfH,AAkBI,WAlBO,CAiBT,aAAa,CACX,EAAE,CAAA;EACA,IAAI,EAAE,OAAO;EACb,aAAa,EAAC,GAAG;EACjB,aAAa,EAAE,GAAG,GACnB;;AAtBL,AAuBI,WAvBO,CAiBT,aAAa,CAMX,CAAC,CAAA;EACC,aAAa,EAAE,GAAG;EAClB,MAAM,EAAE,IAAI;EACZ,UAAU,EAAE,4BAA4B;EACxC,KAAK,EAAE,KAAK;EACZ,OAAO,EAAE,KAAK,GACf"}
+{"version":3,"file":"../../footer/styles.css","sources":["footer/styles.scss","../scss/_variables.scss"],"sourcesContent":["@import '../../scss/variables';\r\n.mainFooter{\r\n  ul{\r\n    padding-right: 0px !important;\r\n  }\r\n  .mostvisited-news_inner , .last-news_inner{\r\n    li{\r\n      display:block;\r\n      margin-bottom: 10px;\r\n  }\r\n}\r\n  .title{\r\n    &:before{\r\n      content: \"\";\r\n      width: 5px;\r\n      height: 12px;\r\n      background-color: #d71a21;\r\n      position: absolute;\r\n      top: 10px;\r\n      right: 5px;\r\n  }\r\n}\r\n  .archive-news{\r\n    li{\r\n      flex: 0 0 25%;\r\n      margin-bottom:3px;\r\n      padding-right: 3px;\r\n    }\r\n    a{\r\n      border-radius: 6px;\r\n      height: 80px;\r\n      background: #ff7560 no-repeat top center;\r\n      color: white;\r\n      display: block;\r\n      // background-image: url('../../assets/img/pdf.png');\r\n      // background-position: center center;\r\n      // background-repeat: no-repeat;\r\n      img{\r\n        width:40px;\r\n        height:40px;\r\n      }\r\n      \r\n    }\r\n  }\r\n \r\n}\r\n","$red:#d71a21;\r\n$light-gray:#e7e7e9;\r\n$blue:#1b1464;\r\n$gray:#949599;\r\n$border-color:#C0C0C0;\r\n$dark-gray:#dcdddf;\r\n$light-red:#ff7560;\r\n$gray-slide:#929292;\r\n$gray_active:#a2a3a7;\r\n"],"names":[],"mappings":"AACA,AACE,WADS,CACT,EAAE,CAAA;EACA,aAAa,EAAE,cAAc,GAC9B;;AAHH,AAKI,WALO,CAIT,uBAAuB,CACrB,EAAE,EALN,WAAW,CAIiB,gBAAgB,CACxC,EAAE,CAAA;EACA,OAAO,EAAC,KAAK;EACb,aAAa,EAAE,IAAI,GACtB;;AARH,AAWI,WAXO,CAUT,MAAM,AACH,OAAO,CAAA;EACN,OAAO,EAAE,EAAE;EACX,KAAK,EAAE,GAAG;EACV,MAAM,EAAE,IAAI;EACZ,gBAAgB,EAAE,OAAO;EACzB,QAAQ,EAAE,QAAQ;EAClB,GAAG,EAAE,IAAI;EACT,KAAK,EAAE,GAAG,GACb;;AAnBH,AAsBI,WAtBO,CAqBT,aAAa,CACX,EAAE,CAAA;EACA,IAAI,EAAE,OAAO;EACb,aAAa,EAAC,GAAG;EACjB,aAAa,EAAE,GAAG,GACnB;;AA1BL,AA2BI,WA3BO,CAqBT,aAAa,CAMX,CAAC,CAAA;EACC,aAAa,EAAE,GAAG;EAClB,MAAM,EAAE,IAAI;EACZ,UAAU,EAAE,4BAA4B;EACxC,KAAK,EAAE,KAAK;EACZ,OAAO,EAAE,KAAK,GASf;EAzCL,AAoCM,WApCK,CAqBT,aAAa,CAMX,CAAC,CASC,GAAG,CAAA;IACD,KAAK,EAAC,IAAI;IACV,MAAM,EAAC,IAAI,GACZ"}
 .mainFooter ul {
   padding-right: 0px !important; }
 
-.mainFooter h3:before {
+.mainFooter .mostvisited-news_inner li, .mainFooter .last-news_inner li {
+  display: block;
+  margin-bottom: 10px; }
+
+.mainFooter .title:before {
   content: "";
   width: 5px;
   height: 12px;
@@ -18,10 +22,13 @@
 
 .mainFooter .archive-news a {
   border-radius: 6px;
-  height: 89px;
+  height: 80px;
   background: #ff7560 no-repeat top center;
   color: white;
   display: block; }
+  .mainFooter .archive-news a img {
+    width: 40px;
+    height: 40px; }
 
 /*# sourceMappingURL=../maps/footer/styles.css.map */
 
@@ -95,7 +102,7 @@
 
 /*# sourceMappingURL=../maps/header/styles.css.map */
 
-{"version":3,"file":"../../sidebar/styles.css","sources":["sidebar/styles.scss","../scss/_variables.scss"],"sourcesContent":["@import '../../scss/variables';\r\n.leftSidebar{\r\n  .note-news{\r\n    ul{\r\n      padding-right: 14px;\r\n      padding-left: 10px;\r\n    }\r\n    li{\r\n      position: relative;\r\n      font-size:12px;\r\n      padding-right:7px;\r\n      &:before{\r\n        width: 10px;\r\n        height: 10px;\r\n        top:4px;\r\n        right:-8px;\r\n      }\r\n    }\r\n  }\r\n  .carousel-item{\r\n    img{\r\n      width:100%;\r\n    }\r\n  }\r\n\r\n  .aslider{\r\n    .carousel-indicators {\r\n      position:relative;\r\n      top:5px;\r\n      li{\r\n        border-radius: 50%;\r\n        width:18px;\r\n        height:18px;\r\n        border:1px solid $gray-slide !important;\r\n        background-color: white;\r\n      &.active\r\n        {\r\n          background-color: $gray_active;\r\n        }\r\n      }\r\n    }\r\n  }\r\n  .pdfSlider{\r\n    .carousel-indicators {\r\n      position:relative;\r\n      li{\r\n        text-indent:0\r\n      }\r\n    }\r\n  }\r\n\r\n}","$red:#d71a21;\r\n$light-gray:#e7e7e9;\r\n$blue:#1b1464;\r\n$gray:#949599;\r\n$border-color:#C0C0C0;\r\n$dark-gray:#dcdddf;\r\n$light-red:#ff7560;\r\n$gray-slide:#929292;\r\n$gray_active:#a2a3a7;\r\n"],"names":[],"mappings":"AACA,AAEI,YAFQ,CACV,UAAU,CACR,EAAE,CAAA;EACA,aAAa,EAAE,IAAI;EACnB,YAAY,EAAE,IAAI,GACnB;;AALL,AAMI,YANQ,CACV,UAAU,CAKR,EAAE,CAAA;EACA,QAAQ,EAAE,QAAQ;EAClB,SAAS,EAAC,IAAI;EACd,aAAa,EAAC,GAAG,GAOlB;EAhBL,AAUM,YAVM,CACV,UAAU,CAKR,EAAE,AAIC,OAAO,CAAA;IACN,KAAK,EAAE,IAAI;IACX,MAAM,EAAE,IAAI;IACZ,GAAG,EAAC,GAAG;IACP,KAAK,EAAC,IAAI,GACX;;AAfP,AAmBI,YAnBQ,CAkBV,cAAc,CACZ,GAAG,CAAA;EACD,KAAK,EAAC,IAAI,GACX;;AArBL,AAyBI,YAzBQ,CAwBV,QAAQ,CACN,oBAAoB,CAAC;EACnB,QAAQ,EAAC,QAAQ;EACjB,GAAG,EAAC,GAAG,GAYR;EAvCL,AA4BM,YA5BM,CAwBV,QAAQ,CACN,oBAAoB,CAGlB,EAAE,CAAA;IACA,aAAa,EAAE,GAAG;IAClB,KAAK,EAAC,IAAI;IACV,MAAM,EAAC,IAAI;IACX,MAAM,EAAC,GAAG,CAAC,KAAK,CC1BZ,OAAO,CD0BkB,UAAU;IACvC,gBAAgB,EAAE,KAAK,GAKxB;IAtCP,AAkCM,YAlCM,CAwBV,QAAQ,CACN,oBAAoB,CAGlB,EAAE,AAMD,OAAO,CACN;MACE,gBAAgB,EC7Bb,OAAO,GD8BX;;AArCT,AA0CI,YA1CQ,CAyCV,UAAU,CACR,oBAAoB,CAAC;EACnB,QAAQ,EAAC,QAAQ,GAIlB;EA/CL,AA4CM,YA5CM,CAyCV,UAAU,CACR,oBAAoB,CAElB,EAAE,CAAA;IACA,WAAW,EAAC,CACd,GAAC"}
+{"version":3,"file":"../../sidebar/styles.css","sources":["sidebar/styles.scss","../scss/_variables.scss"],"sourcesContent":["@import '../../scss/variables';\r\n.leftSidebar{\r\n  .note-news{\r\n    ul{\r\n      padding-right: 14px;\r\n      padding-left: 10px;\r\n    }\r\n    li{\r\n      position: relative;\r\n      font-size:12px;\r\n      padding-right:7px;\r\n      display: block;\r\n      margin-top: 5px;\r\n      a{\r\n        color:black;\r\n      }\r\n      &:before{\r\n        width: 10px;\r\n        height: 10px;\r\n        top:4px;\r\n        right:-8px;\r\n      }\r\n    }\r\n  }\r\n  \r\n  .aslider{\r\n    .carousel-item{\r\n      img{\r\n        width:100%;\r\n      }\r\n    }\r\n    .carousel-indicators {\r\n      position:relative;\r\n      top:5px;\r\n      li{\r\n        border-radius: 50%;\r\n        width:18px;\r\n        height:18px;\r\n        border:1px solid $gray-slide !important;\r\n        background-color: white;\r\n      &.active\r\n        {\r\n          background-color: $gray_active;\r\n        }\r\n      }\r\n    }\r\n  }\r\n  .pdfSlider{\r\n    .pdf{\r\n      width: 15%;\r\n      margin-left: 5px;\r\n    }\r\n    .carousel-indicators {\r\n      display: block;\r\n      top: 35px;\r\n      right: -27px;\r\n      li{\r\n        text-indent:0;\r\n        opacity:100;\r\n        text-align: center;\r\n     &.active\r\n     {\r\n      border-bottom: 2px solid #ffa200;\r\n     }\r\n      }\r\n    }\r\n  }\r\n\r\n}","$red:#d71a21;\r\n$light-gray:#e7e7e9;\r\n$blue:#1b1464;\r\n$gray:#949599;\r\n$border-color:#C0C0C0;\r\n$dark-gray:#dcdddf;\r\n$light-red:#ff7560;\r\n$gray-slide:#929292;\r\n$gray_active:#a2a3a7;\r\n"],"names":[],"mappings":"AACA,AAEI,YAFQ,CACV,UAAU,CACR,EAAE,CAAA;EACA,aAAa,EAAE,IAAI;EACnB,YAAY,EAAE,IAAI,GACnB;;AALL,AAMI,YANQ,CACV,UAAU,CAKR,EAAE,CAAA;EACA,QAAQ,EAAE,QAAQ;EAClB,SAAS,EAAC,IAAI;EACd,aAAa,EAAC,GAAG;EACjB,OAAO,EAAE,KAAK;EACd,UAAU,EAAE,GAAG,GAUhB;EArBL,AAYM,YAZM,CACV,UAAU,CAKR,EAAE,CAMA,CAAC,CAAA;IACC,KAAK,EAAC,KAAK,GACZ;EAdP,AAeM,YAfM,CACV,UAAU,CAKR,EAAE,AASC,OAAO,CAAA;IACN,KAAK,EAAE,IAAI;IACX,MAAM,EAAE,IAAI;IACZ,GAAG,EAAC,GAAG;IACP,KAAK,EAAC,IAAI,GACX;;AApBP,AA0BM,YA1BM,CAwBV,QAAQ,CACN,cAAc,CACZ,GAAG,CAAA;EACD,KAAK,EAAC,IAAI,GACX;;AA5BP,AA8BI,YA9BQ,CAwBV,QAAQ,CAMN,oBAAoB,CAAC;EACnB,QAAQ,EAAC,QAAQ;EACjB,GAAG,EAAC,GAAG,GAYR;EA5CL,AAiCM,YAjCM,CAwBV,QAAQ,CAMN,oBAAoB,CAGlB,EAAE,CAAA;IACA,aAAa,EAAE,GAAG;IAClB,KAAK,EAAC,IAAI;IACV,MAAM,EAAC,IAAI;IACX,MAAM,EAAC,GAAG,CAAC,KAAK,CC/BZ,OAAO,CD+BkB,UAAU;IACvC,gBAAgB,EAAE,KAAK,GAKxB;IA3CP,AAuCM,YAvCM,CAwBV,QAAQ,CAMN,oBAAoB,CAGlB,EAAE,AAMD,OAAO,CACN;MACE,gBAAgB,EClCb,OAAO,GDmCX;;AA1CT,AA+CI,YA/CQ,CA8CV,UAAU,CACR,IAAI,CAAA;EACF,KAAK,EAAE,GAAG;EACV,WAAW,EAAE,GAAG,GACjB;;AAlDL,AAmDI,YAnDQ,CA8CV,UAAU,CAKR,oBAAoB,CAAC;EACnB,OAAO,EAAE,KAAK;EACd,GAAG,EAAE,IAAI;EACT,KAAK,EAAE,KAAK,GAUb;EAhEL,AAuDM,YAvDM,CA8CV,UAAU,CAKR,oBAAoB,CAIlB,EAAE,CAAA;IACA,WAAW,EAAC,CAAC;IACb,OAAO,EAAC,GAAG;IACX,UAAU,EAAE,MAAM,GAKnB;IA/DP,AA2DK,YA3DO,CA8CV,UAAU,CAKR,oBAAoB,CAIlB,EAAE,AAIF,OAAO,CACR;MACC,aAAa,EAAE,iBAAiB,GAChC"}
 .leftSidebar .note-news ul {
   padding-right: 14px;
   padding-left: 10px; }
@@ -103,14 +110,18 @@
 .leftSidebar .note-news li {
   position: relative;
   font-size: 12px;
-  padding-right: 7px; }
+  padding-right: 7px;
+  display: block;
+  margin-top: 5px; }
+  .leftSidebar .note-news li a {
+    color: black; }
   .leftSidebar .note-news li:before {
     width: 10px;
     height: 10px;
     top: 4px;
     right: -8px; }
 
-.leftSidebar .carousel-item img {
+.leftSidebar .aslider .carousel-item img {
   width: 100%; }
 
 .leftSidebar .aslider .carousel-indicators {
@@ -125,10 +136,20 @@
     .leftSidebar .aslider .carousel-indicators li.active {
       background-color: #a2a3a7; }
 
+.leftSidebar .pdfSlider .pdf {
+  width: 15%;
+  margin-left: 5px; }
+
 .leftSidebar .pdfSlider .carousel-indicators {
-  position: relative; }
+  display: block;
+  top: 35px;
+  right: -27px; }
   .leftSidebar .pdfSlider .carousel-indicators li {
-    text-indent: 0; }
+    text-indent: 0;
+    opacity: 100;
+    text-align: center; }
+    .leftSidebar .pdfSlider .carousel-indicators li.active {
+      border-bottom: 2px solid #ffa200; }
 
 /*# sourceMappingURL=../maps/sidebar/styles.css.map */
 

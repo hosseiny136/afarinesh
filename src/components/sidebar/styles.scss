@@ -9,6 +9,11 @@
       position: relative;
       font-size:12px;
       padding-right:7px;
+      display: block;
+      margin-top: 5px;
+      a{
+        color:black;
+      }
       &:before{
         width: 10px;
         height: 10px;
@@ -17,13 +22,13 @@
       }
     }
   }
-  .carousel-item{
-    img{
-      width:100%;
-    }
-  }
-
+  
   .aslider{
+    .carousel-item{
+      img{
+        width:100%;
+      }
+    }
     .carousel-indicators {
       position:relative;
       top:5px;
@@ -41,10 +46,22 @@
     }
   }
   .pdfSlider{
+    .pdf{
+      width: 15%;
+      margin-left: 5px;
+    }
     .carousel-indicators {
-      position:relative;
+      display: block;
+      top: 35px;
+      right: -27px;
       li{
-        text-indent:0
+        text-indent:0;
+        opacity:100;
+        text-align: center;
+     &.active
+     {
+      border-bottom: 2px solid #ffa200;
+     }
       }
     }
   }

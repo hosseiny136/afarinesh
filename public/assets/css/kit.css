@@ -70,6 +70,11 @@ body {
   font-weight: 300;
   line-height: 16px; }
 
+.title {
+  font-size: 19px;
+  font-weight: 300;
+  line-height: 24px; }
+
 .Mrauto {
   margin-right: auto; }
 
@@ -136,6 +141,9 @@ li {
 .Mbottom5 {
   margin-bottom: 5px; }
 
+.Mbottom10 {
+  margin-bottom: 10px; }
+
 .Mright10 {
   margin-right: 10px; }
 
@@ -160,10 +168,15 @@ li {
   display: inline-block;
   max-width: 100%; }
 
-.theme .title .square {
+.theme .theme-title {
+  height: 15px;
+  margin-bottom: 5px; }
+
+.theme .title {
   position: relative;
-  padding-right: 24px; }
-  .theme .title .square:before {
+  padding-right: 24px;
+  top: -4px; }
+  .theme .title:before {
     width: 11px;
     height: 11px;
     background-color: #d71a21;

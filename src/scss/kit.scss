@@ -78,6 +78,11 @@ body{
 
  
 }
+.title{
+  font-size: 19px;
+  font-weight: 300;
+  line-height: 24px;
+}
 .Mrauto{
   margin-right: auto;
 }
@@ -145,6 +150,9 @@ li{
 .Mbottom5{
   margin-bottom:5px
 }
+.Mbottom10{
+  margin-bottom:10px
+}
 .Mright10{
   margin-right:10px;
 }
@@ -170,19 +178,22 @@ li{
   max-width: 100%;
 }
 .theme{
+  .theme-title{
+    height:15px;
+    margin-bottom: 5px;
+  }
   .title{
-    .square{
-      position: relative;
-      padding-right:24px;
-      &:before{
-        width: 11px;
-        height: 11px;
-        background-color:$red;
-        bottom:8px;
-        right:8px;
-        
-      }
+    position: relative;
+    padding-right:24px;
+    top: -4px;
+    &:before{
+      width: 11px;
+      height: 11px;
+      background-color:$red;
+      bottom:8px;
+      right:8px;     
     }
+    
   }
 }
 .formtheme{

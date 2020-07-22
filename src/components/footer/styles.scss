@@ -1,19 +1,23 @@
 @import '../../scss/variables';
 .mainFooter{
-  
   ul{
     padding-right: 0px !important;
   }
-  h3{
-    
-  &:before{
-    content: "";
-    width: 5px;
-    height: 12px;
-    background-color: #d71a21;
-    position: absolute;
-    top: 10px;
-    right: 5px;
+  .mostvisited-news_inner , .last-news_inner{
+    li{
+      display:block;
+      margin-bottom: 10px;
+  }
+}
+  .title{
+    &:before{
+      content: "";
+      width: 5px;
+      height: 12px;
+      background-color: #d71a21;
+      position: absolute;
+      top: 10px;
+      right: 5px;
   }
 }
   .archive-news{
@@ -24,10 +28,18 @@
     }
     a{
       border-radius: 6px;
-      height: 89px;
+      height: 80px;
       background: #ff7560 no-repeat top center;
       color: white;
       display: block;
+      // background-image: url('../../assets/img/pdf.png');
+      // background-position: center center;
+      // background-repeat: no-repeat;
+      img{
+        width:40px;
+        height:40px;
+      }
+      
     }
   }
  
