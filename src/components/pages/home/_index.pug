@@ -1,9 +1,9 @@
 // Homepage content
 include ../../mixins/_index.pug
-.topnews.flex.borderAll.around5.padd5
+.topnews.flex.borderAll.around5
   .imgnews
     img(src="../assets/img/item1.jpg")
-  .news-inner.flex.rCol
+  .news-inner.flex.rCol.Mr5
     .title
       h2.text-title_21  صندلی فروشی; سهمیه پنهان دانشگاه ها برای نوکیسگان 
     .description.text-p_12
@@ -32,7 +32,9 @@ include ../../mixins/_index.pug
         include ../includes/card
       .col.col-6.paddrl15.Mtop10
         include ../includes/card
-+mainCardTemplate("ویدئوها","videonews")
+.borderAll.around5.padd5.Mtop10.theme
+  .theme-title.bgtitlecolor.title-color
+    h4.title.square ویدئو ها
   .videonews.flex.padd5
     .item1
       video(poster='../assets/img/video3.jpg')
@@ -40,12 +42,12 @@ include ../../mixins/_index.pug
         source(src='#', type='video/ogg')
       span ویدئو ترامپ
     .item2
-      video(poster='../assets/img/video2.jpg')
+      video(poster='../assets/img/video1.jpg')
         source(src='../assets/video/movie.mp4', type='video/mp4')
         source(src='#', type='video/ogg')
       span ویدئو سیل
     .item3
-      video(poster='../assets/img/video1.jpg')
+      video(poster='../assets/img/video2.jpg')
         source(src='../assets/video/movie.mp4', type='video/mp4')
         source(src='#', type='video/ogg')
       span ویدئو سلامت

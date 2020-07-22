@@ -86,6 +86,9 @@ body{
 .Mrauto{
   margin-right: auto;
 }
+.Mr5{
+  margin-right: 5px;
+}
 .title-color{
   color:$red;
 }
@@ -131,6 +134,12 @@ body{
 }
 .bgredcolor{
   background-color: $red;
+}
+.nBr{
+  border-right:0
+}
+.nBb{
+  border-bottom: 0;
 }
 li{
   list-style: none;

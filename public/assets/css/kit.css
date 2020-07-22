@@ -78,6 +78,9 @@ body {
 .Mrauto {
   margin-right: auto; }
 
+.Mr5 {
+  margin-right: 5px; }
+
 .title-color {
   color: #d71a21; }
 
@@ -123,6 +126,12 @@ body {
 
 .bgredcolor {
   background-color: #d71a21; }
+
+.nBr {
+  border-right: 0; }
+
+.nBb {
+  border-bottom: 0; }
 
 li {
   list-style: none; }

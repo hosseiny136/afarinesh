@@ -10,14 +10,14 @@ footer.mainFooter.borderTp.Mtop10.padd5
 							li صاحب امتیاز: عبدالله جعفرعلی جاسبی
 							li مدیر مسئول:عباس جعفر علی جاسبی
 					.address.text-p_12
-						i.fa.fa-home
+						img(src='/assets/img/home.png')
 						span تهران-خیابان کریم خان- خیابان ویلا- کوچه افشین-شماره 27
 					.email.text-p_12
-						i.fas.fa-envelope-open(aria-hidden="true")
+						img(src='/assets/img/email.png')
 						span info@afarinesh-daily.com
 					.tel.text-p_12
-						i.fa.fa-headphones(aria-hidden="true")
-						span (021 -88890492,021-88890492)
+						img(src='/assets/img/tel.png')
+						span (021 -88890492 , 021-88890492)
 			.col.col-3
 				.last-news
 					div
@@ -41,24 +41,13 @@ footer.mainFooter.borderTp.Mtop10.padd5
 					div
 						h4.title صفحات روزنامه آفرینش
 					ul.flex.fWrapper
-						li 
-							a.hCenter(href='#')
-								img(src='/assets/img/pdf.png')
-								| صفحه1								
-						li 
-							a(href='#') صفحه2
-						li 
-							a(href='#') صفحه3
-						li 
-							a(href='#') صفحه4
-						li 
-							a(href='#') صفحه5
-						li 
-							a(href='#') صفحه6
-						li 
-							a(href='#') صفحه7
-						li 
-							a(href='#') صفحه8
+						each i in[1,2,3,4,5,6,7,8]
+							li 
+								a(href='#')
+									.archive-pdf.center
+										img(src='/assets/img/pdf.png')
+									| صفحه1
+
 
 						 
 

@@ -32,14 +32,20 @@
       background: #ff7560 no-repeat top center;
       color: white;
       display: block;
-      // background-image: url('../../assets/img/pdf.png');
-      // background-position: center center;
-      // background-repeat: no-repeat;
+      padding-right: 9px;
+      padding-top: 6px;
+      font-size: 13px;
+      line-height: 21px;
+      .archive-pdf{
+        border-radius: 50%;
+        background-color: white;
+        width: 40px;
+        height: 40px;
       img{
-        width:40px;
-        height:40px;
+        width:20px;
+        height:20px;
       }
-      
+    }
     }
   }
  

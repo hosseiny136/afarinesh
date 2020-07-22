@@ -1,4 +1,4 @@
-{"version":3,"file":"../../footer/styles.css","sources":["footer/styles.scss","../scss/_variables.scss"],"sourcesContent":["@import '../../scss/variables';\r\n.mainFooter{\r\n  ul{\r\n    padding-right: 0px !important;\r\n  }\r\n  .mostvisited-news_inner , .last-news_inner{\r\n    li{\r\n      display:block;\r\n      margin-bottom: 10px;\r\n  }\r\n}\r\n  .title{\r\n    &:before{\r\n      content: \"\";\r\n      width: 5px;\r\n      height: 12px;\r\n      background-color: #d71a21;\r\n      position: absolute;\r\n      top: 10px;\r\n      right: 5px;\r\n  }\r\n}\r\n  .archive-news{\r\n    li{\r\n      flex: 0 0 25%;\r\n      margin-bottom:3px;\r\n      padding-right: 3px;\r\n    }\r\n    a{\r\n      border-radius: 6px;\r\n      height: 80px;\r\n      background: #ff7560 no-repeat top center;\r\n      color: white;\r\n      display: block;\r\n      // background-image: url('../../assets/img/pdf.png');\r\n      // background-position: center center;\r\n      // background-repeat: no-repeat;\r\n      img{\r\n        width:40px;\r\n        height:40px;\r\n      }\r\n      \r\n    }\r\n  }\r\n \r\n}\r\n","$red:#d71a21;\r\n$light-gray:#e7e7e9;\r\n$blue:#1b1464;\r\n$gray:#949599;\r\n$border-color:#C0C0C0;\r\n$dark-gray:#dcdddf;\r\n$light-red:#ff7560;\r\n$gray-slide:#929292;\r\n$gray_active:#a2a3a7;\r\n"],"names":[],"mappings":"AACA,AACE,WADS,CACT,EAAE,CAAA;EACA,aAAa,EAAE,cAAc,GAC9B;;AAHH,AAKI,WALO,CAIT,uBAAuB,CACrB,EAAE,EALN,WAAW,CAIiB,gBAAgB,CACxC,EAAE,CAAA;EACA,OAAO,EAAC,KAAK;EACb,aAAa,EAAE,IAAI,GACtB;;AARH,AAWI,WAXO,CAUT,MAAM,AACH,OAAO,CAAA;EACN,OAAO,EAAE,EAAE;EACX,KAAK,EAAE,GAAG;EACV,MAAM,EAAE,IAAI;EACZ,gBAAgB,EAAE,OAAO;EACzB,QAAQ,EAAE,QAAQ;EAClB,GAAG,EAAE,IAAI;EACT,KAAK,EAAE,GAAG,GACb;;AAnBH,AAsBI,WAtBO,CAqBT,aAAa,CACX,EAAE,CAAA;EACA,IAAI,EAAE,OAAO;EACb,aAAa,EAAC,GAAG;EACjB,aAAa,EAAE,GAAG,GACnB;;AA1BL,AA2BI,WA3BO,CAqBT,aAAa,CAMX,CAAC,CAAA;EACC,aAAa,EAAE,GAAG;EAClB,MAAM,EAAE,IAAI;EACZ,UAAU,EAAE,4BAA4B;EACxC,KAAK,EAAE,KAAK;EACZ,OAAO,EAAE,KAAK,GASf;EAzCL,AAoCM,WApCK,CAqBT,aAAa,CAMX,CAAC,CASC,GAAG,CAAA;IACD,KAAK,EAAC,IAAI;IACV,MAAM,EAAC,IAAI,GACZ"}
+{"version":3,"file":"../../footer/styles.css","sources":["footer/styles.scss","../scss/_variables.scss"],"sourcesContent":["@import '../../scss/variables';\r\n.mainFooter{\r\n  ul{\r\n    padding-right: 0px !important;\r\n  }\r\n  .mostvisited-news_inner , .last-news_inner{\r\n    li{\r\n      display:block;\r\n      margin-bottom: 10px;\r\n  }\r\n}\r\n  .title{\r\n    &:before{\r\n      content: \"\";\r\n      width: 5px;\r\n      height: 12px;\r\n      background-color: #d71a21;\r\n      position: absolute;\r\n      top: 10px;\r\n      right: 5px;\r\n  }\r\n}\r\n  .archive-news{\r\n    li{\r\n      flex: 0 0 25%;\r\n      margin-bottom:3px;\r\n      padding-right: 3px;\r\n    }\r\n    a{\r\n      border-radius: 6px;\r\n      height: 80px;\r\n      background: #ff7560 no-repeat top center;\r\n      color: white;\r\n      display: block;\r\n      padding-right: 9px;\r\n      padding-top: 6px;\r\n      font-size: 13px;\r\n      line-height: 21px;\r\n      .archive-pdf{\r\n        border-radius: 50%;\r\n        background-color: white;\r\n        width: 40px;\r\n        height: 40px;\r\n      img{\r\n        width:20px;\r\n        height:20px;\r\n      }\r\n    }\r\n    }\r\n  }\r\n \r\n}\r\n","$red:#d71a21;\r\n$light-gray:#e7e7e9;\r\n$blue:#1b1464;\r\n$gray:#949599;\r\n$border-color:#C0C0C0;\r\n$dark-gray:#dcdddf;\r\n$light-red:#ff7560;\r\n$gray-slide:#929292;\r\n$gray_active:#a2a3a7;\r\n"],"names":[],"mappings":"AACA,AACE,WADS,CACT,EAAE,CAAA;EACA,aAAa,EAAE,cAAc,GAC9B;;AAHH,AAKI,WALO,CAIT,uBAAuB,CACrB,EAAE,EALN,WAAW,CAIiB,gBAAgB,CACxC,EAAE,CAAA;EACA,OAAO,EAAC,KAAK;EACb,aAAa,EAAE,IAAI,GACtB;;AARH,AAWI,WAXO,CAUT,MAAM,AACH,OAAO,CAAA;EACN,OAAO,EAAE,EAAE;EACX,KAAK,EAAE,GAAG;EACV,MAAM,EAAE,IAAI;EACZ,gBAAgB,EAAE,OAAO;EACzB,QAAQ,EAAE,QAAQ;EAClB,GAAG,EAAE,IAAI;EACT,KAAK,EAAE,GAAG,GACb;;AAnBH,AAsBI,WAtBO,CAqBT,aAAa,CACX,EAAE,CAAA;EACA,IAAI,EAAE,OAAO;EACb,aAAa,EAAC,GAAG;EACjB,aAAa,EAAE,GAAG,GACnB;;AA1BL,AA2BI,WA3BO,CAqBT,aAAa,CAMX,CAAC,CAAA;EACC,aAAa,EAAE,GAAG;EAClB,MAAM,EAAE,IAAI;EACZ,UAAU,EAAE,4BAA4B;EACxC,KAAK,EAAE,KAAK;EACZ,OAAO,EAAE,KAAK;EACd,aAAa,EAAE,GAAG;EAClB,WAAW,EAAE,GAAG;EAChB,SAAS,EAAE,IAAI;EACf,WAAW,EAAE,IAAI,GAWlB;EA/CL,AAqCM,WArCK,CAqBT,aAAa,CAMX,CAAC,CAUC,YAAY,CAAA;IACV,aAAa,EAAE,GAAG;IAClB,gBAAgB,EAAE,KAAK;IACvB,KAAK,EAAE,IAAI;IACX,MAAM,EAAE,IAAI,GAKf;IA9CL,AA0CM,WA1CK,CAqBT,aAAa,CAMX,CAAC,CAUC,YAAY,CAKZ,GAAG,CAAA;MACD,KAAK,EAAC,IAAI;MACV,MAAM,EAAC,IAAI,GACZ"}
 .mainFooter ul {
   padding-right: 0px !important; }
 
@@ -25,10 +25,19 @@
   height: 80px;
   background: #ff7560 no-repeat top center;
   color: white;
-  display: block; }
-  .mainFooter .archive-news a img {
+  display: block;
+  padding-right: 9px;
+  padding-top: 6px;
+  font-size: 13px;
+  line-height: 21px; }
+  .mainFooter .archive-news a .archive-pdf {
+    border-radius: 50%;
+    background-color: white;
     width: 40px;
     height: 40px; }
+    .mainFooter .archive-news a .archive-pdf img {
+      width: 20px;
+      height: 20px; }
 
 /*# sourceMappingURL=../maps/footer/styles.css.map */
 
@@ -233,7 +242,10 @@
 
 /*# sourceMappingURL=../../maps/pages/contactus/styles.css.map */
 
-{"version":3,"file":"../../../pages/home/styles.css","sources":["pages/home/styles.scss"],"sourcesContent":[".hotnews{\r\n  color:white;\r\n  margin-top: 5px;\r\n  margin-bottom: 5px;\r\n  border-radius: 10px;\r\n}\r\n.mostview-news{\r\n  .newsgrid-container {\r\n    display: grid;\r\n    grid-template-columns: auto auto auto;\r\n    padding: 10px;\r\n      }\r\n  .newsgrid-item {\r\n    border: 1px solid gray;\r\n    padding: 20px;\r\n    text-align: center;\r\n    position: relative;\r\n      &:before{\r\n        width: 10px;\r\n        height: 10px;\r\n        right:5px;\r\n      }\r\n    }\r\n}\r\n.title{\r\n  .text-title_19{\r\n    margin-bottom: 0px;\r\n  }\r\n}\r\n.card-news{\r\n  .description{\r\n      height:95px;\r\n      overflow: hidden;\r\n      text-align:right;\r\n      padding-left:5px;\r\n      padding-right:5px;\r\n     \r\n  }\r\n}\r\n.topnews{\r\n  .description{\r\n      height:132px;\r\n      overflow: hidden;\r\n      text-align:right;\r\n      padding-left:5px;\r\n      padding-right:5px;\r\n      p{\r\n        margin-bottom:5px;\r\n      }\r\n  }\r\n}\r\n.videonews {\r\n  video{\r\n    width:33%;\r\n    height:auto;\r\n    margin-right: 85px;\r\n  }\r\n  span{\r\n    display:block;\r\n    text-align: center;\r\n  }\r\n}\r\n"],"names":[],"mappings":"AAAA,AAAA,QAAQ,CAAA;EACN,KAAK,EAAC,KAAK;EACX,UAAU,EAAE,GAAG;EACf,aAAa,EAAE,GAAG;EAClB,aAAa,EAAE,IAAI,GACpB;;AACD,AACE,cADY,CACZ,mBAAmB,CAAC;EAClB,OAAO,EAAE,IAAI;EACb,qBAAqB,EAAE,cAAc;EACrC,OAAO,EAAE,IAAI,GACV;;AALP,AAME,cANY,CAMZ,cAAc,CAAC;EACb,MAAM,EAAE,cAAc;EACtB,OAAO,EAAE,IAAI;EACb,UAAU,EAAE,MAAM;EAClB,QAAQ,EAAE,QAAQ,GAMjB;EAhBL,AAWM,cAXQ,CAMZ,cAAc,AAKT,OAAO,CAAA;IACN,KAAK,EAAE,IAAI;IACX,MAAM,EAAE,IAAI;IACZ,KAAK,EAAC,GAAG,GACV;;AAGP,AACE,MADI,CACJ,cAAc,CAAA;EACZ,aAAa,EAAE,GAAG,GACnB;;AAEH,AACE,UADQ,CACR,YAAY,CAAA;EACR,MAAM,EAAC,IAAI;EACX,QAAQ,EAAE,MAAM;EAChB,UAAU,EAAC,KAAK;EAChB,YAAY,EAAC,GAAG;EAChB,aAAa,EAAC,GAAG,GAEpB;;AAEH,AACE,QADM,CACN,YAAY,CAAA;EACR,MAAM,EAAC,KAAK;EACZ,QAAQ,EAAE,MAAM;EAChB,UAAU,EAAC,KAAK;EAChB,YAAY,EAAC,GAAG;EAChB,aAAa,EAAC,GAAG,GAIpB;EAVH,AAOM,QAPE,CACN,YAAY,CAMR,CAAC,CAAA;IACC,aAAa,EAAC,GAAG,GAClB;;AAGP,AACE,UADQ,CACR,KAAK,CAAA;EACH,KAAK,EAAC,GAAG;EACT,MAAM,EAAC,IAAI;EACX,YAAY,EAAE,IAAI,GACnB;;AALH,AAME,UANQ,CAMR,IAAI,CAAA;EACF,OAAO,EAAC,KAAK;EACb,UAAU,EAAE,MAAM,GACnB"}
+{"version":3,"file":"../../../pages/home/styles.css","sources":["pages/home/styles.scss"],"sourcesContent":[".topnews{\r\n  padding: 10px 5px;\r\n}\r\n.hotnews{\r\n  color:white;\r\n  margin-top: 5px;\r\n  margin-bottom: 5px;\r\n  border-radius: 10px;\r\n}\r\n.mostview-news{\r\n  .newsgrid-container {\r\n    display: grid;\r\n    grid-template-columns: auto auto auto;\r\n    padding: 10px;\r\n      }\r\n  .newsgrid-item {\r\n    border-right: 1px solid gray;\r\n    border-bottom: 1px solid gray;\r\n    padding: 20px;\r\n    text-align: center;\r\n    position: relative;\r\n    &:nth-child(1),&:nth-child(4),&:nth-child(7){\r\n      border-right: 0;\r\n    }\r\n    &:nth-child(8),&:nth-child(9),&:nth-child(7){\r\n      border-bottom: 0;\r\n    }\r\n    &:before{\r\n      width: 10px;\r\n      height: 10px;\r\n      right:5px;\r\n    }\r\n  }\r\n}\r\n.title-card_news{\r\n  .text-title_19{\r\n    margin-bottom: 0px;\r\n  }\r\n}\r\n.card-news{\r\n  .description{\r\n      height:95px;\r\n      overflow: hidden;\r\n      text-align:right;\r\n      padding-left:5px;\r\n      padding-right:5px;\r\n     \r\n  }\r\n}\r\n.topnews{\r\n  .description{\r\n      height:132px;\r\n      overflow: hidden;\r\n      text-align:right;\r\n      padding-left:5px;\r\n      padding-right:5px;\r\n      p{\r\n        margin-bottom:5px;\r\n      }\r\n  }\r\n}\r\n.videonews {\r\n  video{\r\n    width:33%;\r\n    height:auto;\r\n    margin-right: 85px;\r\n  }\r\n  span{\r\n    display:block;\r\n    text-align: center;\r\n  }\r\n}\r\n"],"names":[],"mappings":"AAAA,AAAA,QAAQ,CAAA;EACN,OAAO,EAAE,QAAQ,GAClB;;AACD,AAAA,QAAQ,CAAA;EACN,KAAK,EAAC,KAAK;EACX,UAAU,EAAE,GAAG;EACf,aAAa,EAAE,GAAG;EAClB,aAAa,EAAE,IAAI,GACpB;;AACD,AACE,cADY,CACZ,mBAAmB,CAAC;EAClB,OAAO,EAAE,IAAI;EACb,qBAAqB,EAAE,cAAc;EACrC,OAAO,EAAE,IAAI,GACV;;AALP,AAME,cANY,CAMZ,cAAc,CAAC;EACb,YAAY,EAAE,cAAc;EAC5B,aAAa,EAAE,cAAc;EAC7B,OAAO,EAAE,IAAI;EACb,UAAU,EAAE,MAAM;EAClB,QAAQ,EAAE,QAAQ,GAYnB;EAvBH,AAYI,cAZU,CAMZ,cAAc,AAMX,UAAW,CAAA,CAAC,GAZjB,cAAc,CAMZ,cAAc,AAMI,UAAW,CAAA,CAAC,GAZhC,cAAc,CAMZ,cAAc,AAMmB,UAAW,CAAA,CAAC,EAAC;IAC1C,YAAY,EAAE,CAAC,GAChB;EAdL,AAeI,cAfU,CAMZ,cAAc,AASX,UAAW,CAAA,CAAC,GAfjB,cAAc,CAMZ,cAAc,AASI,UAAW,CAAA,CAAC,GAfhC,cAAc,CAMZ,cAAc,AASmB,UAAW,CAAA,CAAC,EAAC;IAC1C,aAAa,EAAE,CAAC,GACjB;EAjBL,AAkBI,cAlBU,CAMZ,cAAc,AAYX,OAAO,CAAA;IACN,KAAK,EAAE,IAAI;IACX,MAAM,EAAE,IAAI;IACZ,KAAK,EAAC,GAAG,GACV;;AAGL,AACE,gBADc,CACd,cAAc,CAAA;EACZ,aAAa,EAAE,GAAG,GACnB;;AAEH,AACE,UADQ,CACR,YAAY,CAAA;EACR,MAAM,EAAC,IAAI;EACX,QAAQ,EAAE,MAAM;EAChB,UAAU,EAAC,KAAK;EAChB,YAAY,EAAC,GAAG;EAChB,aAAa,EAAC,GAAG,GAEpB;;AAEH,AACE,QADM,CACN,YAAY,CAAA;EACR,MAAM,EAAC,KAAK;EACZ,QAAQ,EAAE,MAAM;EAChB,UAAU,EAAC,KAAK;EAChB,YAAY,EAAC,GAAG;EAChB,aAAa,EAAC,GAAG,GAIpB;EAVH,AAOM,QAPE,CACN,YAAY,CAMR,CAAC,CAAA;IACC,aAAa,EAAC,GAAG,GAClB;;AAGP,AACE,UADQ,CACR,KAAK,CAAA;EACH,KAAK,EAAC,GAAG;EACT,MAAM,EAAC,IAAI;EACX,YAAY,EAAE,IAAI,GACnB;;AALH,AAME,UANQ,CAMR,IAAI,CAAA;EACF,OAAO,EAAC,KAAK;EACb,UAAU,EAAE,MAAM,GACnB"}
+.topnews {
+  padding: 10px 5px; }
+
 .hotnews {
   color: white;
   margin-top: 5px;
@@ -246,16 +258,21 @@
   padding: 10px; }
 
 .mostview-news .newsgrid-item {
-  border: 1px solid gray;
+  border-right: 1px solid gray;
+  border-bottom: 1px solid gray;
   padding: 20px;
   text-align: center;
   position: relative; }
+  .mostview-news .newsgrid-item:nth-child(1), .mostview-news .newsgrid-item:nth-child(4), .mostview-news .newsgrid-item:nth-child(7) {
+    border-right: 0; }
+  .mostview-news .newsgrid-item:nth-child(8), .mostview-news .newsgrid-item:nth-child(9), .mostview-news .newsgrid-item:nth-child(7) {
+    border-bottom: 0; }
   .mostview-news .newsgrid-item:before {
     width: 10px;
     height: 10px;
     right: 5px; }
 
-.title .text-title_19 {
+.title-card_news .text-title_19 {
   margin-bottom: 0px; }
 
 .card-news .description {
