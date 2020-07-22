@@ -10,7 +10,7 @@
 }
 .article-body{
   .subtitle{
-    font-size: 12px;
+    font-size: 13px;
     text-align: justify;
     border-left-width: 0px;
     border-right-width: 0px;
@@ -23,6 +23,14 @@
     text-align:center;
     width:100%;
     height:auto;
+  }
+}
+.article-pagination{
+
+  .title-prevArticle,.title-nextArticle{
+    a{
+      color:black;
+    }
   }
 }
 .suggestion-news{

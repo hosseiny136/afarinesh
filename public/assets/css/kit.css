@@ -63,12 +63,19 @@ body {
 .text-p_13 {
   font-size: 13px;
   font-weight: 300;
-  line-height: 18px; }
+  line-height: 18px;
+  text-align: justify; }
 
 .text-p_12 {
   font-size: 12px;
   font-weight: 300;
   line-height: 16px; }
+
+.text-just {
+  text-align: justify; }
+
+.text-r {
+  text-align: right; }
 
 .title {
   font-size: 19px;
@@ -80,6 +87,18 @@ body {
 
 .Mr5 {
   margin-right: 5px; }
+
+.Ml5 {
+  margin-left: 5px; }
+
+.Mr10 {
+  margin-right: 10px; }
+
+.Ml10 {
+  margin-left: 10px; }
+
+.M10 {
+  margin: 10px; }
 
 .title-color {
   color: #d71a21; }
@@ -169,6 +188,9 @@ li {
 .paddrl15 {
   padding-right: 0px;
   padding-left: 15px; }
+
+.paddl20 {
+  padding-left: 20px; }
 
 .text-trunc {
   white-space: nowrap;
