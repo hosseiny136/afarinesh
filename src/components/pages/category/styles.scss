@@ -10,3 +10,9 @@
       }
   }
 }
+@media (max-width: 600px) {
+  .topnews,.topcatnews{
+    display:block;
+    text-align: center;
+  }
+}

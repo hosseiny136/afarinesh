@@ -5,12 +5,14 @@ html(lang='fa')
     title afarinesh
     meta(charset='UTF-8')
     meta(name='viewport', content='width=device-width, initial-scale=1')
-    link(rel='stylesheet', href='/assets/css/all.css')
-    //- link(rel='alternate stylesheet', type='text/css', media='all', href='/assets/css/calendar-system.css', title='system')
     link(rel='stylesheet', href='/assets/css/bootstrap.min.css')
-    link(rel='stylesheet', href='/assets/css/kit.css')
-    link(rel='stylesheet', href='/assets/css/styles.css')
-    link(rel='stylesheet', href='/assets/css/_responsive.css')
+    link(rel='stylesheet', href='/assets/css/kit.min.css')
+    link(rel='stylesheet', href='/assets/css/styles.min.css')
+    link(rel='stylesheet', href='/assets/js/calendar/skins/aqua/theme.css')
+    script(src='/assets/js/calendar/jalali.js')
+    script(src='/assets/js/calendar/calendar.js')
+    script(src='/assets/js/calendar/calendar-setup.js')
+    script(src='/assets/js/calendar/lang/calendar-fa.js')
 body
   .container
     .row
@@ -21,10 +23,6 @@ body
       .col-md-3.col-sm-12.col-12
         block sidebar
   block footer
-  //- script(src='/assets/js/calender/jalali.js')
-  //- script(src='/assets/js/calender/calendar.js')
-  //- script(src='/assets/js/calender/calendar-setup.js')
-  //- script(src='/assets/js/calender/lang/calendar-fa.js')
   script(src='/assets/js/jquery.min.js')
   script(src='/assets/js/popper.min.js')
   script(src='/assets/js/bootstrap.min.js')

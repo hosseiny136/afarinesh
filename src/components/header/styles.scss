@@ -32,6 +32,10 @@
 
 }
 .mainMenu{
+  > nav {
+    padding-left: 0;
+    padding-right: 0;
+  }
   li {
     position: relative;
     a{
@@ -80,4 +84,3 @@
     height: 30px;
   }
 }
-

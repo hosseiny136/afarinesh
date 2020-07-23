@@ -6,15 +6,15 @@ include ../../mixins/_index.pug
         span.frm_label از تاريخ:
         input#date_input_10(type='text')
         img#date_btn_10(src='../assets/img/cal.png', style='vertical-align: top;')
-        //- script(type='text/javascript').
-        //-   Calendar.setup({
-        //-   inputField  : "date_input_10",   // id of the input field
-        //-   button      : "date_btn_10",   // trigger for the calendar (button ID)
-        //-   ifFormat    : "%Y/%m/%d",       // format of the input field
-        //-   dateType	: 'jalali',
-        //-   showOthers	: true,
-        //-   weekNumbers : true
-        //-   });
+        script(type='text/javascript').
+          Calendar.setup({
+          inputField  : "date_input_10",   // id of the input field
+          button      : "date_btn_10",   // trigger for the calendar (button ID)
+          ifFormat    : "%Y/%m/%d",       // format of the input field
+          dateType	: 'jalali',
+          showOthers	: true,
+          weekNumbers : true
+          });
       .col-md-4.col-sm-12
         span.frm_label تا تاريخ:
         input.text(type='text', name='', value='1399/04/15')
