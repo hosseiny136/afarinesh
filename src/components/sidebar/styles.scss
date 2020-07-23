@@ -22,7 +22,7 @@
       }
     }
   }
-  
+
   .aslider{
     .carousel-item{
       img{
@@ -46,18 +46,30 @@
     }
   }
   .pdfSlider{
+    img {
+      width: 100%;
+      max-width: 200px;
+    }
     .pdf{
       width: 15%;
       margin-left: 5px;
     }
     .carousel-indicators {
       display: block;
-      top: 35px;
-      right: -27px;
+      top: 40px;
+      right: -30px;
+      left: auto;
+      overflow-y: auto;
       li{
         text-indent:0;
         opacity:100;
         text-align: center;
+        height: auto;
+        border-top: 0;
+        border-bottom:2px solid transparent;
+        background: transparent;
+        width: 20px;
+        line-height: 22px;
      &.active
      {
       border-bottom: 2px solid #ffa200;

@@ -1,4 +1,3 @@
-@import './_variables.scss';
 @font-face {
   font-family: Nassim;
   font-style: normal;
@@ -87,7 +86,7 @@ body{
     font-size: 12px;
     font-weight: 300;
     line-height: 16px;
-   
+
   }
 }
 .title{
@@ -139,6 +138,7 @@ body{
   background-color:$light-gray;
   position: absolute;
   transform: rotate(45deg);
+  border-radius: 2px;
 }
 .center {
   display: flex;
@@ -221,14 +221,16 @@ li{
     position: relative;
     padding-right:24px;
     top: -4px;
+    line-height: 16px;
+
     &:before{
       width: 11px;
       height: 11px;
       background-color:$red;
-      bottom:8px;
-      right:8px;     
+      bottom:-1px;
+      right:8px;
     }
-    
+
   }
 }
 .formtheme{
@@ -250,7 +252,8 @@ li{
     padding:10px;
   }
 }
-
-
-
-
+.calendar{
+  .nav{
+    display: table-cell;
+  }
+}
