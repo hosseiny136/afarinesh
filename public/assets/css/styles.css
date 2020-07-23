@@ -327,7 +327,7 @@
 
 /*# sourceMappingURL=../../maps/pages/home/styles.css.map */
 
-{"version":3,"file":"../../../pages/links/styles.css","sources":["pages/links/styles.scss"],"sourcesContent":[".title-link{\r\n  height:20px;\r\n  font-family:normal 11px Tahoma;\r\n  color:#FFFFFF;\r\n  background-color:#002CBF;\r\n  text-align:center;\r\n  border-right:1px solid white;\r\n  line-height:17px;\r\n}\r\n.item{\r\n  text-align: center;\r\n}\r\n.item:nth-child(odd){\r\n  background-color:#E8EEFF;\r\n}\r\n.item:nth-child(even){\r\n  background-color:white;\r\n}\r\n.col-9 + .col-3 {\r\n  .item:nth-child(even){\r\n    background-color:#E8EEFF;\r\n  }\r\n  .item:nth-child(odd){\r\n    background-color:white;\r\n  }\r\n}\r\n\r\n.link{\r\n  font-family:tahoma;\r\n   font-weight: normal;\r\n   font-size:11px ;\r\n  color: #000000;\r\n}\r\n.link_next_prev {\r\n  width:100%;\r\n  padding:5px 5px 0 5px;\r\n  margin:auto;\r\n  position:absolute;\r\n  top:10px;\r\n  left:0;\r\n }\r\n .carousel-control-prev-icon{\r\n   background-image: url('/assets/img/prev.gif');\r\n   width:15px;\r\n   height:15px;\r\n }\r\n .carousel-control-next-icon{\r\n  background-image: url('/assets/img/next.gif');\r\n  width:15px;\r\n  height:15px;\r\n  margin-right: auto;\r\n}"],"names":[],"mappings":"AAAA,AAAA,WAAW,CAAA;EACT,MAAM,EAAC,IAAI;EACX,WAAW,EAAC,kBAAkB;EAC9B,KAAK,EAAC,OAAO;EACb,gBAAgB,EAAC,OAAO;EACxB,UAAU,EAAC,MAAM;EACjB,YAAY,EAAC,eAAe;EAC5B,WAAW,EAAC,IAAI,GACjB;;AACD,AAAA,KAAK,CAAA;EACH,UAAU,EAAE,MAAM,GACnB;;AACD,AAAA,KAAK,AAAA,UAAW,CAAA,GAAG,EAAC;EAClB,gBAAgB,EAAC,OAAO,GACzB;;AACD,AAAA,KAAK,AAAA,UAAW,CAAA,IAAI,EAAC;EACnB,gBAAgB,EAAC,KAAK,GACvB;;AACD,AACE,MADI,GAAG,MAAM,CACb,KAAK,AAAA,UAAW,CAAA,IAAI,EAAC;EACnB,gBAAgB,EAAC,OAAO,GACzB;;AAHH,AAIE,MAJI,GAAG,MAAM,CAIb,KAAK,AAAA,UAAW,CAAA,GAAG,EAAC;EAClB,gBAAgB,EAAC,KAAK,GACvB;;AAGH,AAAA,KAAK,CAAA;EACH,WAAW,EAAC,MAAM;EACjB,WAAW,EAAE,MAAM;EACnB,SAAS,EAAC,IAAK;EAChB,KAAK,EAAE,OAAO,GACf;;AACD,AAAA,eAAe,CAAC;EACd,KAAK,EAAC,IAAI;EACV,OAAO,EAAC,aAAa;EACrB,MAAM,EAAC,IAAI;EACX,QAAQ,EAAC,QAAQ;EACjB,GAAG,EAAC,IAAI;EACR,IAAI,EAAC,CAAC,GACN;;AACD,AAAA,2BAA2B,CAAA;EACzB,gBAAgB,EAAE,2BAA2B;EAC7C,KAAK,EAAC,IAAI;EACV,MAAM,EAAC,IAAI,GACZ;;AACD,AAAA,2BAA2B,CAAA;EAC1B,gBAAgB,EAAE,2BAA2B;EAC7C,KAAK,EAAC,IAAI;EACV,MAAM,EAAC,IAAI;EACX,YAAY,EAAE,IAAI,GACnB"}
+{"version":3,"file":"../../../pages/links/styles.css","sources":["pages/links/styles.scss"],"sourcesContent":[".title-link{\r\n  height:20px;\r\n  font-family:normal 11px Tahoma;\r\n  color:#FFFFFF;\r\n  background-color:#002CBF;\r\n  text-align:center;\r\n  border-right:1px solid white;\r\n  line-height:17px;\r\n}\r\n.item{\r\n  text-align: center;\r\n}\r\n.item:nth-child(odd){\r\n  background-color:#E8EEFF;\r\n}\r\n.item:nth-child(even){\r\n  background-color:white;\r\n}\r\n.col-9 + .col-3 {\r\n  .item:nth-child(even){\r\n    background-color:#E8EEFF;\r\n  }\r\n  .item:nth-child(odd){\r\n    background-color:white;\r\n  }\r\n}\r\n\r\n.link{\r\n  font-family:tahoma;\r\n   font-weight: normal;\r\n   font-size:11px ;\r\n  color: #000000;\r\n}\r\n.link_next_prev {\r\n  width:100%;\r\n  padding:5px 5px 0 5px;\r\n  margin:auto;\r\n  position:absolute;\r\n  top:10px;\r\n  left:0;\r\n }\r\n .carousel-control-prev-icon{\r\n   background-image: url('/assets/img/prev.gif');\r\n   width:15px;\r\n   height:15px;\r\n   position: absolute;\r\n    bottom:-21px;\r\n    right: 128px;\r\n }\r\n .carousel-control-next-icon{\r\n  background-image: url('/assets/img/next.gif');\r\n  width:15px;\r\n  height:15px;\r\n  margin-right: auto;\r\n  position: absolute;\r\n  bottom: -21px;\r\n  right: 15px;\r\n}"],"names":[],"mappings":"AAAA,AAAA,WAAW,CAAA;EACT,MAAM,EAAC,IAAI;EACX,WAAW,EAAC,kBAAkB;EAC9B,KAAK,EAAC,OAAO;EACb,gBAAgB,EAAC,OAAO;EACxB,UAAU,EAAC,MAAM;EACjB,YAAY,EAAC,eAAe;EAC5B,WAAW,EAAC,IAAI,GACjB;;AACD,AAAA,KAAK,CAAA;EACH,UAAU,EAAE,MAAM,GACnB;;AACD,AAAA,KAAK,AAAA,UAAW,CAAA,GAAG,EAAC;EAClB,gBAAgB,EAAC,OAAO,GACzB;;AACD,AAAA,KAAK,AAAA,UAAW,CAAA,IAAI,EAAC;EACnB,gBAAgB,EAAC,KAAK,GACvB;;AACD,AACE,MADI,GAAG,MAAM,CACb,KAAK,AAAA,UAAW,CAAA,IAAI,EAAC;EACnB,gBAAgB,EAAC,OAAO,GACzB;;AAHH,AAIE,MAJI,GAAG,MAAM,CAIb,KAAK,AAAA,UAAW,CAAA,GAAG,EAAC;EAClB,gBAAgB,EAAC,KAAK,GACvB;;AAGH,AAAA,KAAK,CAAA;EACH,WAAW,EAAC,MAAM;EACjB,WAAW,EAAE,MAAM;EACnB,SAAS,EAAC,IAAK;EAChB,KAAK,EAAE,OAAO,GACf;;AACD,AAAA,eAAe,CAAC;EACd,KAAK,EAAC,IAAI;EACV,OAAO,EAAC,aAAa;EACrB,MAAM,EAAC,IAAI;EACX,QAAQ,EAAC,QAAQ;EACjB,GAAG,EAAC,IAAI;EACR,IAAI,EAAC,CAAC,GACN;;AACD,AAAA,2BAA2B,CAAA;EACzB,gBAAgB,EAAE,2BAA2B;EAC7C,KAAK,EAAC,IAAI;EACV,MAAM,EAAC,IAAI;EACX,QAAQ,EAAE,QAAQ;EACjB,MAAM,EAAC,KAAK;EACZ,KAAK,EAAE,KAAK,GACd;;AACD,AAAA,2BAA2B,CAAA;EAC1B,gBAAgB,EAAE,2BAA2B;EAC7C,KAAK,EAAC,IAAI;EACV,MAAM,EAAC,IAAI;EACX,YAAY,EAAE,IAAI;EAClB,QAAQ,EAAE,QAAQ;EAClB,MAAM,EAAE,KAAK;EACb,KAAK,EAAE,IAAI,GACZ"}
 .title-link {
   height: 20px;
   font-family: normal 11px Tahoma;
@@ -369,12 +369,18 @@
 .carousel-control-prev-icon {
   background-image: url("/assets/img/prev.gif");
   width: 15px;
-  height: 15px; }
+  height: 15px;
+  position: absolute;
+  bottom: -21px;
+  right: 128px; }
 
 .carousel-control-next-icon {
   background-image: url("/assets/img/next.gif");
   width: 15px;
   height: 15px;
-  margin-right: auto; }
+  margin-right: auto;
+  position: absolute;
+  bottom: -21px;
+  right: 15px; }
 
 /*# sourceMappingURL=../../maps/pages/links/styles.css.map */
