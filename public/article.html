@@ -4,17 +4,20 @@
     <title>afarinesh</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="/assets/css/all.css">
     <link rel="stylesheet" href="/assets/css/bootstrap.min.css">
-    <link rel="stylesheet" href="/assets/css/kit.css">
-    <link rel="stylesheet" href="/assets/css/styles.css">
-    <link rel="stylesheet" href="/assets/css/_responsive.css">
+    <link rel="stylesheet" href="/assets/css/kit.min.css">
+    <link rel="stylesheet" href="/assets/css/styles.min.css">
+    <link rel="stylesheet" href="/assets/js/calendar/skins/aqua/theme.css">
+    <script src="/assets/js/calendar/jalali.js"></script>
+    <script src="/assets/js/calendar/calendar.js"></script>
+    <script src="/assets/js/calendar/calendar-setup.js"></script>
+    <script src="/assets/js/calendar/lang/calendar-fa.js"></script>
   </head>
 </html>
 <body>
   <div class="container">
     <div class="row">
-      <div class="col-md-9 col-sm-12 col-12">
+      <div class="col-lg-9 col-md-8 col-sm-12 col-12">
         <header class="header">
           <div class="flex rCol"> 
             <div class="row hCenter">
@@ -55,7 +58,7 @@
                 <div class="mainMenu">
                   <nav class="navbar navbar-expand-lg navbar-light">
                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
-                    <div class="collapse navbar-collapse bgcolor Mr10" id="navbarSupportedContent">
+                    <div class="collapse navbar-collapse bgcolor" id="navbarSupportedContent">
                       <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
                         <li class="nav-item active"><a class="nav-link" href="#">اخبار</a></li>
                         <li class="nav-item"><a class="nav-link" href="#">سیاسی</a></li>
@@ -149,14 +152,14 @@
                   </div>
                 </div>
       </div>
-      <div class="col-md-3 col-sm-12 col-12">
+      <div class="col-lg-3 col-md-4 col-sm-12 col-12">
         <div class="leftSidebar">
                   <div class="theme Mtop10 pdfSlider">
                     <div class="theme-title bgtitlecolor title-color">
                       <h4 class="title square">روزنامه آفرینش</h4>
                     </div>
                     <div class="borderAll around5 padd5">
-                      <div class="carousel slide" data-ride="carousel">
+                      <div class="carousel slide" id="pdfSlider" data-ride="carousel">
                         <div class="carousel-inner">
                           <div class="carousel-item active">
                             <div class="slide-content flex"><a class="pdf" href=""><img src="../assets/img/pdfbul.jpg" alt="img1"></a><a class="image" href=""><img src="../assets/img/pdfimg.jpg" alt="img1"></a></div>
@@ -181,13 +184,13 @@
                           </div>
                         </div>
                         <ul class="carousel-indicators">
-                          <li data-target="" data-slide-to="0">1</li>
-                          <li data-target="" data-slide-to="0">2</li>
-                          <li data-target="" data-slide-to="0">3</li>
-                          <li data-target="" data-slide-to="0">4</li>
-                          <li data-target="" data-slide-to="0">5</li>
-                          <li data-target="" data-slide-to="0">6</li>
-                          <li data-target="" data-slide-to="0">7</li>
+                          <li class="active" data-target="#pdfSlider" data-slide-to="0">1</li>
+                          <li data-target="#pdfSlider" data-slide-to="1">2</li>
+                          <li data-target="#pdfSlider" data-slide-to="2">3</li>
+                          <li data-target="#pdfSlider" data-slide-to="3">4</li>
+                          <li data-target="#pdfSlider" data-slide-to="4">5</li>
+                          <li data-target="#pdfSlider" data-slide-to="5">6</li>
+                          <li data-target="#pdfSlider" data-slide-to="6">7</li>
                         </ul>
                       </div>
                     </div>

@@ -10,9 +10,9 @@
       }
   }
 }
-@media (max-width: 600px) {
-  .topnews,.topcatnews{
-    display:block;
+@media (max-width: 991px) {
+  .topcatnews{
+    flex-direction: column;
     text-align: center;
   }
 }

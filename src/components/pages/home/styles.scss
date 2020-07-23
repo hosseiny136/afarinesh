@@ -71,13 +71,17 @@
   }
 }
 
-@media (max-width:980px){
+@media (max-width:991px){
   .mainMenu li::after{
     display:none;
   }
 }
-@media (max-width: 600px) {
+@media (max-width: 767px) {
   .mostview-news,.pdfSlider,.online-service,.download,.videos{
     display:none;
+  }
+  .topnews{
+    display:block;
+    text-align:center;
   }
 }

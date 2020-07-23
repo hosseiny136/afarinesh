@@ -70,6 +70,8 @@ body { direction: rtl; font-family: 'Nassim', Tahoma, serif; text-align: right; 
 
 .hCenter { display: flex; align-items: center; }
 
+.flex-rev { display: flex; flex-direction: row-reverse; }
+
 .nBr { border-right: 0; }
 
 .nBb { border-bottom: 0; }
