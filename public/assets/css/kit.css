@@ -27,6 +27,18 @@ body {
 .text-color {
   color: #1b1464; }
 
+.title-color {
+  color: #d71a21; }
+
+.bgcolor {
+  background-color: #dcdddf; }
+
+.bgtitlecolor {
+  background-color: #e7e7e9; }
+
+.bgredcolor {
+  background-color: #d71a21; }
+
 .text-title_16 {
   font-size: 16px;
   font-weight: 300;
@@ -71,16 +83,16 @@ body {
   font-weight: 300;
   line-height: 16px; }
 
+.title {
+  font-size: 19px;
+  font-weight: 300;
+  line-height: 24px; }
+
 .text-just {
   text-align: justify; }
 
 .text-r {
   text-align: right; }
-
-.title {
-  font-size: 19px;
-  font-weight: 300;
-  line-height: 24px; }
 
 .Mrauto {
   margin-right: auto; }
@@ -99,9 +111,6 @@ body {
 
 .M10 {
   margin: 10px; }
-
-.title-color {
-  color: #d71a21; }
 
 .width50 {
   width: 50%; }
@@ -136,15 +145,6 @@ body {
 .hCenter {
   display: flex;
   align-items: center; }
-
-.bgcolor {
-  background-color: #dcdddf; }
-
-.bgtitlecolor {
-  background-color: #e7e7e9; }
-
-.bgredcolor {
-  background-color: #d71a21; }
 
 .nBr {
   border-right: 0; }
@@ -187,12 +187,10 @@ li {
 .padd20 {
   padding: 20px; }
 
-.paddlr15 {
-  padding-left: 0px;
+.paddr15 {
   padding-right: 15px; }
 
-.paddrl15 {
-  padding-right: 0px;
+.paddl15 {
   padding-left: 15px; }
 
 .paddl20 {
@@ -239,7 +237,8 @@ li {
 
 @media (max-width: 600px) {
   .topnews, .topcatnews {
-    display: block; }
+    display: block;
+    text-align: center; }
   .mostview-news, .pdfSlider, .online-service, .download, .videos {
     display: none; } }
 

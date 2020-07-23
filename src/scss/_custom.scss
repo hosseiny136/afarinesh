@@ -28,6 +28,18 @@ body{
 .text-color{
   color:$blue;
 }
+.title-color{
+  color:$red;
+}
+.bgcolor{
+  background-color: $dark-gray;
+}
+.bgtitlecolor{
+  background-color: $light-gray;
+}
+.bgredcolor{
+  background-color: $red;
+}
 .text-title {
   &_16 {
     font-size: 16px;
@@ -77,19 +89,17 @@ body{
     line-height: 16px;
    
   }
-
- 
+}
+.title{
+  font-size: 19px;
+  font-weight: 300;
+  line-height: 24px;
 }
 .text-just{
   text-align:justify;
 }
 .text-r{
   text-align:right;
-}
-.title{
-  font-size: 19px;
-  font-weight: 300;
-  line-height: 24px;
 }
 .Mrauto{
   margin-right: auto;
@@ -108,9 +118,6 @@ body{
 }
 .M10{
   margin:10px;
-}
-.title-color{
-  color:$red;
 }
 .width50{
   width:50%;
@@ -146,15 +153,7 @@ body{
   display: flex;
   align-items: center;
 }
-.bgcolor{
-  background-color: $dark-gray;
-}
-.bgtitlecolor{
-  background-color: $light-gray;
-}
-.bgredcolor{
-  background-color: $red;
-}
+
 .nBr{
   border-right:0
 }
@@ -197,12 +196,10 @@ li{
 .padd20{
   padding:20px;
 }
-.paddlr15{
-  padding-left:0px;
+.paddr15{
   padding-right:15px;
 }
-.paddrl15{
-  padding-right:0px;
+.paddl15{
   padding-left: 15px;
 }
 .paddl20{

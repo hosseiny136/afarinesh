@@ -2,10 +2,11 @@
 
   .topnews,.topcatnews{
   display:block;
-}
-.mostview-news,.pdfSlider,.online-service,.download,.videos{
-  display:none;
-}
+  text-align: center;
+  }
+  .mostview-news,.pdfSlider,.online-service,.download,.videos{
+    display:none;
+  }
 }
 @media (max-width:980px){
   .mainMenu li::after{
