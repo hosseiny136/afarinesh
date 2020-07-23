@@ -32,20 +32,23 @@
 
 }
 .mainMenu{
+  
   li {
     position: relative;
+    padding-right:5px;
     a{
+      font-family: 'shabnam';
       font-size:12px;
       color:#000 !important;
       padding:3px;
-      }
+    }
     &.active{
       border-bottom:1px solid #000;
     }
     &:after{
       content: "/";
       position: absolute;
-      left: 0;
+      left: -7px;
       top: 3px;
     }
     &:last-child:after{
