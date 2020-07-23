@@ -146,7 +146,7 @@ include ../mixins/_index.pug
 					li(data-target='', data-slide-to='4')
 					li(data-target='', data-slide-to='5')
 	+mainCardTemplate("صفحه اول روزنامه","aslider")
-			.carousel.slide(data-ride='carousel')
+			#news-slider.carousel.slide(data-ride='carousel')
 				.carousel-inner
 					.carousel-item.active
 						img(src='../assets/img/varzeshi-news.jpg', alt='img1')
@@ -161,14 +161,14 @@ include ../mixins/_index.pug
 					.carousel-item
 						img(src='../assets/img/varzeshi-news.jpg', alt='img1')
 				ul.carousel-indicators
-					li.active(data-target='', data-slide-to='0')
-					li(data-target='', data-slide-to='1')
-					li(data-target='', data-slide-to='2')
-					li(data-target='', data-slide-to='3')
-					li(data-target='', data-slide-to='4')
-					li(data-target='', data-slide-to='5')
+					li.active(data-target='#news-slider', data-slide-to='0')
+					li(data-target='#news-slider', data-slide-to='1')
+					li(data-target='#news-slider', data-slide-to='2')
+					li(data-target='#news-slider', data-slide-to='3')
+					li(data-target='#news-slider', data-slide-to='4')
+					li(data-target='#news-slider', data-slide-to='5')
 	+mainCardTemplate("خدمات آنلاین","aslider online-service")
-		.carousel.slide(data-ride='carousel')
+		#service-slider.carousel.slide(data-ride='carousel')
 			.carousel-inner
 				.carousel-item.active
 					img(src='../assets/img/image3.jpg', alt='img1')
@@ -183,14 +183,14 @@ include ../mixins/_index.pug
 				.carousel-item
 					img(src='../assets/img/image3.jpg', alt='img1')
 			ul.carousel-indicators
-				li.active(data-target='', data-slide-to='0')
-				li(data-target='', data-slide-to='1')
-				li(data-target='', data-slide-to='2')
-				li(data-target='', data-slide-to='3')
-				li(data-target='', data-slide-to='4')
-				li(data-target='', data-slide-to='5')
+				li.active(data-target='#service-slider', data-slide-to='0')
+				li(data-target='#service-slider', data-slide-to='1')
+				li(data-target='#service-slider', data-slide-to='2')
+				li(data-target='#service-slider', data-slide-to='3')
+				li(data-target='#service-slider', data-slide-to='4')
+				li(data-target='#service-slider', data-slide-to='5')
 	+mainCardTemplate("دانلود نرم افزار","aslider download")
-		.carousel.slide(data-ride='carousel')
+		#download-slider.carousel.slide(data-ride='carousel')
 			.carousel-inner
 				.carousel-item.active
 					img(src='../assets/img/image5.jpg', alt='img1')
@@ -205,9 +205,9 @@ include ../mixins/_index.pug
 				.carousel-item
 					img(src='../assets/img/image5.jpg', alt='img1')
 			ul.carousel-indicators
-				li.active(data-target='', data-slide-to='0')
-				li(data-target='', data-slide-to='1')
-				li(data-target='', data-slide-to='2')
-				li(data-target='', data-slide-to='3')
-				li(data-target='', data-slide-to='4')
-				li(data-target='', data-slide-to='5')
+				li.active(data-target='#download-slider', data-slide-to='0')
+				li(data-target='#download-slider', data-slide-to='1')
+				li(data-target='#download-slider', data-slide-to='2')
+				li(data-target='#download-slider', data-slide-to='3')
+				li(data-target='#download-slider', data-slide-to='4')
+				li(data-target='#download-slider', data-slide-to='5')
