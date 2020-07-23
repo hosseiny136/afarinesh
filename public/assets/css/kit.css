@@ -237,4 +237,14 @@ li {
   .formtheme .formbody {
     padding: 10px; }
 
+@media (max-width: 600px) {
+  .topnews, .topcatnews {
+    display: block; }
+  .mostview-news, .pdfSlider, .online-service, .download, .videos {
+    display: none; } }
+
+@media (max-width: 980px) {
+  .mainMenu li::after {
+    display: none; } }
+
 /*# sourceMappingURL=maps/kit.css.map */

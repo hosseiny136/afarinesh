@@ -2,7 +2,7 @@ include ../../mixins/_index.pug
 +formTemplate("آرشیو سایت آفرینش","archive")
   form(method='POST',action='/archive')
     .form-group.row
-      .col.col-4
+      .col-md-4.col-sm-12
         span.frm_label از تاريخ:
         input#date_input_10(type='text')
         img#date_btn_10(src='../assets/img/cal.png', style='vertical-align: top;')
@@ -15,17 +15,17 @@ include ../../mixins/_index.pug
         //-   showOthers	: true,
         //-   weekNumbers : true
         //-   });
-      .col.col-4
+      .col-md-4.col-sm-12
         span.frm_label تا تاريخ:
         input.text(type='text', name='', value='1399/04/15')
-      .col.col-4
+      .col-md-4.col-sm-12
         input(type='submit', value='جستجو')
       
 +formTemplate("آرشیو روزنامه آفرینش","archive")
   form(method='POST',action='/archive')   
     .form-group.row
-      .col.col-8    
+      .col-md-8.col-sm-12    
         span.frm_label تاريخ:
         input.text(type='text', name='', value='1384/01/01')
-      .col.col-4
+      .col-md-4.col-sm-12
         input(type='submit', value='جستجو') 

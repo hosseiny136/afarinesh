@@ -10,14 +10,15 @@ html(lang='fa')
     link(rel='stylesheet', href='/assets/css/bootstrap.min.css')
     link(rel='stylesheet', href='/assets/css/kit.css')
     link(rel='stylesheet', href='/assets/css/styles.css')
+    link(rel='stylesheet', href='/assets/css/_responsive.css')
 body
   .container
     .row
-      .col.col-9
+      .col-md-9.col-sm-12.col-12
         block header
         block mainMenu
         block body
-      .col.col-3
+      .col-md-3.col-sm-12.col-12
         block sidebar
   block footer
   //- script(src='/assets/js/calender/jalali.js')
