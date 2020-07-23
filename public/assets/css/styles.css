@@ -42,9 +42,9 @@
 
 .leftSidebar .note-news ul { padding-right: 14px; padding-left: 10px; }
 
-.leftSidebar .note-news li { position: relative; font-size: 12px; padding-right: 7px; display: block; margin-top: 5px; }
+.leftSidebar .note-news li { position: relative; padding-right: 7px; display: block; margin-top: 5px; }
 
-.leftSidebar .note-news li a { color: black; }
+.leftSidebar .note-news li a { font-size: 13px; color: black; }
 
 .leftSidebar .note-news li:before { width: 10px; height: 10px; top: 4px; right: -8px; }
 
