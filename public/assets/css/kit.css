@@ -116,6 +116,10 @@ li { list-style: none; }
 
 .text-trunc { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; display: inline-block; max-width: 100%; }
 
+.display-in { display: inline-block; }
+
+.rel { position: relative; }
+
 .theme .theme-title { height: 15px; margin-bottom: 5px; }
 
 .theme .title { position: relative; padding-right: 24px; top: -4px; line-height: 16px; }

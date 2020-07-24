@@ -1,8 +1,11 @@
 .archive{
-
   .formbody{
-      background-color: #ececec;
-      padding:50px;
+    background-color: #ececec;
+    padding:50px;
     }
- 
+    .image-archive{
+      position: absolute;
+      left:5px;
+      bottom:4px;
+    }
 }

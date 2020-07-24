@@ -70,6 +70,8 @@
 
 .archive .formbody { background-color: #ececec; padding: 50px; }
 
+.archive .image-archive { position: absolute; left: 5px; bottom: 4px; }
+
 .theme2 { background-color: #f8f8f8; border: 0 solid #e0e0e0; border-width: 1px; margin-right: 50px; margin-top: 10px; padding: 5px; }
 
 .article-body .subtitle { font-size: 13px; text-align: justify; border-left-width: 0px; border-right-width: 0px; border-top-width: 1px; border-bottom-width: 1px; padding: 8pt; margin-right: 5px; }
