@@ -86,11 +86,15 @@ li { list-style: none; }
 
 .Mtop10 { margin-top: 10px; }
 
+.Mbottom40 { margin-bottom: 40px; }
+
 .Mbottom5 { margin-bottom: 5px; }
 
 .Mbottom10 { margin-bottom: 10px; }
 
 .Mright10 { margin-right: 10px; }
+
+.Mleft30 { margin-left: 30px; }
 
 .padd5 { padding: 5px; }
 
@@ -99,6 +103,10 @@ li { list-style: none; }
 .padd10 { padding: 10px; }
 
 .padd20 { padding: 20px; }
+
+.paddT10 { padding-top: 10px; }
+
+.paddT30 { padding-top: 30px; }
 
 .paddr15 { padding-right: 15px; }
 
