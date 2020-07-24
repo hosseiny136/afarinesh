@@ -151,6 +151,6 @@
 
 .link_next_prev { width: 100%; padding: 5px 5px 0 5px; margin: auto; position: absolute; top: 10px; left: 0; }
 
-.carousel-control-prev-icon { background-image: url("/assets/img/prev.gif"); width: 15px; height: 15px; position: absolute; bottom: -21px; right: 128px; }
+.carousel-control-prev-icon { background-image: url("/assets/img/prev.gif"); width: 15px; height: 15px; position: absolute; bottom: -21px; left: 15px; }
 
 .carousel-control-next-icon { background-image: url("/assets/img/next.gif"); width: 15px; height: 15px; margin-right: auto; position: absolute; bottom: -21px; right: 15px; }
