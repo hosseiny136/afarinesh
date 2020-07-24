@@ -46,7 +46,7 @@
 
 .leftSidebar .note-news li { position: relative; padding-right: 7px; display: block; margin-top: 5px; }
 
-.leftSidebar .note-news li a { font-size: 13px; color: black; }
+.leftSidebar .note-news li a { font-size: 13px; color: black; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; display: block; }
 
 .leftSidebar .note-news li:before { width: 10px; height: 10px; top: 4px; right: -8px; }
 
