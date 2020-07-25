@@ -94,22 +94,25 @@ body{
 .text-r{
   text-align:right;
 }
-.Mrauto{
+.mrAuto{
   margin-right: auto;
 }
-.Mr5{
+.wFull{
+  width: 100%;
+}
+.mR5{
   margin-right: 5px;
 }
-.Ml5{
+.mL5{
   margin-left: 5px;
 }
-.Mr10{
+.mr10{
   margin-right: 10px;
 }
-.Ml10{
+.mL10{
   margin-left: 10px;
 }
-.M10{
+.m10{
   margin:10px;
 }
 .width50{
@@ -169,28 +172,28 @@ li{
 .borderTp{
   border-top:1px solid $border-color;
 }
-.Mtop10{
+.mTop10{
   margin-top:10px
 }
-.Mbottom40{
+.mBottom40{
   margin-bottom:40px
 }
-.Mbottom5{
+.mBottom5{
   margin-bottom:5px
 }
-.Mbottom10{
+.mBottom10{
   margin-bottom:10px
 }
-.Mbottom20{
+.mBottom20{
   margin-bottom:20px
 }
-.Mright10{
+.mRight10{
   margin-right:10px;
 }
-.Mleft30{
+.mLeft30{
   margin-left:30px;
 }
-.Nopaddlr{
+.noPaddlr{
   padding-left: 0;
   padding-right: 0;
 }

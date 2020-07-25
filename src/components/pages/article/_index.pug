@@ -1,5 +1,5 @@
 include ../../mixins/_index.pug
-.article-header.padd5.text-p_11
+.article-header.padd5.text-p_12
   .row
     .code.col-2
       span کد:
@@ -27,13 +27,13 @@ include ../../mixins/_index.pug
   .subtitle.theme2
     p
       | کامفیروزی در تمام مراحل رسیدگی منکر اتهام توهین به رهبری شده و همچنین در گزارش ضابط پرونده نیز این اتهام گزارش نشده است. 
-  .article-desc.borderAll.around5.Mtop10.padd10
-    .summary.text-p_12
+  .article-desc.borderAll.around5.mTop10.padd10.mBottom10
+    .summary
       p
         | رأی برائت محمد علی کامفیرزوی در شعبه اول دادگاه تجدید نظر استان فارس صادر شد.
     .imgarticle
       img(src="../assets/img/article.jpg")
-    .article-inner.text-p_12
+    .article-inner.mt-4
       p به گزارش آفرینش، مرکز رسانه قوه قضاییه اعلام کرد:
       p
         | «پرونده محمدعلی کامفیروزی که با اتهام توهین به مقام معظم رهبری در جریان رسیدگی بدوی منجر به صدور رأی غیر قطعی دو سال حبس شده بود، با تجدید نظر خواهی وی مجدد در دستور کار رسیدگی در دادگاه تجدیدنظر قرار گرفت.
@@ -52,38 +52,43 @@ include ../../mixins/_index.pug
       p
         | محکومیت اولیه او به اتهام توهین به رهبری، با واکنش های انتقاد آمیز زیادی روبه رو شد.
  
-  .article-pagination.row.padd5
-    .col-5.theme2
-      .prev-button_inner.flex.Mtop10
-        a(href="#")
-          img(src="../assets/img/prev.jpg")
-        .Mr5
-          .prev-article
-            a.title-color(href="#") خبر قبلی
-          .title-prevArticle
-            a(href="#") تکمیل عملیات اتصال خط انار و تعمیر شیر ایستگاه 414 رفسنجان
-    .col-5.theme2
-      .next-button_inner.flex.Mtop10
-        .Ml5
-          .next-article
-            a.title-color(href="#") خبر بعدی
-          .title-nextArticle
-            a(href="#") کودکان و کووید 19 مقلد!
-        a.Mrauto(href="#")
-          img(src="../assets/img/next.jpg")
+    //- .article-pagination
+    .row
+      .col-6
+        .theme2.center.flex
+          .prev-button_inner.flex.wFull.center
+            a(href="#")
+              img(src="../assets/img/prev.jpg")
+            .mR5
+              .prev-article
+                a.title-color(href="#") خبر قبلی
+              .title-prevArticle
+                a(href="#") تکمیل عملیات اتصال خط انار و تعمیر شیر ایستگاه 414 رفسنجان
+      .col-6
+        .theme2.center.flex
+          .next-button_inner.flex.wFull.center
+            .mL5
+              .next-article
+                a.title-color(href="#") خبر بعدی
+              .title-nextArticle
+                a(href="#") کودکان و کووید 19 مقلد!
+            a.mrAuto(href="#")
+              img(src="../assets/img/next.jpg")
 +mainCardTemplate("خبرهای پیشنهادی","suggestion-news")
   .row
-    .col.col-5.item.siasi
-      .lable
-        span سیاسی
-      .titleitem
-        span بازگشایی تدریجی مشاغل با دقت و رعایت اصول بهداشتی انجام شود
-      .dateitem 
-        span 1399-01-19
-    .col.col-5.item.ejtemaee
-      .lable
-        span اجتماعی
-      .titleitem
-        span طرح کاهش زنجیره انتقال کرونا تا پایان فروردین ادامه دارد
-      .dateitem
-        span 1399-01-19
+    .col-lg-6.col-md-12
+      .item(style="background: url('/assets/img/siasi.jpg') no-repeat center center; background-size: cover")
+        .lable
+          span سیاسی
+        .titleitem
+          span بازگشایی تدریجی مشاغل با دقت و رعایت اصول بهداشتی انجام شود
+        .dateitem 
+          span 1399-01-19
+    .col-lg-6.col-md-12
+      .item(style="background: url('/assets/img/siasi.jpg') no-repeat center center; background-size: cover")
+        .lable
+          span اجتماعی
+        .titleitem
+          span طرح کاهش زنجیره انتقال کرونا تا پایان فروردین ادامه دارد
+        .dateitem
+          span 1399-01-19

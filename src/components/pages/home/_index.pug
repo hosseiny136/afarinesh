@@ -3,7 +3,7 @@ include ../../mixins/_index.pug
 .topnews.flex.borderAll.around5
   .imgnews
     img(src="../assets/img/item1.jpg")
-  .news-inner.flex.rCol.Mr5
+  .news-inner.flex.rCol.mR5
     .title
       h2.text-title_21  صندلی فروشی; سهمیه پنهان دانشگاه ها برای نوکیسگان 
     .description.text-p_12
@@ -17,7 +17,7 @@ include ../../mixins/_index.pug
 .bottomnews.borderAll.around5
   .row
     each val in [1, 2, 3, 4, 5,6,7,8,9,10]
-      .col-lg-6.col-md-12.col-sm-12.Mtop10.Nopaddlr  
+      .col-lg-6.col-md-12.col-sm-12.mTop10.noPaddlr  
         include ../includes/card
 +mainCardTemplate("اخبار پربازدید","mostview-news")
   .newsgrid-container
@@ -26,9 +26,9 @@ include ../../mixins/_index.pug
 +mainCardTemplate("آخرین خبرها","lastnews")
   .row.lastnews_body
     each val in [1, 2, 3, 4, 5,6,7,8,9,10]
-      .col-lg-6.col-md-12.col-sm-12.Mtop10.Nopaddlr  
+      .col-lg-6.col-md-12.col-sm-12.mTop10.noPaddlr  
         include ../includes/card
-.borderAll.around5.paddT10.Mtop10.theme.videos
+.borderAll.around5.paddT10.mTop10.theme.videos
   .theme-title.bgtitlecolor.title-color
     h4.title.square ویدئو ها
   .videonews.flex.padd5

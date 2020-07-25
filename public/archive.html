@@ -78,43 +78,69 @@
             </div>
           </div>
         </header>
-                <div class="formtheme Mtop10 archive">
+                <div class="formtheme mTop10 archive">
                   <div class="formtitle"><span>آرشیو سایت آفرینش</span></div>
                   <div class="formbody">
                     <form method="POST" action="/archive">
                       <div class="form-group row">
-                        <div class="col-md-4 col-sm-12"><span class="frm_label">از تاريخ:</span>
-                          <input id="date_input_10" type="text"><img id="date_btn_10" src="../assets/img/cal.png" style="vertical-align: top;">
-                          <script type="text/javascript">
-                            Calendar.setup({
-                            inputField  : "date_input_10",   // id of the input field
-                            button      : "date_btn_10",   // trigger for the calendar (button ID)
-                            ifFormat    : "%Y/%m/%d",       // format of the input field
-                            dateType	: 'jalali',
-                            showOthers	: true,
-                            weekNumbers : true
-                            });
-                          </script>
+                        <div class="col-md-5 col-sm-12"><span class="frm_label">از تاريخ:</span>
+                          <div class="rel display-in">
+                            <input id="date_input_3" type="text"><img class="image-archive" id="date_btn_3" src="../assets/img/cal.png">
+                            <script type="text/javascript">
+                              Calendar.setup({
+                              inputField  : "date_input_3",   // id of the input field
+                              button      : "date_btn_3",   // trigger for the calendar (button ID)
+                              ifFormat    : "%Y/%m/%d",       // format of the input field
+                              dateType	: 'jalali',
+                              showOthers	: true,
+                              weekNumbers : true
+                              });
+                            </script>
+                          </div>
                         </div>
-                        <div class="col-md-4 col-sm-12"><span class="frm_label">تا تاريخ:</span>
-                          <input class="text" type="text" name="" value="1399/04/15">
+                        <div class="col-md-5 col-sm-12"><span class="frm_label">تا تاريخ:</span>
+                          <div class="rel display-in">
+                            <input id="date_input_2" type="text"><img class="image-archive" id="date_btn_2" src="../assets/img/cal.png">
+                            <script type="text/javascript">
+                              Calendar.setup({
+                              inputField  : "date_input_2",   // id of the input field
+                              button      : "date_btn_2",   // trigger for the calendar (button ID)
+                              ifFormat    : "%Y/%m/%d",       // format of the input field
+                              dateType	: 'jalali',
+                              showOthers	: true,
+                              weekNumbers : true
+                              });
+                            </script>
+                          </div>
                         </div>
-                        <div class="col-md-4 col-sm-12">
+                        <div class="col-md-2 col-sm-12">
                           <input type="submit" value="جستجو">
                         </div>
                       </div>
                     </form>
                   </div>
                 </div>
-                <div class="formtheme Mtop10 archive">
+                <div class="formtheme mTop10 archive">
                   <div class="formtitle"><span>آرشیو روزنامه آفرینش</span></div>
                   <div class="formbody">
                     <form method="POST" action="/archive">  
                       <div class="form-group row">
-                        <div class="col-md-8 col-sm-12">   <span class="frm_label">تاريخ:</span>
-                          <input class="text" type="text" name="" value="1384/01/01">
+                        <div class="col-md-10 col-sm-12">   <span class="frm_label">تاريخ:</span>
+                          <div class="rel display-in">
+                            <input id="date_input_1" type="text"><img class="image-archive" id="date_btn_1" src="../assets/img/cal.png">
+                            <script type="text/javascript">
+                              Calendar.setup({
+                              inputField  : "date_input_1",   // id of the input field
+                              button      : "date_btn_1",   // trigger for the calendar (button ID)
+                              ifFormat    : "%Y/%m/%d",       // format of the input field
+                              dateType	: 'jalali',
+                              showOthers	: true,
+                              weekNumbers : true
+                              });
+                            </script>
+                          </div>
                         </div>
-                        <div class="col-md-4 col-sm-12">
+                        <div class="col-md-2 col-sm-12">
                           <input type="submit" value="جستجو">
                         </div>
                       </div>
@@ -124,7 +150,7 @@
       </div>
       <div class="col-lg-3 col-md-4 col-sm-12 col-12">
         <div class="leftSidebar">
-                  <div class="theme Mtop10 pdfSlider">
+                  <div class="theme mTop10 pdfSlider">
                     <div class="theme-title bgtitlecolor title-color">
                       <h4 class="title square">روزنامه آفرینش</h4>
                     </div>
@@ -165,7 +191,7 @@
                       </div>
                     </div>
                   </div>
-                  <div class="theme Mtop10 note-news">
+                  <div class="theme mTop10 note-news">
                     <div class="theme-title bgtitlecolor title-color">
                       <h4 class="title square">تازه ترین اخبار</h4>
                     </div>
@@ -184,7 +210,7 @@
                       </ul>
                     </div>
                   </div>
-                  <div class="theme Mtop10 note-news">
+                  <div class="theme mTop10 note-news">
                     <div class="theme-title bgtitlecolor title-color">
                       <h4 class="title square">اخبار ویژه و یادداشت ها</h4>
                     </div>
@@ -217,7 +243,7 @@
                       </ul>
                     </div>
                   </div>
-                  <div class="theme Mtop10 aslider">
+                  <div class="theme mTop10 aslider">
                     <div class="theme-title bgtitlecolor title-color">
                       <h4 class="title square">دیدنی ها</h4>
                     </div>
@@ -242,7 +268,7 @@
                       </div>
                     </div>
                   </div>
-                  <div class="theme Mtop10 aslider">
+                  <div class="theme mTop10 aslider">
                     <div class="theme-title bgtitlecolor title-color">
                       <h4 class="title square">صفحه اول روزنامه</h4>
                     </div>
@@ -267,7 +293,7 @@
                       </div>
                     </div>
                   </div>
-                  <div class="theme Mtop10 aslider online-service">
+                  <div class="theme mTop10 aslider online-service">
                     <div class="theme-title bgtitlecolor title-color">
                       <h4 class="title square">خدمات آنلاین</h4>
                     </div>
@@ -292,7 +318,7 @@
                       </div>
                     </div>
                   </div>
-                  <div class="theme Mtop10 aslider download">
+                  <div class="theme mTop10 aslider download">
                     <div class="theme-title bgtitlecolor title-color">
                       <h4 class="title square">دانلود نرم افزار</h4>
                     </div>
@@ -322,27 +348,27 @@
     </div>
   </div>
   <!-- Footer-->
-  <footer class="mainFooter borderTp Mtop10 padd5">
+  <footer class="mainFooter borderTp mTop10 padd5">
     <div class="container">
       <div class="row paddT30">
-        <div class="col-md-3 col-sm-12">
-          <div class="contact Mleft30">
-            <h4 class="title Mbottom40">روزنامه آفرینش</h4>
+        <div class="col-md-3 col-sm-12 mBottom20">
+          <div class="contact mLeft30">
+            <h4 class="title mBottom40">روزنامه آفرینش</h4>
             <div class="about text-p_13">
               <ul>
                 <li>صاحب امتیاز: عبدالله جعفرعلی جاسبی</li>
                 <li>مدیر مسئول:عباس جعفر علی جاسبی</li>
               </ul>
             </div>
-            <div class="address text-p_13 Mtop10"><img src="/assets/img/home.png"><span class="Mright10">تهران-خیابان کریم خان- خیابان ویلا- کوچه افشین-شماره 27</span></div>
-            <div class="email text-p_13 Mtop10"><img src="/assets/img/email.png"><span class="Mright10">info@afarinesh-daily.com</span></div>
-            <div class="tel text-p_13 Mtop10"><img src="/assets/img/tel.png"><span class="Mright10">(021 -88890492 , 021-88890492)</span></div>
+            <div class="address text-p_13 mTop10"><img src="/assets/img/home.png"><span class="mRight10">تهران-خیابان کریم خان- خیابان ویلا- کوچه افشین-شماره 27</span></div>
+            <div class="email text-p_13 mTop10"><img src="/assets/img/email.png"><span class="mRight10">info@afarinesh-daily.com</span></div>
+            <div class="tel text-p_13 mTop10"><img src="/assets/img/tel.png"><span class="mRight10">(021 -88890492 , 021-88890492)</span></div>
           </div>
         </div>
-        <div class="col-md-3 col-sm-12">
-          <div class="last-news Mleft30">
+        <div class="col-md-3 col-sm-12 mBottom20">
+          <div class="last-news mLeft30">
             <div>
-              <h4 class="title Mbottom40">آخرین خبرها</h4>
+              <h4 class="title mBottom40">آخرین خبرها</h4>
             </div>
             <div class="last-news_inner">
               <ul class="text-p_13">
@@ -353,10 +379,10 @@
             </div>
           </div>
         </div>
-        <div class="col-md-3 col-sm-12">
-          <div class="mostvisited-news Mleft30">
+        <div class="col-md-3 col-sm-12 mBottom20">
+          <div class="mostvisited-news mLeft30">
             <div>
-              <h4 class="title Mbottom40">پربازدید ترین خبرها</h4>
+              <h4 class="title mBottom40">پربازدید ترین خبرها</h4>
             </div>
             <div class="mostvisited-news_inner">
               <ul class="text-p_13">
@@ -367,10 +393,10 @@
             </div>
           </div>
         </div>
-        <div class="col-md-3 col-sm-12">
+        <div class="col-md-3 col-sm-12 mBottom20">
           <div class="archive-news">
             <div>
-              <h4 class="title Mbottom40">صفحات روزنامه آفرینش</h4>
+              <h4 class="title mBottom40">صفحات روزنامه آفرینش</h4>
             </div>
             <ul class="flex fWrapper">
               <li> <a href="#">

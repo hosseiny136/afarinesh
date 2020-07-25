@@ -38,17 +38,19 @@ body { direction: rtl; font-family: 'Nassim', Tahoma, serif; text-align: right; 
 
 .text-r { text-align: right; }
 
-.Mrauto { margin-right: auto; }
+.mrAuto { margin-right: auto; }
 
-.Mr5 { margin-right: 5px; }
+.wFull { width: 100%; }
 
-.Ml5 { margin-left: 5px; }
+.mR5 { margin-right: 5px; }
 
-.Mr10 { margin-right: 10px; }
+.mL5 { margin-left: 5px; }
 
-.Ml10 { margin-left: 10px; }
+.mr10 { margin-right: 10px; }
 
-.M10 { margin: 10px; }
+.mL10 { margin-left: 10px; }
+
+.m10 { margin: 10px; }
 
 .width50 { width: 50%; }
 
@@ -82,21 +84,21 @@ li { list-style: none; }
 
 .borderTp { border-top: 1px solid #C0C0C0; }
 
-.Mtop10 { margin-top: 10px; }
+.mTop10 { margin-top: 10px; }
 
-.Mbottom40 { margin-bottom: 40px; }
+.mBottom40 { margin-bottom: 40px; }
 
-.Mbottom5 { margin-bottom: 5px; }
+.mBottom5 { margin-bottom: 5px; }
 
-.Mbottom10 { margin-bottom: 10px; }
+.mBottom10 { margin-bottom: 10px; }
 
-.Mbottom20 { margin-bottom: 20px; }
+.mBottom20 { margin-bottom: 20px; }
 
-.Mright10 { margin-right: 10px; }
+.mRight10 { margin-right: 10px; }
 
-.Mleft30 { margin-left: 30px; }
+.mLeft30 { margin-left: 30px; }
 
-.Nopaddlr { padding-left: 0; padding-right: 0; }
+.noPaddlr { padding-left: 0; padding-right: 0; }
 
 .padd5 { padding: 5px; }
 
