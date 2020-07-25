@@ -1,7 +1,5 @@
 @font-face { font-family: Nassim; font-style: normal; font-weight: normal; src: url("../fonts/nassim/nassim-bold.ttf") format("truetype"); }
 
-@font-face { font-family: FontAwesome; font-style: normal; font-weight: normal; src: url("../fonts/fontAwesome/fontawesome-webfont.ttf") format("truetype"); }
-
 @font-face { font-family: shabnam; font-style: normal; font-weight: normal; src: url("../fonts/Shabnam-FD.woff"); }
 
 body { direction: rtl; font-family: 'Nassim', Tahoma, serif; text-align: right; }
