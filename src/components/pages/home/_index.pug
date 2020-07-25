@@ -14,23 +14,19 @@ include ../../mixins/_index.pug
       p نرخ صندلی های رشته های پرطرفدار دانشگاه ها افزایش یافته است و اگر آنانی که متر صد خرید هستند هنوز دست نجنبانده اند، ناچارند بعدا چندین برابر قیمت امروز را بپردازند. اخبار تایید شده و نشده حاکی از آن است که قیمت آن صندلی های محبوب نجومی شده و نجومی شدن، یعنی افزایش صفرهای موجود در کنار اعداد، که برای برخی هیچ محلی از اعراب ندارد و هر وقت و هر طور بخواهند می توانند با پرداخت مبالغ تعیین شده، وارد دانشگاه و رشته دلخواه شان شوند. این هم نوعی سهمیه اعتراف نشده و پنهان است برای نوکیسگانی که از قبل تحریم و بحران های اقتصادی و انتصاب و انتساب،
 .hotnews.padd5.bgredcolor
   span  برایان هوک: واشنگتن امیدوار به تمدید تحریم تسلیحاتی علیه ایران است
-.bottomnews.borderAll.around5.padd5
+.bottomnews.borderAll.around5
   .row
-    each val in [1, 2, 3, 4, 5]
-      .col-lg-6.col-md-12.col-sm-12.Mtop10
-        include ../includes/card
-      .col-lg-6.col-md-12.col-sm-12.Mtop10
+    each val in [1, 2, 3, 4, 5,6,7,8,9,10]
+      .col-lg-6.col-md-12.col-sm-12.Mtop10.Nopaddlr  
         include ../includes/card
 +mainCardTemplate("اخبار پربازدید","mostview-news")
   .newsgrid-container
     each i in [1,2,3,4,5,6,7,8,9]
       .newsgrid-item.square انتقاد سناتور آمریکایی از راهکار پمپئو برای تمدید تحریم تسلیحاتی ایران
 +mainCardTemplate("آخرین خبرها","lastnews")
-  .row
-    each val in [1, 2, 3, 4, 5]
-      .col-lg-6.col-md-12.col-sm-12.Mtop10
-        include ../includes/card
-      .col-lg-6.col-md-12.col-sm-12.Mtop10
+  .row.lastnews_body
+    each val in [1, 2, 3, 4, 5,6,7,8,9,10]
+      .col-lg-6.col-md-12.col-sm-12.Mtop10.Nopaddlr  
         include ../includes/card
 .borderAll.around5.paddT10.Mtop10.theme.videos
   .theme-title.bgtitlecolor.title-color
