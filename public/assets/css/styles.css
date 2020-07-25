@@ -156,3 +156,6 @@
 .carousel-control-prev-icon { background-image: url("/assets/img/prev.gif"); width: 15px; height: 15px; position: absolute; bottom: -21px; right: 128px; }
 
 .carousel-control-next-icon { background-image: url("/assets/img/next.gif"); width: 15px; height: 15px; margin-right: auto; position: absolute; bottom: -21px; right: 15px; }
+
+@media (max-width: 576px) { .item { flex: 0 0 50%; margin-top: 5px; }
+  .item-container { flex-wrap: wrap; } }
