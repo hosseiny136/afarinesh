@@ -25,26 +25,36 @@
                     each n in info1
                       .linkItem
                         a.link(href='#', target='_blank', rel='nofollow')= n
-          .link_next_prev.flex
-            a.left.carousel-control.link_prev(href='#press', data-slide='prev')
-              span(aria-hidden="true").carousel-control-prev-icon 
-            a.right.carousel-control.link_next(href='#press', data-slide='next')
-              span(aria-hidden="true").carousel-control-next-icon
+            .link_next_prev.flex
+              a.left.carousel-control.link_prev(href='#press', data-slide='prev')
+                span(aria-hidden="true").carousel-control-prev-icon 
+              a.right.carousel-control.link_next(href='#press', data-slide='next')
+                span(aria-hidden="true").carousel-control-next-icon
         .item.width50
           -var info1=["عصرايران","عصرايران2","عصرایران/عربی","سواد زندگی","عصرخبر","فردانیوز","پارسیا","اعتدال","موبنا","تابنا","تیتر شهر","جیب نیوز","انتخاب","آخرین","آفتاب","جهان","الف","تیک","بلدیه","فرارو","روز نو","بانکی","پرشیا دایجست","زیست نیوز","خرداد نیوز"]
           each n in info1
             .linkItem
               a.link(href='#', target='_blank', rel='nofollow')= n
-//- script
-//-   function checkitem()  
-//-   {
-//-   var $this = $('#myCarousel');
-//-   if ($('.carousel-inner .item:first').hasClass('active')) {
-//-   $this.children('.left.carousel-control').hide();
-//-   } else if ($('.carousel-inner .item:last').hasClass('active')) {
-//-   $this.children('.right.carousel-control').hide();
-//-   } else {
-//-   $this.children('.carousel-control').show();
-//-   }
-//-   }    
-//-   $('#myCarousel').on('slid', '', checkitem);
+script.
+  var carousel = document.querySelectorAll('.carousel');
+  carousel.forEach(function(item){
+    if ($(item).find('.carousel-inner .carousel-item:first').hasClass('active')) {
+      console.log('left')
+      $(item).find('.left.carousel-control').hide();
+      $(item).find('.right.carousel-control').show();
+    }
+    $(item).on('slid.bs.carousel', function () {
+        if ($(this).find('.carousel-inner .carousel-item:first').hasClass('active')) {
+          console.log('left')
+          $(this).find('.left.carousel-control').hide();
+          $(this).find('.right.carousel-control').show();
+        } else if ($(this).find('.carousel-inner .carousel-item:last').hasClass('active')) {
+          $(this).find('.right.carousel-control').hide();
+          $(this).find('.left.carousel-control').show();
+          console.log('right')
+        } else {
+          $(this).find('.carousel-control').show();
+          console.log('show')
+        }
+    })
+  })
