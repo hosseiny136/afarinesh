@@ -1,117 +1,156 @@
-@import '../../scss/variables';
-.logo{
+@import "../../scss/variables";
+.navbar-light .navbar-toggler {
+  border-color: transparent;
+  padding: 0;
+}
+.logo {
   max-width: 263px;
-  img{
+  img {
     width: 100%;
     height: auto;
   }
 }
-.date{
+.date {
   margin-right: auto;
-  color:$gray;
+  color: $gray;
   font-size: 12px;
   text-align: left;
 }
-.topMenu{
-  .navbar{
-    padding:0;
+.topMenu {
+  .navbar {
+    padding: 0;
   }
   li {
     position: relative;
     margin-right: 5px;
     padding-right: 2px;
-    a{
-      font-family:Nassim;
-      font-size:12px;
-      color:#000 !important;
-      }
-    &:before{
+    a {
+      font-family: Nassim;
+      font-size: 12px;
+      color: #000 !important;
+    }
+    &:before {
       width: 7px;
       height: 7px;
       right: 0;
       top: 12px;
     }
   }
-
 }
-.mainMenu{
+.mainMenu {
   > nav {
     padding-left: 0;
     padding-right: 0;
   }
   li {
     position: relative;
-    padding-right:5px;
-    a{
-      font-family:Nassim;
-      font-size:13px;
-      color:#000 !important;
-      padding:3px;
+    padding-right: 5px;
+    a {
+      font-family: Nassim;
+      font-size: 13px;
+      color: #000 !important;
+      padding: 3px;
     }
-    &.active{
-      border-bottom:1px solid #000;
+    &.active {
+      border-bottom: 1px solid #000;
     }
-    &:after{
+    &:after {
       content: "/";
       position: absolute;
-      left: -7px;
-      top: 3px;
+      left: -5px;
+      top: 0;
     }
-    &:last-child:after{
-      display:none;
+    &:last-child:after {
+      display: none;
     }
   }
 }
-.search-form{
+.search-form {
   margin-right: auto;
   height: 29px;
   border: 1px solid #eaeaeb;
-  background-color:$light-gray;
+  background-color: $light-gray;
   border-radius: 25px;
   position: relative;
   max-width: 240px;
-  width:100%;
-  top:50px;
-  input{
-    border:0;
-    background-color:$light-gray;
-    color:$gray;
-    width:80%;
+  width: 100%;
+  top: 50px;
+  input {
+    border: 0;
+    background-color: $light-gray;
+    color: $gray;
+    width: 80%;
     height: 20px;
-    margin-right: 5px;
+    margin-right: 10px;
     font-size: 14px;
   }
-  button{
-    background: url('../img/search.png') transparent no-repeat;
-    border:0;
+  button {
+    background: url("../img/search.png") transparent no-repeat;
+    border: 0;
     position: absolute;
     left: 7px;
     width: 30px;
     height: 30px;
   }
 }
-@media(max-width:991px){
-  .date{
+
+@media (max-width: 991px) {
+  .header{
+    border-bottom: 1px solid $border-color;
+  }
+  .date {
+    font-size: 10px;
+  }
+}
+@media (max-width: 767px) {
+  header {
+    position: relative;
+    .borderBottom {
+      border-bottom: 0;
+    }
+  }
+  .logo {
+    img {
+      width: 120px;
+    }
+  }
+  .date {
+    top: 75px;
+    left: auto;
+    /* width: 100%; */
+    font-size: 9px;
+    right: 18px;
     position: absolute;
-    top: 148px;
-    left: 326px;
-    width: 100%;
   }
   .mainMenu {
     position: absolute;
-    bottom: 123px;
+    bottom: 50px;
     left: 11px;
     #navbarSupportedContent {
       position: absolute;
       top: 52px;
       left: 0;
       width: 250px;
-      border:1px solid rgba(0,0,0,.1);
-      z-index:999;
+      border: 1px solid rgba(0, 0, 0, 0.1);
+      z-index: 999;
+    }
+  }
+  .search-form {
+    max-width: 216px;
+    top: -11px;
+  }
+  .search-form__input {
+    &:focus {
+      outline: none !important;
+    }
   }
 }
-.search-form{
-  max-width: 216px;
-  top: -11px;
-}
+@media (max-width: 400px) {
+  .search-form {
+    max-width: 150px;
+    top: -11px;
+    input{
+      font-size: 11px;
+    }
+  }
 }

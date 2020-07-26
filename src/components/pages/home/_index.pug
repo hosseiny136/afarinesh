@@ -35,21 +35,15 @@ include ../../mixins/_index.pug
   .theme-title.bgtitlecolor.title-color
     h4.title.square ویدئو ها
   .videonews.flex.padd5
-    .item1
-      video(poster='../assets/img/video3.jpg')
-        source(src='../assets/video/movie.mp4', type='video/mp4')
-        source(src='#', type='video/ogg')
-      span
-        a(href="#") ویدئو ترامپ
-    .item2
-      video(poster='../assets/img/video1.jpg')
-        source(src='../assets/video/movie.mp4', type='video/mp4')
-        source(src='#', type='video/ogg')
-      span
-        a(href="#") ویدئو سیل
-    .item3
-      video(poster='../assets/img/video2.jpg')
-        source(src='../assets/video/movie.mp4', type='video/mp4')
-        source(src='#', type='video/ogg')
-      span
-        a(href="#") ویدئو سلامت
+    div
+      a.item1(href="#")
+        img(src='../assets/img/video3.jpg')
+        span ویدئو ترامپ
+    div
+      a.item2(href="#")
+        img(src='../assets/img/video1.jpg')
+        span ویدئو سیل
+    div
+      a.item3(href="#")
+        img(src='../assets/img/video2.jpg', alt="")
+        span ویدئو سلامت

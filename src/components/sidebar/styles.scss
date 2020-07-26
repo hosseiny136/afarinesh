@@ -1,68 +1,67 @@
-@import '../../scss/variables';
-.leftSidebar{
-  .note-news{
-    ul{
+@import "../../scss/variables";
+.leftSidebar {
+  .note-news {
+    ul {
       padding-right: 14px;
       padding-left: 10px;
     }
-    li{
-      position: relative;    
-      padding-right:7px;
+    li {
+      position: relative;
+      padding-right: 7px;
       display: block;
       margin-top: 5px;
-      a{
-        font-size:13px;
-        color:black;
+      a {
+        font-size: 12px;
+        color: black;
         overflow: hidden;
         text-overflow: ellipsis;
         white-space: nowrap;
-        display:block;
+        display: block;
       }
-      &:before{
+      &:before {
         width: 10px;
         height: 10px;
-        top:7px;
-        right:-8px;
+        top: 7px;
+        right: -8px;
       }
     }
   }
 
-  .aslider{
-    .carousel-item{
-      img{
+  .aslider {
+    .carousel-item {
+      img {
         width: 100%;
       }
     }
     .carousel-indicators {
-      position:relative;
-      top:5px;
-      li{
+      position: relative;
+      top: 8px;
+      li {
         border-radius: 50%;
-        width:18px;
-        height:18px;
-        border:1px solid $gray-slide !important;
+        width: 18px;
+        height: 18px;
+        border: 1px solid $gray-slide !important;
         background-color: white;
-      &.active
-        {
+        flex: 0 0 18px;
+        &.active {
           background-color: $gray_active;
         }
       }
     }
   }
-  .flex-item{
-    display:flex;
+  .flex-item {
+    display: flex;
     flex-wrap: wrap;
-    a{
-      flex:0 0 33%;
+    a {
+      flex: 0 0 33%;
     }
-    
   }
-  .pdfSlider{
+  .pdfSlider {
     img {
       width: 100%;
       max-width: 200px;
     }
-    .pdf{
+    .pdf {
       width: 15%;
       margin-left: 5px;
     }
@@ -73,24 +72,23 @@
       left: auto;
       overflow-y: auto;
       margin-bottom: 0px;
-      li{
-        font-size:10px;
+      li {
+        font-size: 12px;
         font-weight: bold;
-        text-indent:0;
-        opacity:100;
+        text-indent: 0;
+        opacity: 100;
         text-align: center;
         height: auto;
         border-top: 0;
-        border-bottom:2px solid transparent;
+        border-bottom: 2px solid transparent;
         background: transparent;
         width: 20px;
         line-height: 22px;
-     &.active
-     {
-      border-bottom: 2px solid #ffa200;
-     }
+        flex: 0 0 18px;
+        &.active {
+          border-bottom: 2px solid #ffa200;
+        }
       }
     }
   }
-
 }
