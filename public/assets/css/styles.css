@@ -32,7 +32,7 @@
 
 .mainMenu li { position: relative; padding-right: 5px; }
 
-.mainMenu li a { font-size: 13px; color: #000 !important; padding: 3px; }
+.mainMenu li a { font-family: Nassim; font-size: 13px; color: #000 !important; padding: 3px; }
 
 .mainMenu li.active { border-bottom: 1px solid #000; }
 
@@ -44,7 +44,7 @@
 
 .search-form input { border: 0; background-color: #e7e7e9; color: #949599; width: 80%; height: 20px; margin-right: 5px; font-size: 14px; }
 
-.search-form button { background: url("../../assets/img/search.png") transparent no-repeat; border: 0; position: absolute; left: 7px; width: 30px; height: 30px; }
+.search-form button { background: url("../img/search.png") transparent no-repeat; border: 0; position: absolute; left: 7px; width: 30px; height: 30px; }
 
 @media (max-width: 991px) { .date { position: absolute; top: 148px; left: 326px; width: 100%; }
   .mainMenu { position: absolute; bottom: 123px; left: 11px; }
@@ -57,7 +57,7 @@
 
 .leftSidebar .note-news li a { font-size: 13px; color: black; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; display: block; }
 
-.leftSidebar .note-news li:before { width: 10px; height: 10px; top: 4px; right: -8px; }
+.leftSidebar .note-news li:before { width: 10px; height: 10px; top: 7px; right: -8px; }
 
 .leftSidebar .aslider .carousel-item img { width: 100%; }
 
@@ -139,7 +139,7 @@
 
 .mostview-news .newsgrid-item:nth-child(8), .mostview-news .newsgrid-item:nth-child(9), .mostview-news .newsgrid-item:nth-child(7) { border-bottom: 0; }
 
-.mostview-news .newsgrid-item:before { width: 10px; height: 10px; right: 5px; }
+.mostview-news .newsgrid-item:before { width: 10px; height: 10px; right: 5px; top: 25px; }
 
 .title-card_news .text-title_19 { margin-bottom: 0px; }
 
