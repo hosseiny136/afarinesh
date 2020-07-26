@@ -7,9 +7,9 @@ include ../mixins/_index.pug
 					div(class=`carousel-item ${n === 0 ? 'active': ''}`)
 						.slide-content.flex
 							a.pdf(href="")
-								img(src='../assets/img/pdfbul.jpg', alt='img1')
+								img(src='assets/img/pdfbul.jpg', alt='img1')
 							a.image(href="")
-								img(src=`../assets/img/pdfimg-${n}.jpg`, alt='img1')
+								img(src=`assets/img/pdfimg-${n}.jpg`, alt='img1')
 			ul.carousel-indicators
 				each n in [0,1,2,3,4,5,6,7]
 					li(class=`${n === 0 ? "active" : ""}`,data-target='#pdfSlider', data-slide-to=`${n}`)=n+1
@@ -121,17 +121,17 @@ include ../mixins/_index.pug
 		#attractions-slider.carousel.slide(data-ride='carousel')
 				.carousel-inner
 					.carousel-item.active
-						img(src='../assets/img/didani.jpg', alt='img1')
+						img(src='assets/img/didani.jpg', alt='img1')
 					.carousel-item
-						img(src='../assets/img/didani.jpg', alt='img1')
+						img(src='assets/img/didani.jpg', alt='img1')
 					.carousel-item
-						img(src='../assets/img/didani.jpg', alt='img1')
+						img(src='assets/img/didani.jpg', alt='img1')
 					.carousel-item
-						img(src='../assets/img/didani.jpg', alt='img1')
+						img(src='assets/img/didani.jpg', alt='img1')
 					.carousel-item
-						img(src='../assets/img/didani.jpg', alt='img1')
+						img(src='assets/img/didani.jpg', alt='img1')
 					.carousel-item
-						img(src='../assets/img/didani.jpg', alt='img1')
+						img(src='assets/img/didani.jpg', alt='img1')
 				ul.carousel-indicators
 					li.active(data-target='#attractions-slider', data-slide-to='0')
 					li(data-target='#attractions-slider', data-slide-to='1')
@@ -143,17 +143,17 @@ include ../mixins/_index.pug
 			#news-slider.carousel.slide(data-ride='carousel')
 				.carousel-inner
 					.carousel-item.active
-						img(src='../assets/img/varzeshi-news.jpg', alt='img1')
+						img(src='assets/img/varzeshi-news.jpg', alt='img1')
 					.carousel-item
-						img(src='../assets/img/varzeshi-news.jpg', alt='img1')
+						img(src='assets/img/varzeshi-news.jpg', alt='img1')
 					.carousel-item
-						img(src='../assets/img/varzeshi-news.jpg', alt='img1')
+						img(src='assets/img/varzeshi-news.jpg', alt='img1')
 					.carousel-item
-						img(src='../assets/img/varzeshi-news.jpg', alt='img1')
+						img(src='assets/img/varzeshi-news.jpg', alt='img1')
 					.carousel-item
-						img(src='../assets/img/varzeshi-news.jpg', alt='img1')
+						img(src='assets/img/varzeshi-news.jpg', alt='img1')
 					.carousel-item
-						img(src='../assets/img/varzeshi-news.jpg', alt='img1')
+						img(src='assets/img/varzeshi-news.jpg', alt='img1')
 				ul.carousel-indicators
 					li.active(data-target='#news-slider', data-slide-to='0')
 					li(data-target='#news-slider', data-slide-to='1')
@@ -167,28 +167,28 @@ include ../mixins/_index.pug
 				.carousel-item.active
 					.flex-item
 						a(href="#")
-							img(src="../assets/img/savabegh.png")
+							img(src="assets/img/savabegh.png")
 						a(href="#")
-							img(src="../assets/img/metro.png")
+							img(src="assets/img/metro.png")
 						a(href="#")
-							img(src="../assets/img/oghat.png")
+							img(src="assets/img/oghat.png")
 						a(href="#")
-							img(src="../assets/img/internet.png")
+							img(src="assets/img/internet.png")
 						a(href="#")
-							img(src="../assets/img/other-service.png")
+							img(src="assets/img/other-service.png")
 				for n in [1,2,3,4,5,6]
 					.carousel-item
 						.flex-item
 							a(href="#")
-								img(src="../assets/img/internet.png")
+								img(src="assets/img/internet.png")
 							a(href="#")
-								img(src="../assets/img/other-service.png")
+								img(src="assets/img/other-service.png")
 							a(href="#")
-								img(src="../assets/img/savabegh.png")
+								img(src="assets/img/savabegh.png")
 							a(href="#")
-								img(src="../assets/img/metro.png")
+								img(src="assets/img/metro.png")
 							a(href="#")
-								img(src="../assets/img/oghat.png")
+								img(src="assets/img/oghat.png")
 			ul.carousel-indicators
 				li.active(data-target='#service-slider', data-slide-to='0')
 				li(data-target='#service-slider', data-slide-to='1')
@@ -202,20 +202,20 @@ include ../mixins/_index.pug
 				.carousel-item.active
 					.flex-item
 						a(href="#")
-							img(src="../assets/img/instagram.png")
+							img(src="assets/img/instagram.png")
 						a(href="#")
-							img(src="../assets/img/whatsapp.png")
+							img(src="assets/img/whatsapp.png")
 						a(href="#")
-							img(src="../assets/img/cafe-bazar.png")
+							img(src="assets/img/cafe-bazar.png")
 				for n in [1,2,3,4,5,6]
 					.carousel-item
 						.flex-item
 							a(href="#")
-								img(src="../assets/img/instagram.png")
+								img(src="assets/img/instagram.png")
 							a(href="#")
-								img(src="../assets/img/whatsapp.png")
+								img(src="assets/img/whatsapp.png")
 							a(href="#")
-								img(src="../assets/img/cafe-bazar.png")
+								img(src="assets/img/cafe-bazar.png")
 			ul.carousel-indicators
 				li.active(data-target='#download-slider', data-slide-to='0')
 				li(data-target='#download-slider', data-slide-to='1')
