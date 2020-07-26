@@ -9,7 +9,7 @@ include ../mixins/_index.pug
 							img(src='../assets/img/pdfbul.jpg', alt='img1')
 						a.image(href="")
 							img(src='../assets/img/pdfimg.jpg', alt='img1')
-				each n in[1,2,3,4,5,6]
+				each n in[1,2,3,4,5,6,7]
 					.carousel-item
 						.slide-content.flex
 							a.pdf(href="")
@@ -17,7 +17,7 @@ include ../mixins/_index.pug
 							a.image(href="")
 								img(src='../assets/img/pdfimg.jpg', alt='img1')
 			ul.carousel-indicators
-				each n in [0,1,2,3,4,5,6]
+				each n in [0,1,2,3,4,5,6,7]
 					li(class=`${n === 0 ? "active" : ""}`,data-target='#pdfSlider', data-slide-to=`${n}`)=n+1
 	+mainCardTemplate("تازه ترین اخبار","note-news")
 		ul
@@ -124,7 +124,7 @@ include ../mixins/_index.pug
 				a(href="#")
 					|	ورد سامانه اس400 روسیه به ترکیه متوقف
 	+mainCardTemplate("دیدنی ها","aslider")
-		.carousel.slide(data-ride='carousel')
+		#attractions-slider.carousel.slide(data-ride='carousel')
 				.carousel-inner
 					.carousel-item.active
 						img(src='../assets/img/didani.jpg', alt='img1')
@@ -139,12 +139,12 @@ include ../mixins/_index.pug
 					.carousel-item
 						img(src='../assets/img/didani.jpg', alt='img1')
 				ul.carousel-indicators
-					li.active(data-target='', data-slide-to='0')
-					li(data-target='', data-slide-to='1')
-					li(data-target='', data-slide-to='2')
-					li(data-target='', data-slide-to='3')
-					li(data-target='', data-slide-to='4')
-					li(data-target='', data-slide-to='5')
+					li.active(data-target='#attractions-slider', data-slide-to='0')
+					li(data-target='#attractions-slider', data-slide-to='1')
+					li(data-target='#attractions-slider', data-slide-to='2')
+					li(data-target='#attractions-slider', data-slide-to='3')
+					li(data-target='#attractions-slider', data-slide-to='4')
+					li(data-target='#attractions-slider', data-slide-to='5')
 	+mainCardTemplate("صفحه اول روزنامه","aslider")
 			#news-slider.carousel.slide(data-ride='carousel')
 				.carousel-inner
@@ -171,17 +171,30 @@ include ../mixins/_index.pug
 		#service-slider.carousel.slide(data-ride='carousel')
 			.carousel-inner
 				.carousel-item.active
-					img(src='../assets/img/image3.jpg', alt='img1')
-				.carousel-item
-					img(src='../assets/img/image3.jpg', alt='img1')
-				.carousel-item
-					img(src='../assets/img/image3.jpg', alt='img1')
-				.carousel-item
-					img(src='../assets/img/image3.jpg', alt='img1')
-				.carousel-item
-					img(src='../assets/img/image3.jpg', alt='img1')
-				.carousel-item
-					img(src='../assets/img/image3.jpg', alt='img1')
+					.flex-item
+						a(href="#")
+							img(src="../assets/img/savabegh.png")
+						a(href="#")
+							img(src="../assets/img/metro.png")
+						a(href="#")
+							img(src="../assets/img/oghat.png")
+						a(href="#")
+							img(src="../assets/img/internet.png")
+						a(href="#")
+							img(src="../assets/img/other-service.png")
+				for n in [1,2,3,4,5,6]
+					.carousel-item
+						.flex-item
+							a(href="#")
+								img(src="../assets/img/internet.png")
+							a(href="#")
+								img(src="../assets/img/other-service.png")
+							a(href="#")
+								img(src="../assets/img/savabegh.png")
+							a(href="#")
+								img(src="../assets/img/metro.png")
+							a(href="#")
+								img(src="../assets/img/oghat.png")
 			ul.carousel-indicators
 				li.active(data-target='#service-slider', data-slide-to='0')
 				li(data-target='#service-slider', data-slide-to='1')
@@ -193,17 +206,22 @@ include ../mixins/_index.pug
 		#download-slider.carousel.slide(data-ride='carousel')
 			.carousel-inner
 				.carousel-item.active
-					img(src='../assets/img/image5.jpg', alt='img1')
-				.carousel-item
-					img(src='../assets/img/image5.jpg', alt='img1')
-				.carousel-item
-					img(src='../assets/img/image5.jpg', alt='img1')
-				.carousel-item
-					img(src='../assets/img/image5.jpg', alt='img1')
-				.carousel-item
-					img(src='../assets/img/image5.jpg', alt='img1')
-				.carousel-item
-					img(src='../assets/img/image5.jpg', alt='img1')
+					.flex-item
+						a(href="#")
+							img(src="../assets/img/instagram.png")
+						a(href="#")
+							img(src="../assets/img/whatsapp.png")
+						a(href="#")
+							img(src="../assets/img/cafe-bazar.png")
+				for n in [1,2,3,4,5,6]
+					.carousel-item
+						.flex-item
+							a(href="#")
+								img(src="../assets/img/instagram.png")
+							a(href="#")
+								img(src="../assets/img/whatsapp.png")
+							a(href="#")
+								img(src="../assets/img/cafe-bazar.png")
 			ul.carousel-indicators
 				li.active(data-target='#download-slider', data-slide-to='0')
 				li(data-target='#download-slider', data-slide-to='1')

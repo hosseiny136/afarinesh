@@ -63,7 +63,7 @@ body{
   &_24 {
     font-size: 24px;
     font-weight: 300;
-    line-height: 24px;
+    line-height: 28px;
     text-align: right;
   }
 }
@@ -82,6 +82,12 @@ body{
     font-size: 12px;
     font-weight: 300;
     line-height: 16px;
+
+  }
+  &_14 {
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 24px;
 
   }
 }
@@ -171,6 +177,9 @@ li{
   &.around5{
     border-radius:5px;
   }
+}
+.borderBottom{
+  border-bottom: 1px solid $border-color;
 }
 .borderTp{
   border-top:1px solid $border-color;

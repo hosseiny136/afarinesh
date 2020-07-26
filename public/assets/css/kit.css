@@ -26,13 +26,15 @@ body { direction: rtl; font-family: Tahoma; text-align: right; }
 
 .text-title_21 { font-size: 21px; font-weight: 300; line-height: 24px; text-align: center; }
 
-.text-title_24 { font-size: 24px; font-weight: 300; line-height: 24px; text-align: right; }
+.text-title_24 { font-size: 24px; font-weight: 300; line-height: 28px; text-align: right; }
 
 .text-p_11 { font-size: 11px; font-weight: normal; }
 
 .text-p_13 { font-size: 13px; font-weight: 300; line-height: 18px; text-align: justify; }
 
 .text-p_12 { font-size: 12px; font-weight: 300; line-height: 16px; }
+
+.text-p_14 { font-size: 14px; font-weight: 300; line-height: 24px; }
 
 .title { font-family: Nassim; font-size: 19px; font-weight: 300; line-height: 24px; }
 
@@ -83,6 +85,8 @@ li { list-style: none; }
 .borderAll { border: 1px solid #C0C0C0; }
 
 .borderAll.around5 { border-radius: 5px; }
+
+.borderBottom { border-bottom: 1px solid #C0C0C0; }
 
 .borderTp { border-top: 1px solid #C0C0C0; }
 

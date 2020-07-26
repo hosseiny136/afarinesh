@@ -1,7 +1,7 @@
 .container
   .row
-    .col-lg-9.col-md-12
-      .title-link رسانه های آنلاین
+    .col-lg-9.col-md-12.noPaddlr
+      .title-link.text-p_12 رسانه های آنلاین
       .item-container.flex
         each i in [1,2,3,4,5]
           .item.width20
@@ -9,8 +9,8 @@
             each n in info1
               .linkItem
                 a.link(href='#', target='_blank', rel='nofollow')= n
-    .col-lg-3.col-md-12
-      .title-link مطبوعات
+    .col-lg-3.col-md-12.noPaddlr
+      .title-link.text-p_12 مطبوعات
       .item-container.flex
         .item.width50
           #press.carousel.slide(data-interval='false', data-wrap='false')
@@ -35,26 +35,26 @@
           each n in info1
             .linkItem
               a.link(href='#', target='_blank', rel='nofollow')= n
-script.
-  var carousel = document.querySelectorAll('.carousel');
-  carousel.forEach(function(item){
-    if ($(item).find('.carousel-inner .carousel-item:first').hasClass('active')) {
-      console.log('left')
-      $(item).find('.left.carousel-control').hide();
-      $(item).find('.right.carousel-control').show();
-    }
-    $(item).on('slid.bs.carousel', function () {
-        if ($(this).find('.carousel-inner .carousel-item:first').hasClass('active')) {
-          console.log('left')
-          $(this).find('.left.carousel-control').hide();
-          $(this).find('.right.carousel-control').show();
-        } else if ($(this).find('.carousel-inner .carousel-item:last').hasClass('active')) {
-          $(this).find('.right.carousel-control').hide();
-          $(this).find('.left.carousel-control').show();
-          console.log('right')
-        } else {
-          $(this).find('.carousel-control').show();
-          console.log('show')
-        }
+  script.
+    var carousel = document.querySelectorAll('.carousel');
+    carousel.forEach(function(item){
+      if ($(item).find('.carousel-inner .carousel-item:first').hasClass('active')) {
+        console.log('left')
+        $(item).find('.left.carousel-control').hide();
+        $(item).find('.right.carousel-control').show();
+      }
+      $(item).on('slid.bs.carousel', function () {
+          if ($(this).find('.carousel-inner .carousel-item:first').hasClass('active')) {
+            console.log('left')
+            $(this).find('.left.carousel-control').hide();
+            $(this).find('.right.carousel-control').show();
+          } else if ($(this).find('.carousel-inner .carousel-item:last').hasClass('active')) {
+            $(this).find('.right.carousel-control').hide();
+            $(this).find('.left.carousel-control').show();
+            console.log('right')
+          } else {
+            $(this).find('.carousel-control').show();
+            console.log('show')
+          }
+      })
     })
-  })

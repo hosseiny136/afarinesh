@@ -49,6 +49,14 @@
       }
     }
   }
+  .flex-item{
+    display:flex;
+    flex-wrap: wrap;
+    a{
+      flex:0 0 33%;
+    }
+    
+  }
   .pdfSlider{
     img {
       width: 100%;
@@ -64,7 +72,10 @@
       right: -30px;
       left: auto;
       overflow-y: auto;
+      margin-bottom: 0px;
       li{
+        font-size:10px;
+        font-weight: bold;
         text-indent:0;
         opacity:100;
         text-align: center;

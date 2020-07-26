@@ -13,6 +13,9 @@
   text-align: left;
 }
 .topMenu{
+  .navbar{
+    padding:0;
+  }
   li {
     position: relative;
     margin-right: 5px;
@@ -76,6 +79,7 @@
     width:80%;
     height: 20px;
     margin-right: 5px;
+    font-size: 14px;
   }
   button{
     background: url('../../assets/img/search.png') transparent no-repeat;
@@ -85,4 +89,21 @@
     width: 30px;
     height: 30px;
   }
+}
+@media(max-width:991px){
+  .date{
+    position: absolute;
+    top: 148px;
+    left: 326px;
+    width: 100%;
+  }
+  .mainMenu {
+    position: absolute;
+    bottom: 128px;
+    left: 11px;
+}
+.search-form{
+  max-width: 216px;
+  top: -11px;
+}
 }
