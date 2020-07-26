@@ -4,17 +4,17 @@
     <title>afarinesh</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="/assets/css/bootstrap.min.css">
-    <link rel="stylesheet" href="/assets/css/kit.min.css">
-    <link rel="stylesheet" href="/assets/css/styles.min.css">
-    <script src="/assets/js/jquery.min.js"></script>
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/kit.min.css">
+    <link rel="stylesheet" href="assets/css/styles.min.css">
+    <script src="assets/js/jquery.min.js"></script>
   </head>
 </html>
 <body>
   <div class="container">
     <div class="row">
-      <div class="col-lg-9 col-md-12">
-        <div class="title-link">رسانه های آنلاین</div>
+      <div class="col-lg-9 col-md-12 noPaddlr">
+        <div class="title-link text-p_12">رسانه های آنلاین</div>
         <div class="item-container flex">
           <div class="item width20">
             <div class="linkItem"><a class="link" href="#" target="_blank" rel="nofollow">عصرايران</a></div>
@@ -153,8 +153,8 @@
           </div>
         </div>
       </div>
-      <div class="col-lg-3 col-md-12">
-        <div class="title-link">مطبوعات</div>
+      <div class="col-lg-3 col-md-12 noPaddlr">
+        <div class="title-link text-p_12">مطبوعات</div>
         <div class="item-container flex">
           <div class="item width50">
             <div class="carousel slide" id="press" data-interval="false" data-wrap="false">
@@ -247,31 +247,31 @@
         </div>
       </div>
     </div>
-  </div>
-  <script>
-    var carousel = document.querySelectorAll('.carousel');
-    carousel.forEach(function(item){
-      if ($(item).find('.carousel-inner .carousel-item:first').hasClass('active')) {
-        console.log('left')
-        $(item).find('.left.carousel-control').hide();
-        $(item).find('.right.carousel-control').show();
-      }
-      $(item).on('slid.bs.carousel', function () {
-          if ($(this).find('.carousel-inner .carousel-item:first').hasClass('active')) {
-            console.log('left')
-            $(this).find('.left.carousel-control').hide();
-            $(this).find('.right.carousel-control').show();
-          } else if ($(this).find('.carousel-inner .carousel-item:last').hasClass('active')) {
-            $(this).find('.right.carousel-control').hide();
-            $(this).find('.left.carousel-control').show();
-            console.log('right')
-          } else {
-            $(this).find('.carousel-control').show();
-            console.log('show')
-          }
+    <script>
+      var carousel = document.querySelectorAll('.carousel');
+      carousel.forEach(function(item){
+        if ($(item).find('.carousel-inner .carousel-item:first').hasClass('active')) {
+          console.log('left')
+          $(item).find('.left.carousel-control').hide();
+          $(item).find('.right.carousel-control').show();
+        }
+        $(item).on('slid.bs.carousel', function () {
+            if ($(this).find('.carousel-inner .carousel-item:first').hasClass('active')) {
+              console.log('left')
+              $(this).find('.left.carousel-control').hide();
+              $(this).find('.right.carousel-control').show();
+            } else if ($(this).find('.carousel-inner .carousel-item:last').hasClass('active')) {
+              $(this).find('.right.carousel-control').hide();
+              $(this).find('.left.carousel-control').show();
+              console.log('right')
+            } else {
+              $(this).find('.carousel-control').show();
+              console.log('show')
+            }
+        })
       })
-    })
-  </script>
+    </script>
+  </div>
   <!-- Footer-->
   <footer class="mainFooter borderTp mTop10 padd5">
     <div class="container">
@@ -285,9 +285,9 @@
                 <li>مدیر مسئول:عباس جعفر علی جاسبی</li>
               </ul>
             </div>
-            <div class="address text-p_13 mTop10"><img src="/assets/img/home.png"><span class="mRight10">تهران-خیابان کریم خان- خیابان ویلا- کوچه افشین-شماره 27</span></div>
-            <div class="email text-p_13 mTop10"><img src="/assets/img/email.png"><span class="mRight10">info@afarinesh-daily.com</span></div>
-            <div class="tel text-p_13 mTop10"><img src="/assets/img/tel.png"><span class="mRight10">(021 -88890492 , 021-88890492)</span></div>
+            <div class="address text-p_13 mTop10"><img src="assets/img/home.png"><span class="mRight10">تهران-خیابان کریم خان- خیابان ویلا- کوچه افشین-شماره 27</span></div>
+            <div class="email text-p_13 mTop10"><img src="assets/img/email.png"><span class="mRight10">info@afarinesh-daily.com</span></div>
+            <div class="tel text-p_13 mTop10"><img src="assets/img/tel.png"><span class="mRight10">(021 -88890492 , 021-88890492)</span></div>
           </div>
         </div>
         <div class="col-md-3 col-sm-12 mBottom20">
@@ -297,9 +297,9 @@
             </div>
             <div class="last-news_inner">
               <ul class="text-p_13">
-                <li>جمالی نژاد: مسافران ناوگان حمل و نقل عمومی از 15 تیر ماه باید از ماسک استفاده کنند.</li>
-                <li>نیازی به مذاکره مجدد با آمریکا وجود ندارد.</li>
-                <li>320 مقام از آمریکای لاتین خواستار تحریم رژیم صهیونیستی شدند</li>
+                <li><a href="#">جمالی نژاد: مسافران ناوگان حمل و نقل عمومی از 15 تیر ماه باید از ماسک استفاده کنند.</a></li>
+                <li><a href="#">نیازی به مذاکره مجدد با آمریکا وجود ندارد.</a></li>
+                <li><a href="#">320 مقام از آمریکای لاتین خواستار تحریم رژیم صهیونیستی شدند</a></li>
               </ul>
             </div>
           </div>
@@ -311,9 +311,9 @@
             </div>
             <div class="mostvisited-news_inner">
               <ul class="text-p_13">
-                <li>جمالی نژاد: مسافران ناوگان حمل و نقل عمومی از 15 تیر ماه باید از ماسک استفاده کنند.</li>
-                <li>نیازی به مذاکره مجدد با آمریکا وجود ندارد.</li>
-                <li>320 مقام از آمریکای لاتین خواستار تحریم رژیم صهیونیستی شدند</li>
+                <li><a href="#">جمالی نژاد: مسافران ناوگان حمل و نقل عمومی از 15 تیر ماه باید از ماسک استفاده کنند.</a></li>
+                <li><a href="#">نیازی به مذاکره مجدد با آمریکا وجود ندارد.</a></li>
+                <li><a href="#">320 مقام از آمریکای لاتین خواستار تحریم رژیم صهیونیستی شدند</a></li>
               </ul>
             </div>
           </div>
@@ -325,27 +325,27 @@
             </div>
             <ul class="flex fWrapper">
               <li> <a href="#">
-                  <div class="archive-pdf center"><img src="/assets/img/pdf.png"></div>صفحه1</a></li>
+                  <div class="archive-pdf center"><img src="assets/img/pdf.png"></div>صفحه1</a></li>
               <li> <a href="#">
-                  <div class="archive-pdf center"><img src="/assets/img/pdf.png"></div>صفحه1</a></li>
+                  <div class="archive-pdf center"><img src="assets/img/pdf.png"></div>صفحه1</a></li>
               <li> <a href="#">
-                  <div class="archive-pdf center"><img src="/assets/img/pdf.png"></div>صفحه1</a></li>
+                  <div class="archive-pdf center"><img src="assets/img/pdf.png"></div>صفحه1</a></li>
               <li> <a href="#">
-                  <div class="archive-pdf center"><img src="/assets/img/pdf.png"></div>صفحه1</a></li>
+                  <div class="archive-pdf center"><img src="assets/img/pdf.png"></div>صفحه1</a></li>
               <li> <a href="#">
-                  <div class="archive-pdf center"><img src="/assets/img/pdf.png"></div>صفحه1</a></li>
+                  <div class="archive-pdf center"><img src="assets/img/pdf.png"></div>صفحه1</a></li>
               <li> <a href="#">
-                  <div class="archive-pdf center"><img src="/assets/img/pdf.png"></div>صفحه1</a></li>
+                  <div class="archive-pdf center"><img src="assets/img/pdf.png"></div>صفحه1</a></li>
               <li> <a href="#">
-                  <div class="archive-pdf center"><img src="/assets/img/pdf.png"></div>صفحه1</a></li>
+                  <div class="archive-pdf center"><img src="assets/img/pdf.png"></div>صفحه1</a></li>
               <li> <a href="#">
-                  <div class="archive-pdf center"><img src="/assets/img/pdf.png"></div>صفحه1</a></li>
+                  <div class="archive-pdf center"><img src="assets/img/pdf.png"></div>صفحه1</a></li>
             </ul>
           </div>
         </div>
       </div>
     </div>
   </footer>
-  <script src="/assets/js/popper.min.js"></script>
-  <script src="/assets/js/bootstrap.min.js"></script>
+  <script src="assets/js/popper.min.js"></script>
+  <script src="assets/js/bootstrap.min.js"></script>
 </body>

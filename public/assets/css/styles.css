@@ -44,7 +44,7 @@
 
 .search-form input { border: 0; background-color: #e7e7e9; color: #949599; width: 80%; height: 20px; margin-right: 5px; font-size: 14px; }
 
-.search-form button { background: url("../../assets/img/search.png") transparent no-repeat; border: 0; position: absolute; left: 7px; width: 30px; height: 30px; }
+.search-form button { background: url("../img/search.png") transparent no-repeat; border: 0; position: absolute; left: 7px; width: 30px; height: 30px; }
 
 @media (max-width: 991px) { .date { position: absolute; top: 148px; left: 326px; width: 100%; }
   .mainMenu { position: absolute; bottom: 123px; left: 11px; }
@@ -177,9 +177,9 @@
 
 .link_next_prev { width: 100%; padding: 5px 5px 0 5px; margin: auto; position: absolute; top: 10px; left: 0; }
 
-.carousel-control-prev-icon { background-image: url("/assets/img/prev.gif"); width: 15px; height: 15px; position: absolute; bottom: -21px; left: 15px; }
+.carousel-control-prev-icon { background-image: url("../img/prev.gif"); width: 15px; height: 15px; position: absolute; bottom: -21px; left: 15px; }
 
-.carousel-control-next-icon { background-image: url("/assets/img/next.gif"); width: 15px; height: 15px; margin-right: auto; position: absolute; bottom: -21px; right: 15px; }
+.carousel-control-next-icon { background-image: url("../img/next.gif"); width: 15px; height: 15px; margin-right: auto; position: absolute; bottom: -21px; right: 15px; }
 
 @media (max-width: 576px) { .item { flex: 0 0 50%; margin-top: 5px; }
   .item-container { flex-wrap: wrap; } }
