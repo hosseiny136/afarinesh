@@ -99,8 +99,16 @@
   }
   .mainMenu {
     position: absolute;
-    bottom: 128px;
+    bottom: 123px;
     left: 11px;
+    #navbarSupportedContent {
+      position: absolute;
+      top: 52px;
+      left: 0;
+      width: 250px;
+      border:1px solid rgba(0,0,0,.1);
+      z-index:999;
+  }
 }
 .search-form{
   max-width: 216px;
