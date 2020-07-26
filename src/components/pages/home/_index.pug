@@ -5,7 +5,8 @@ include ../../mixins/_index.pug
     img(src="../assets/img/item1.jpg")
   .news-inner.flex.rCol.mR5
     .title
-      h2.text-title_21  صندلی فروشی; سهمیه پنهان دانشگاه ها برای نوکیسگان 
+      h2.text-title_21 
+        a(href="#") صندلی فروشی; سهمیه پنهان دانشگاه ها برای نوکیسگان 
     .description.text-p_12
       p اصلا چه کسی به شما گفته است که برای ورود به دانشگاه و درس خواندن –یا نخواندن- در رشته پزشکی- یا هر رشته ای
         | که دوست دارید- باید خودتان را یک سال به صورت شبانه روزی عذاب بدهید و درس بخوانید؟ ماجرای ثابت شده ای هست که
@@ -13,7 +14,8 @@ include ../../mixins/_index.pug
         | روی آن صندلی عزیز بنشینید، به همین راحتی و گوارایی!
       p نرخ صندلی های رشته های پرطرفدار دانشگاه ها افزایش یافته است و اگر آنانی که متر صد خرید هستند هنوز دست نجنبانده اند، ناچارند بعدا چندین برابر قیمت امروز را بپردازند. اخبار تایید شده و نشده حاکی از آن است که قیمت آن صندلی های محبوب نجومی شده و نجومی شدن، یعنی افزایش صفرهای موجود در کنار اعداد، که برای برخی هیچ محلی از اعراب ندارد و هر وقت و هر طور بخواهند می توانند با پرداخت مبالغ تعیین شده، وارد دانشگاه و رشته دلخواه شان شوند. این هم نوعی سهمیه اعتراف نشده و پنهان است برای نوکیسگانی که از قبل تحریم و بحران های اقتصادی و انتصاب و انتساب،
 .hotnews.padd5.bgredcolor
-  span  برایان هوک: واشنگتن امیدوار به تمدید تحریم تسلیحاتی علیه ایران است
+  span
+    a(href="#")  برایان هوک: واشنگتن امیدوار به تمدید تحریم تسلیحاتی علیه ایران است
 .bottomnews.borderAll.around5
   .row
     each val in [1, 2, 3, 4, 5,6,7,8,9,10]
@@ -22,7 +24,8 @@ include ../../mixins/_index.pug
 +mainCardTemplate("اخبار پربازدید","mostview-news")
   .newsgrid-container
     each i in [1,2,3,4,5,6,7,8,9]
-      .newsgrid-item.square انتقاد سناتور آمریکایی از راهکار پمپئو برای تمدید تحریم تسلیحاتی ایران
+      .newsgrid-item.square
+        a(href="#") انتقاد سناتور آمریکایی از راهکار پمپئو برای تمدید تحریم تسلیحاتی ایران
 +mainCardTemplate("آخرین خبرها","lastnews")
   .row.lastnews_body
     each val in [1, 2, 3, 4, 5,6,7,8,9,10]
@@ -36,14 +39,17 @@ include ../../mixins/_index.pug
       video(poster='../assets/img/video3.jpg')
         source(src='../assets/video/movie.mp4', type='video/mp4')
         source(src='#', type='video/ogg')
-      span ویدئو ترامپ
+      span
+        a(href="#") ویدئو ترامپ
     .item2
       video(poster='../assets/img/video1.jpg')
         source(src='../assets/video/movie.mp4', type='video/mp4')
         source(src='#', type='video/ogg')
-      span ویدئو سیل
+      span
+        a(href="#") ویدئو سیل
     .item3
       video(poster='../assets/img/video2.jpg')
         source(src='../assets/video/movie.mp4', type='video/mp4')
         source(src='#', type='video/ogg')
-      span ویدئو سلامت
+      span
+        a(href="#") ویدئو سلامت

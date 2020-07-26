@@ -49,9 +49,6 @@
     align-items: center;
     justify-content: center;
   }
-  .titleitem {
-    // margin: 63px;
-  }
   .dateitem {
     color: #fff;
     text-align: left;
@@ -64,7 +61,8 @@
     font-size: 20px;
     text-align: right;
     padding: 50px 15px 0;
-    color: white;
+    a{color: white;}
+    
   }
   .lable {
     background-color: $red;

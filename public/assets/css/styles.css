@@ -92,13 +92,15 @@
 
 .suggestion-news .dateitem { color: #fff; text-align: left; margin-right: auto; margin-top: auto; padding: 15px; }
 
-.suggestion-news .titleitem { margin-top: auto; font-size: 20px; text-align: right; padding: 50px 15px 0; color: white; }
+.suggestion-news .titleitem { margin-top: auto; font-size: 20px; text-align: right; padding: 50px 15px 0; }
+
+.suggestion-news .titleitem a { color: white; }
 
 .suggestion-news .lable { background-color: #d71a21; position: absolute; color: #fff; left: 0; padding: 0 10px; margin-bottom: auto; top: 0; }
 
 @media (max-width: 991px) { .suggestion-news .item { margin-bottom: 30px; } }
 
-.topcatnews .catdescription { text-align: right; padding-left: 5px; padding-right: 5px; }
+.topcatnews .catdescription { text-align: justify; padding-left: 5px; padding-right: 5px; }
 
 .topcatnews .catdescription p { margin-bottom: 5px; }
 
@@ -113,7 +115,9 @@
 
 .topnews { padding: 10px 5px; }
 
-.hotnews { color: white; margin-top: 5px; margin-bottom: 5px; border-radius: 10px; }
+.hotnews { margin-top: 5px; margin-bottom: 5px; border-radius: 10px; }
+
+.hotnews a { color: white; }
 
 .mostview-news .newsgrid-container { display: grid; grid-template-columns: auto auto auto; padding: 10px; }
 
