@@ -97,6 +97,8 @@
 
 .archive .image-archive { position: absolute; left: 5px; bottom: 4px; }
 
+@media (max-width: 991px) { .archive-form { margin: 11px; } }
+
 .theme2 { background-color: #f8f8f8; border: 0 solid #e0e0e0; border-width: 1px; padding: 5px; height: 100%; }
 
 .prev-button_inner a, .next-button_inner a { flex: 0 0 20px; }

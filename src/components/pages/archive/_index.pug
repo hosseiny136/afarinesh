@@ -2,7 +2,7 @@ include ../../mixins/_index.pug
 +formTemplate("آرشیو سایت آفرینش","archive")
   form(method='POST',action='/archive')
     .form-group.row
-      .col-md-5.col-sm-12
+      .col-lg-5.col-md-12.col-sm-12.archive-form
         span.frm_label از تاريخ:
         .rel.display-in
           input#date_input_3(type='text')
@@ -16,7 +16,7 @@ include ../../mixins/_index.pug
             showOthers	: true,
             weekNumbers : true
             });
-      .col-md-5.col-sm-12
+      .col-lg-5.col-md-12.col-sm-12.archive-form
         span.frm_label تا تاريخ:
         .rel.display-in
           input#date_input_2(type='text')
@@ -30,13 +30,13 @@ include ../../mixins/_index.pug
             showOthers	: true,
             weekNumbers : true
             });
-      .col-md-2.col-sm-12
+      .col-lg-2.col-md-12.col-sm-12.archive-form
         input(type='submit', value='جستجو')
       
 +formTemplate("آرشیو روزنامه آفرینش","archive")
   form(method='POST',action='/archive')   
     .form-group.row
-      .col-md-10.col-sm-12    
+      .col-lg-10.col-md-12.col-sm-12.archive-form 
         span.frm_label تاريخ:
         .rel.display-in
           input#date_input_1(type='text')
@@ -50,5 +50,5 @@ include ../../mixins/_index.pug
             showOthers	: true,
             weekNumbers : true
             });
-      .col-md-2.col-sm-12
+      .col-lg-2.col-md-12.col-sm-12.archive-form
         input(type='submit', value='جستجو') 
